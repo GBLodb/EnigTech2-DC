@@ -14,8 +14,8 @@ Lexicon.addRunePage(game.localize("et2.botaniamisc.advanced_fruit.page1"), game.
     <botania:manaresource:15>,
     <botania:manaresource:15>,
     <botania:manaresource:15>,
-    <botania:manaresource:2>,
-    <botania:manaresource:9>,
+    <ore:manaDiamond>,
+    <ore:elvenDragonstone>,
     <botania:rune:9>,
     <botania:rune:10>,
     <botania:rune:12>

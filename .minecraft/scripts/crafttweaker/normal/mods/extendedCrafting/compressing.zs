@@ -28,7 +28,7 @@ CompressionCrafting.addRecipe(<extendedcrafting:singularity:31>,<ore:ingotTitani
 CompressionCrafting.addRecipe(<extendedcrafting:singularity_custom:92>,<ore:ingotVoidMetal>.firstItem,256,<contenttweaker:void_machine_core>,50000000,1000000);
 CompressionCrafting.addRecipe(<extendedcrafting:singularity_custom:90>,<ore:ingotMolybdenum>.firstItem,128,<advancedrocketry:satelliteprimaryfunction:4>,50000000,1000000);
 CompressionCrafting.addRecipe(<extendedcrafting:singularity:29>,<ore:ingotMithril>.firstItem,2048,<forge:bucketfilled>.withTag({FluidName: "mana", Amount: 1000}),50000000,1000000);
-CompressionCrafting.addRecipe(<extendedcrafting:singularity:33>,<ore:ingotChromium>.firstItem,256,<contenttweaker:meteor_bait>,50000000,1000000);
+CompressionCrafting.addRecipe(<extendedcrafting:singularity:33>,<ore:ingotChrome>.firstItem,256,<contenttweaker:meteor_bait>,50000000,1000000);
 CompressionCrafting.addRecipe(<extendedcrafting:singularity:30>,<ore:ingotTungsten>.firstItem,256,<thermalfoundation:coin:65>,50000000,1000000);
 CompressionCrafting.addRecipe(<extendedcrafting:singularity:48>,<ore:ingotSignalum>.firstItem,256,<harvestcraft:caramelappleitem>,50000000,1000000);
 CompressionCrafting.addRecipe(<extendedcrafting:singularity_custom:86>,<deepmoblearning:glitch_infused_ingot>,128,<deepmoblearning:trial_key>,50000000,1000000);

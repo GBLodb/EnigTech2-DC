@@ -25,7 +25,7 @@ TableCrafting.addShaped(2, <contenttweaker:auriminium>, [
 //浴火熔炉
 TableCrafting.addShaped(2, <bloodmagic:soul_forge>, [
 	[<naturesaura:infused_stone>, <botania:manaresource:7>, null, <botania:manaresource:7>, <naturesaura:infused_stone>], 
-	[<naturesaura:infused_stone>, <botania:manaresource:8>, <botania:manaresource:9>, <botania:manaresource:8>, <naturesaura:infused_stone>], 
+	[<naturesaura:infused_stone>, <botania:manaresource:8>, <ore:elvenDragonstone>, <botania:manaresource:8>, <naturesaura:infused_stone>], 
 	[<naturesaura:infused_stone>, <naturesaura:token_anger>, <contenttweaker:magcondium_ingot>,<naturesaura:token_fear>, <naturesaura:infused_stone>], 
 	[null, <naturesaura:infused_stone>, <botania:specialflower>.withTag({type: "exoflame"}), <naturesaura:infused_stone>, null], 
 	[null, <naturesaura:infused_stone>, <naturesaura:infused_iron_block>, <naturesaura:infused_stone>, null]
@@ -179,9 +179,9 @@ TableCrafting.addShaped(2, <appliedenergistics2:material:52>*12, [
 TableCrafting.addShaped(2, <advancedrocketry:rocketmotor>*2, [
 	[<contenttweaker:magcondium_ingot>, <contenttweaker:magcondium_ingot>, <contenttweaker:magcondium_ingot>, <contenttweaker:magcondium_ingot>, <contenttweaker:magcondium_ingot>], 
 	[<contenttweaker:magcondium_ingot>, <ore:ingotTitanium>, <ore:ingotTitanium>, <ore:ingotTitanium>, <contenttweaker:magcondium_ingot>], 
-	[null, <ore:ingotTitanium>, <contenttweaker:material_part:30>, <ore:ingotTitanium>, null], 
-	[null, <contenttweaker:material_part:30>, <contenttweaker:advanced_motioner>, <contenttweaker:material_part:30>, null], 
-	[<contenttweaker:material_part:30>, null, null, null, <contenttweaker:material_part:30>]
+	[null, <ore:ingotTitanium>, <ore:plateNichrome>, <ore:ingotTitanium>, null], 
+	[null, <ore:plateNichrome>, <contenttweaker:advanced_motioner>, <ore:plateNichrome>, null], 
+	[<ore:plateNichrome>, null, null, null, <ore:plateNichrome>]
 ]);
 
 //降落缓冲鞋
@@ -213,27 +213,27 @@ TableCrafting.addShaped(2, <simplyjetpacks:itemjetpack:17>.withTag({Energy: 0, J
 
 //燃气发电机
 TableCrafting.addShaped(2, <mekanismgenerators:generator:3>, [
-	[<contenttweaker:material_part:52>, <contenttweaker:material_part:52>, <contenttweaker:material_part:52>, <contenttweaker:material_part:52>, <contenttweaker:material_part:52>], 
-	[<contenttweaker:material_part:52>, <mekanism:gastank>, <ore:alloyUltimate>, <mekanism:gastank>, <contenttweaker:material_part:52>], 
-	[<contenttweaker:material_part:52>, <mekanism:basicblock:8>, <mekanism:electrolyticcore>, <mekanism:basicblock:8>, <contenttweaker:material_part:52>], 
-	[<contenttweaker:material_part:52>, <mekanism:gastank>, <ore:alloyUltimate>, <mekanism:gastank>, <contenttweaker:material_part:52>], 
-	[<contenttweaker:material_part:52>, <contenttweaker:material_part:52>, <contenttweaker:material_part:52>, <contenttweaker:material_part:52>, <contenttweaker:material_part:52>]
+	[<ore:plateTungstenSteel>, <ore:plateTungstenSteel>, <ore:plateTungstenSteel>, <ore:plateTungstenSteel>, <ore:plateTungstenSteel>], 
+	[<ore:plateTungstenSteel>, <mekanism:gastank>, <ore:alloyUltimate>, <mekanism:gastank>, <ore:plateTungstenSteel>], 
+	[<ore:plateTungstenSteel>, <mekanism:basicblock:8>, <mekanism:electrolyticcore>, <mekanism:basicblock:8>, <ore:plateTungstenSteel>], 
+	[<ore:plateTungstenSteel>, <mekanism:gastank>, <ore:alloyUltimate>, <mekanism:gastank>, <ore:plateTungstenSteel>], 
+	[<ore:plateTungstenSteel>, <ore:plateTungstenSteel>, <ore:plateTungstenSteel>, <ore:plateTungstenSteel>, <ore:plateTungstenSteel>]
 ]);
 
 //恶魔桶
 TableCrafting.addShaped(2, <extrautils2:drum:3>, [
-	[<contenttweaker:material_part:52>, <extrautils2:ingredients:11>, <extrautils2:ingredients:11>, <extrautils2:ingredients:11>, <contenttweaker:material_part:52>], 
-	[<contenttweaker:material_part:52>, <bloodmagic:slate:3>, <extrautils2:klein>, <bloodmagic:slate:3>, <contenttweaker:material_part:52>], 
-	[<contenttweaker:material_part:52>, <bloodmagic:slate:3>, <extrautils2:drum:2>, <bloodmagic:slate:3>, <contenttweaker:material_part:52>], 
-	[<contenttweaker:material_part:52>, <bloodmagic:slate:3>, <extrautils2:klein>, <bloodmagic:slate:3>, <contenttweaker:material_part:52>], 
-	[<contenttweaker:material_part:52>, <extrautils2:ingredients:11>, <extrautils2:ingredients:11>, <extrautils2:ingredients:11>, <contenttweaker:material_part:52>]
+	[<ore:plateTungstenSteel>, <extrautils2:ingredients:11>, <extrautils2:ingredients:11>, <extrautils2:ingredients:11>, <ore:plateTungstenSteel>], 
+	[<ore:plateTungstenSteel>, <bloodmagic:slate:3>, <extrautils2:klein>, <bloodmagic:slate:3>, <ore:plateTungstenSteel>], 
+	[<ore:plateTungstenSteel>, <bloodmagic:slate:3>, <extrautils2:drum:2>, <bloodmagic:slate:3>, <ore:plateTungstenSteel>], 
+	[<ore:plateTungstenSteel>, <bloodmagic:slate:3>, <extrautils2:klein>, <bloodmagic:slate:3>, <ore:plateTungstenSteel>], 
+	[<ore:plateTungstenSteel>, <extrautils2:ingredients:11>, <extrautils2:ingredients:11>, <extrautils2:ingredients:11>, <ore:plateTungstenSteel>]
 ]);
 
 //月之锋刃
 TableCrafting.addShaped(2, <contenttweaker:moon_blade>, [
-	[null, null, <astralsorcery:itemcraftingcomponent:1>, null, null], 
-	[null, <contenttweaker:auriminium>, <astralsorcery:itemcraftingcomponent:1>, <contenttweaker:lunar_essence>, null], 
-	[null, <contenttweaker:auriminium>, <astralsorcery:itemcraftingcomponent:1>, <contenttweaker:lunar_essence>, null], 
+	[null, null, <ore:ingotAstralStarmetal>, null, null], 
+	[null, <contenttweaker:auriminium>, <ore:ingotAstralStarmetal>, <contenttweaker:lunar_essence>, null], 
+	[null, <contenttweaker:auriminium>, <ore:ingotAstralStarmetal>, <contenttweaker:lunar_essence>, null], 
 	[null, <roots:wildwood_log>, <roots:wildwood_log>, <roots:wildwood_log>, null], 
 	[null, null, <roots:wildwood_log>, null, null]
 ]);
@@ -241,7 +241,7 @@ TableCrafting.addShaped(2, <contenttweaker:moon_blade>, [
 //博丽的御币
 mods.extendedcrafting.TableCrafting.addShaped(2, <touhou_little_maid:hakurei_gohei>.withTag({GoheiMode: 0}), [
 	[<silentgems:craftingmaterial:11>, <silentgems:craftingmaterial:11>, <silentgems:craftingmaterial:11>, <botania:manaresource:23>, <botania:spellcloth>], 
-	[null, null, null, <botania:manaresource:2>, <botania:manaresource:23>], 
+	[null, null, null, <ore:manaDiamond>, <botania:manaresource:23>], 
 	[null, null, <naturesaura:ancient_stick>, null, <silentgems:craftingmaterial:11>], 
 	[null, <naturesaura:ancient_stick>, null, null, <silentgems:craftingmaterial:11>], 
 	[<naturesaura:ancient_stick>, null, null, null, <silentgems:craftingmaterial:11>]

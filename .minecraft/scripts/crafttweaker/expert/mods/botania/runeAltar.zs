@@ -17,13 +17,13 @@ RuneAltar.addRecipe(<botania:rune:2>*2,[<roots:stalicripe>,<silentgems:gemsuper:
 //风之符文
 RuneAltar.addRecipe(<botania:rune:3>*2,[<roots:cloud_berry>,<silentgems:gemsuper:15>,<botania:manaresource:23>,<botania:manaresource>,<contenttweaker:living_wood_skin>],10000);
 //魔力符文
-RuneAltar.addRecipe(<botania:rune:8>*2,[<contenttweaker:arcane_essence>,<silentgems:craftingmaterial:1>,<roots:moonglow_leaf>,<botania:manaresource:1>,<botania:manaresource:2>],5000);
+RuneAltar.addRecipe(<botania:rune:8>*2,[<contenttweaker:arcane_essence>,<silentgems:craftingmaterial:1>,<roots:moonglow_leaf>,<botania:manaresource:1>,<ore:manaDiamond>],5000);
 //充溢的混沌源质
 RuneAltar.addRecipe(<silentgems:craftingmaterial:1>,[<contenttweaker:arcane_essence>,<botania:manaresource:23>,<botania:manaresource:23>,<silentgems:craftingmaterial>,<botania:manaresource:1>],5000);
 //易碎的混沌宝珠
 RuneAltar.addRecipe(<silentgems:chaosorb:1>.withTag({ChaosCharge: 0}),[<botania:manatablet>.withTag({}),<botania:rune>,<botania:rune:2>,<botania:rune:3>,<botania:rune:4>,<silentgems:craftingmaterial>,<silentgems:craftingmaterial>,<botania:manaresource:18>],20000);
 //气血宝珠
-RuneAltar.addRecipe(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}),[<botania:rune:7>,<botania:rune:6>,<botania:rune:5>,<botania:rune:4>,<botania:manaresource:2>,<silentgems:craftingmaterial:1>,<contenttweaker:blood_iron>,<contenttweaker:blood_iron>],10000);
+RuneAltar.addRecipe(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}),[<botania:rune:7>,<botania:rune:6>,<botania:rune:5>,<botania:rune:4>,<ore:manaDiamond>,<silentgems:craftingmaterial:1>,<contenttweaker:blood_iron>,<contenttweaker:blood_iron>],10000);
 //饕餮之果
 RuneAltar.addRecipe(<item:contenttweaker:advanced_infinite_fruit>, [
     <botania:infinitefruit>,
@@ -32,8 +32,8 @@ RuneAltar.addRecipe(<item:contenttweaker:advanced_infinite_fruit>, [
     <botania:manaresource:15>,
     <botania:manaresource:15>,
     <botania:manaresource:15>,
-    <botania:manaresource:2>,
-    <botania:manaresource:9>,
+    <ore:manaDiamond>,
+    <ore:elvenDragonstone>,
     <botania:rune:9>,
     <botania:rune:10>,
     <botania:rune:12>

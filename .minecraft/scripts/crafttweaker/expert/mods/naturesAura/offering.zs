@@ -6,7 +6,7 @@ import mods.naturesaura.Offering;
 val flesh = <twilightforest:hydra_chop>;
 
 //星图
-Offering.addRecipe("itemconstellationpaper", <astralsorcery:itemcraftingcomponent>,1,<astralsorcery:itemcraftingcomponent:5>, <astralsorcery:itemconstellationpaper>.withTag({astralsorcery: {}}));
+Offering.addRecipe("itemconstellationpaper", <ore:gemAquamarine>,1,<astralsorcery:itemcraftingcomponent:5>, <astralsorcery:itemconstellationpaper>.withTag({astralsorcery: {}}));
 //宝石
 Offering.addRecipe("1", <silentgems:gem:26>,1,flesh, <silentgems:gem:26>*64);
 Offering.addRecipe("2", <silentgems:gem:5>,1,flesh, <silentgems:gem:5>*64);

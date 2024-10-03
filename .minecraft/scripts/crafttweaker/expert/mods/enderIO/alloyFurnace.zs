@@ -36,7 +36,7 @@ AlloySmelter.removeRecipe(<enderio:item_material:39>);
     //硬化玻璃
     AlloySmelter.addRecipe(<thermalfoundation:glass:3>, [<ore:dustLead>, <ore:dustObsidian>*4,<contenttweaker:dust_silicon>],3200);
     //镍铬合金
-    AlloySmelter.addRecipe(<contenttweaker:material_part:32>*3, [<ore:ingotNickel>*2, <contenttweaker:material_part:25>],3200);
+    AlloySmelter.addRecipe(<ore:ingotNichrome>.firstItem*3, [<ore:ingotNickel>*2, <ore:ingotChrome>],3200);
 
     AlloySmelter.addRecipe(<silentgems:craftingmaterial:30>, [<silentgems:craftingmaterial:1>*2, <naturesaura:infused_iron>], 3200);
 

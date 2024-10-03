@@ -36,7 +36,6 @@ val removingArray = [
     <nuclearcraft:manufactory_idle>,
     <nuclearcraft:upgrade:1>,
     <nuclearcraft:upgrade>,
-    <nuclearcraft:upgrade:1>,
     <nuclearcraft:part:10>,
     <nuclearcraft:part:4>,
     <nuclearcraft:part:8>,

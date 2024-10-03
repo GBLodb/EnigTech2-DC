@@ -14,7 +14,7 @@ static speed_t5 as string = "t5";
 //产物:耗魔:速度:流体:材料
 static mk1_recipes as IItemStack[][IIngredient][string][int][IItemStack] = {
     //FeC
-    <thermalfoundation:material:160> : {
+    <ore:ingotSteel>.firstItem : {
         5000 : {
             speed_t1 : {null : [<ore:ingotIron>.firstItem]}
         },
@@ -23,7 +23,7 @@ static mk1_recipes as IItemStack[][IIngredient][string][int][IItemStack] = {
         }
     },
     //Al
-    <thermalfoundation:material:132> : {
+    <ore:ingotAluminum>.firstItem : {
         5000 : {
             speed_t1 : {null : [<ore:oreAluminum>.firstItem]}
         },
@@ -32,36 +32,36 @@ static mk1_recipes as IItemStack[][IIngredient][string][int][IItemStack] = {
         }
     },
     //Nd
-    <contenttweaker:material_part:18> : {
+    <ore:ingotNeodymium>.firstItem : {
         5000 : {
             speed_t1 : {null : [<contenttweaker:sub_block_holder_0:7>]}
         },
         3000 : {
-            speed_t1 : {null : [<contenttweaker:material_part:14>]}
+            speed_t1 : {null : [<ore:dustNeodymium>.firstItem]}
         }
     },
     //W
-    <contenttweaker:material_part:45> : {
+    <ore:ingotTungsten>.firstItem : {
         10000 : {
             speed_t2 : {null : [<contenttweaker:sub_block_holder_0:3>]}
         },
         3000 : {
-            speed_t2 : {null : [<contenttweaker:material_part:41>]}
+            speed_t2 : {null : [<ore:dustTungsten>.firstItem]}
         }
     },
     //Mithril
-    <thermalfoundation:material:136> : {
+    <ore:ingotMithril>.firstItem : {
         5000 : {
             speed_t1 : {<liquid:mana>*100 : [<ore:ingotEnergeticSilver>.firstItem]}
         }
     },
     //Md
-    <contenttweaker:material_part:72> : {
+    <ore:ingotMolybdenum>.firstItem : {
         10000 : {
             speed_t2 : {null : [<contenttweaker:sub_block_holder_0:14>]}
         },
         3000 : {
-            speed_t2 : {null : [<contenttweaker:material_part:68>]}
+            speed_t2 : {null : [<ore:dustMolybdenum>.firstItem]}
         }
     },
     //Luming
@@ -73,17 +73,17 @@ static mk1_recipes as IItemStack[][IIngredient][string][int][IItemStack] = {
     //Signalium
     <thermalfoundation:material:165>*64 : {
         100000 : {
-            speed_t3 : {<liquid:applejuice>*2000 : [<thermalfoundation:material:70>*16, <thermalfoundation:material:102>*48,<minecraft:dragon_egg>]}
+            speed_t3 : {<liquid:applejuice>*2000 : [<thermalfoundation:material:70>*16, <thermalfoundation:material:102>*48, <minecraft:dragon_egg>]}
         }
     },
     <thermalfoundation:material:165>*64 : {
         100000 : {
-            speed_t3 : {<liquid:binnie.juice.apple>*2000 : [<thermalfoundation:material:70>*16, <thermalfoundation:material:102>*48,<minecraft:dragon_egg>]}
+            speed_t3 : {<liquid:binnie.juice.apple>*2000 : [<thermalfoundation:material:70>*16, <thermalfoundation:material:102>*48, <minecraft:dragon_egg>]}
         }
     },
     <thermalfoundation:material:165>*64 : {
         100000 : {
-            speed_t3 : {<liquid:binnie.cider.apple>*2000 : [<thermalfoundation:material:70>*16, <thermalfoundation:material:102>*48,<minecraft:dragon_egg>]}
+            speed_t3 : {<liquid:binnie.cider.apple>*2000 : [<thermalfoundation:material:70>*16, <thermalfoundation:material:102>*48, <minecraft:dragon_egg>]}
         }
     },
     //Enderium
@@ -101,7 +101,7 @@ static mk1_recipes as IItemStack[][IIngredient][string][int][IItemStack] = {
     //钼钢
     <contenttweaker:material_part:81>*2 : {
         10000 : {
-            speed_t2 : {<liquid:fluid_dragon_breathe>*500 : [<ore:ingotDarkSteel>.firstItem,<contenttweaker:material_part:72>,<contenttweaker:arcane_essence>*4]}
+            speed_t2 : {<liquid:fluid_dragon_breathe>*500 : [<ore:ingotDarkSteel>.firstItem, <contenttweaker:material_part:72>, <contenttweaker:arcane_essence>*4]}
         }
     },
     <contenttweaker:material_part:81> : {
@@ -110,15 +110,15 @@ static mk1_recipes as IItemStack[][IIngredient][string][int][IItemStack] = {
         }
     },
     //海蓝宝石
-    <astralsorcery:itemcraftingcomponent>*16 : {
+    <ore:gemAquamarine>.firstItem*16 : {
         10000 : {
-            speed_t1 : {<liquid:astralsorcery.liquidstarlight>*2000 : [<item:silentgems:gem:9>*8, <astralsorcery:itemusabledust:1>*4, <ore:ingotIridium>.firstItem, <astralsorcery:itemusabledust>*4,<contenttweaker:arcane_essence>*4]}
+            speed_t1 : {<liquid:astralsorcery.liquidstarlight>*2000 : [<item:silentgems:gem:9>*8, <astralsorcery:itemusabledust:1>*4, <ore:ingotIridium>.firstItem, <astralsorcery:itemusabledust>*4, <contenttweaker:arcane_essence>*4]}
         }
     },
     //水晶素
     <extendedcrafting:material:24>*2 : {
         20000 : {
-            speed_t3 : {<liquid:fluid_dragon_breathe>*500 : [<bloodmagic:monster_soul:4>, <bloodmagic:monster_soul:3>, <bloodmagic:monster_soul:2>,<bloodmagic:monster_soul:1>]}
+            speed_t3 : {<liquid:fluid_dragon_breathe>*500 : [<bloodmagic:monster_soul:4>, <bloodmagic:monster_soul:3>, <bloodmagic:monster_soul:2>, <bloodmagic:monster_soul:1>]}
         }
     },
     //Ir
@@ -160,7 +160,7 @@ static mk2_recipes as IItemStack[][IIngredient][string][int][IItemStack] = {
     //钨钢
     <contenttweaker:material_part:54>*2 : {
         20000 : {
-            speed_t3 : {<liquid:fluid_dragon_breathe>*500 : [<ore:ingotDarkSteel>.firstItem,<contenttweaker:material_part:45>,<contenttweaker:arcane_essence>*4]}
+            speed_t3 : {<liquid:fluid_dragon_breathe>*500 : [<ore:ingotDarkSteel>.firstItem, <contenttweaker:material_part:45>, <contenttweaker:arcane_essence>*4]}
         }
     },
     <contenttweaker:material_part:54> : {
@@ -180,9 +180,9 @@ static mk2_recipes as IItemStack[][IIngredient][string][int][IItemStack] = {
         }
     },
     //星尘
-    <astralsorcery:itemcraftingcomponent:1> : {
+    <ore:ingotAstralStarmetal>.firstItem : {
         5000 : {
-            speed_t1 : {<liquid:astralsorcery.liquidstarlight>*2000 : [<astralsorcery:itemcraftingcomponent:2>]}
+            speed_t1 : {<liquid:astralsorcery.liquidstarlight>*2000 : [<ore:dustAstralStarmetal>.firstItem]}
         }
     },
     //眼灯草
@@ -199,7 +199,7 @@ static mk2_recipes as IItemStack[][IIngredient][string][int][IItemStack] = {
     },
     <environmentaltech:litherite_crystal> : {
         2000 : {
-            speed_t2 : {<liquid:mana>*500 : [<astralsorcery:itemcraftingcomponent>]}
+            speed_t2 : {<liquid:mana>*500 : [<ore:gemAquamarine>.firstItem]}
         }
     },
     //Os from ore
@@ -218,12 +218,12 @@ static mk3_recipes as IItemStack[][IIngredient][string][int][IItemStack] = {
     },
     <nuclearcraft:alloy:1>*2 : {
         5000 : {
-            speed_t2 : {<liquid:oxygen>*500 : [<nuclearcraft:alloy:6>,<contenttweaker:material_part:54>,<contenttweaker:ether_alloy_ingot>]}
+            speed_t2 : {<liquid:oxygen>*500 : [<nuclearcraft:alloy:6>, <contenttweaker:material_part:54>, <contenttweaker:ether_alloy_ingot>]}
         }
     },
     <nuclearcraft:alloy:15>*2 : {
         5000 : {
-            speed_t2 : {<liquid:oxygen>*500 : [<contenttweaker:compress_crystaltine>,<thermalfoundation:material:167>]}
+            speed_t2 : {<liquid:oxygen>*500 : [<contenttweaker:compress_crystaltine>, <thermalfoundation:material:167>]}
         }
     },
     <contenttweaker:draconium_alloy_ingot>*2 : {
@@ -233,12 +233,12 @@ static mk3_recipes as IItemStack[][IIngredient][string][int][IItemStack] = {
     },
     <contenttweaker:dark_gaiya_crystal_unpolished> : {
         10000 : {
-            speed_t2 : {<liquid:mana>*1000 : [<botania:manaresource:9>,<contenttweaker:ultracondium_crystal>,<astralsorcery:itemcraftingcomponent:2>*2]}
+            speed_t2 : {<liquid:mana>*1000 : [<ore:elvenDragonstone>.firstItem, <contenttweaker:ultracondium_crystal>, <ore:dustAstralStarmetal>.firstItem*2]}
         }
     },
     <arcanearchives:raw_quartz>*32 : {
         3000 : {
-            speed_t2 : {<liquid:mana>*1000 : [<environmentaltech:kyronite_crystal>*2,<botania:quartz:1>*3,<appliedenergistics2:material:1>*6,<actuallyadditions:item_misc:5>*20]}
+            speed_t2 : {<liquid:mana>*1000 : [<environmentaltech:kyronite_crystal>*2, <botania:quartz:1>*3, <appliedenergistics2:material:1>*6, <actuallyadditions:item_misc:5>*20]}
         }
     },
     <contenttweaker:bioradioactive_source> : {

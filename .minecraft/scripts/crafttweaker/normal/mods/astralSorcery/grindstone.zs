@@ -1,5 +1,7 @@
 #packmode normal
 #priority -100
 
-mods.astralsorcery.Grindstone.removeRecipe(<astralsorcery:itemcraftingcomponent:2>);
-mods.astralsorcery.Grindstone.removeRecipe(<nuclearcraft:gem_dust:2>);
+import mods.astralsorcery.Grindstone;
+
+Grindstone.removeRecipe(<ore:dustAstralStarmetal>.firstItem);
+Grindstone.removeRecipe(<nuclearcraft:gem_dust:2>);

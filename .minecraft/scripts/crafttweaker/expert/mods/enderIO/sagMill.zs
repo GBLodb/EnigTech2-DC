@@ -16,14 +16,14 @@ SagMill.removeRecipe(<thermalfoundation:storage:8>);
 
 //adds
 SagMill.addRecipe(
-    [<contenttweaker:material_part:14>*2, <nuclearcraft:thorium:2>, <minecraft:cobblestone>], 
+    [<14>*2, <nuclearcraft:thorium:2>, <minecraft:cobblestone>], 
     [100,15,15], 
     <ore:oreNeodymium>, 
     "MULTIPLY_OUTPUT"
 );
 
 SagMill.addRecipe(
-    [<contenttweaker:material_part:68>*2, <thermalfoundation:material:0>, <minecraft:cobblestone>],
+    [<ore:dustMolybdenum>*2, <thermalfoundation:material:0>, <minecraft:cobblestone>],
     [100,15,15],
     <ore:oreMolybdenum>,
     "MULTIPLY_OUTPUT"

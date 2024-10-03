@@ -26,7 +26,7 @@ import crafttweaker.item.IIngredient;
 
 //vals
 val tirod = <ore:stickTitanium>; //钛棒od
-val crnug = <ore:nuggetChromium>; //铬粒od
+val crnug = <ore:nuggetChrome>; //铬粒od
 val invarp = <ore:plateInvar>; //殷钢板od
 val thytd = <ore:dustTinyThyrium>; //小撮鍪银od
 val brsw = <ore:wireBrass>; //黄铜线od

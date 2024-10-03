@@ -40,11 +40,11 @@ TableCrafting.addShaped(3, <extrautils2:angelring>, [
 //未处理的强导电机
 TableCrafting.addShaped(3, <contenttweaker:strong_motor_unprocessed>, [
 	[<ore:plateCopper>, <ore:plateAluminum>, <ore:plateCopper>, <ore:plateAluminum>, <ore:plateCopper>, <ore:plateAluminum>, <ore:plateCopper>], 
-	[<ore:plateAluminum>, <contenttweaker:material_part:19>, <contenttweaker:magcondium_ingot>, <contenttweaker:magcondium_ingot>, <contenttweaker:magcondium_ingot>, <contenttweaker:material_part:19>, <ore:plateAluminum>], 
+	[<ore:plateAluminum>, <ore:rodNeodymium>, <contenttweaker:magcondium_ingot>, <contenttweaker:magcondium_ingot>, <contenttweaker:magcondium_ingot>, <ore:rodNeodymium>, <ore:plateAluminum>], 
 	[<ore:plateCopper>, <contenttweaker:magcondium_ingot>, <silentgems:craftingmaterial:1>, <contenttweaker:advanced_motioner>, <contenttweaker:dark_gaiya_crystal>, <contenttweaker:magcondium_ingot>, <ore:plateCopper>], 
 	[<ore:plateAluminum>, <contenttweaker:magcondium_ingot>, <contenttweaker:advanced_motioner>, <contenttweaker:iridium_osmium_ingot>, <contenttweaker:advanced_motioner>, <contenttweaker:magcondium_ingot>, <ore:plateAluminum>], 
 	[<ore:plateCopper>, <contenttweaker:magcondium_ingot>, <contenttweaker:dark_gaiya_crystal>, <contenttweaker:advanced_motioner>, <silentgems:craftingmaterial:1>, <contenttweaker:magcondium_ingot>, <ore:plateCopper>], 
-	[<ore:plateAluminum>, <contenttweaker:material_part:19>, <contenttweaker:magcondium_ingot>, <contenttweaker:magcondium_ingot>, <contenttweaker:magcondium_ingot>, <contenttweaker:material_part:19>, <ore:plateAluminum>], 
+	[<ore:plateAluminum>, <ore:rodNeodymium>, <contenttweaker:magcondium_ingot>, <contenttweaker:magcondium_ingot>, <contenttweaker:magcondium_ingot>, <ore:rodNeodymium>, <ore:plateAluminum>], 
 	[<ore:plateCopper>, <ore:plateAluminum>, <ore:plateCopper>, <ore:plateAluminum>, <ore:plateCopper>, <ore:plateAluminum>, <ore:plateCopper>]
 ]);
 
@@ -71,19 +71,19 @@ TableCrafting.addShaped(3, <nuclearcraft:fusion_core>, [
 ]);
 
 TableCrafting.addShaped(3, <bloodmagic:sacrificial_dagger:1>.withTag({sacrifice: 0 as byte}), [
-	[null, null, null, null, null, null, <astralsorcery:itemcraftingcomponent:1>], 
-	[null, null, null, null, <contenttweaker:lunar_essence>, <astralsorcery:itemcraftingcomponent:1>, <contenttweaker:neutron>], 
-	[null, <bloodmagic:slate:4>, <bloodmagic:slate:4>, <contenttweaker:lunar_essence>, <astralsorcery:itemcraftingcomponent:1>, <contenttweaker:neutron>, null], 
-	[null, <bloodmagic:slate:4>, <contenttweaker:lunar_essence>, <astralsorcery:itemcraftingcomponent:1>, <contenttweaker:neutron>, null, null], 
-	[null, <contenttweaker:material_part:64>, <bloodmagic:slate:4>, <contenttweaker:neutron>, <bloodmagic:slate:4>, null, null], 
-	[<contenttweaker:material_part:64>, <contenttweaker:material_part:64>, <contenttweaker:material_part:64>, <bloodmagic:slate:4>, <bloodmagic:slate:4>, null, null], 
-	[<contenttweaker:sub_block_holder_0:8>, <contenttweaker:material_part:64>, null, null, null, null, null]
+	[null, null, null, null, null, null, <ore:ingotAstralStarmetal>], 
+	[null, null, null, null, <contenttweaker:lunar_essence>, <ore:ingotAstralStarmetal>, <contenttweaker:neutron>], 
+	[null, <bloodmagic:slate:4>, <bloodmagic:slate:4>, <contenttweaker:lunar_essence>, <ore:ingotAstralStarmetal>, <contenttweaker:neutron>, null], 
+	[null, <bloodmagic:slate:4>, <contenttweaker:lunar_essence>, <ore:ingotAstralStarmetal>, <contenttweaker:neutron>, null, null], 
+	[null, <ore:rodVoidMetal>, <bloodmagic:slate:4>, <contenttweaker:neutron>, <bloodmagic:slate:4>, null, null], 
+	[<ore:rodVoidMetal>, <ore:rodVoidMetal>, <ore:rodVoidMetal>, <bloodmagic:slate:4>, <bloodmagic:slate:4>, null, null], 
+	[<contenttweaker:sub_block_holder_0:8>, <ore:rodVoidMetal>, null, null, null, null, null]
 ]);
 
 //鬼哭
 val altir = <advancedrocketry:productrod>;
 val eight = <enderio:item_basic_capacitor:2>;
-val tungp = <contenttweaker:material_part:52>;
+val tungp = <ore:plateTungstenSteel>;
 val molyg = <contenttweaker:material_part:78>;
 val blizz = <thermalfoundation:material:2048>;
 val ultmo = <contenttweaker:ultimate_motioner>;

@@ -1,0 +1,13 @@
+filename = 'MikesModsLib-1.0.2.jar'
+name = "Mike's Mods Library"
+side = 'both'
+
+[download]
+hash = 'df11e354c84b4039b18020cb02445f8610f06603'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2703153
+project-id = 308839

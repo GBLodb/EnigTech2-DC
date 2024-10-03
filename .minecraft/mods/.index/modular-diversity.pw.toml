@@ -1,0 +1,13 @@
+filename = 'Modular Diversity-1.10.jar'
+name = 'Modular Diversity'
+side = 'both'
+
+[download]
+hash = 'ff753e332e8c97d5eec1962f3631edb94ff644a6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2899375
+project-id = 280506

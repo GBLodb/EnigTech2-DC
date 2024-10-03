@@ -45,7 +45,7 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
 
     <cuisine:fire_pit:0> : [
         [cobl,cobl,cobl],
-        [cobl,<etutil:wooden_lighter>,cobl],
+        [cobl,<contenttweaker:wooden_lighter>,cobl],
         [cobl,cobl,cobl]
     ],
 

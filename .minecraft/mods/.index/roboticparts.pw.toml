@@ -1,0 +1,13 @@
+filename = 'cyberware-1.12.2-0.2.11.29.jar'
+name = 'Robotic Parts'
+side = 'both'
+
+[download]
+hash = '51b24de17337a6a46581c9031a08a04ae6934827'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3366534
+project-id = 283377

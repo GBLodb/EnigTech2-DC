@@ -1,4 +1,6 @@
 #packmode expert
 #priority -100
 
-mods.nuclearcraft.salt_mixer.removeRecipeWithOutput(<liquid:tough>*144);
+import mods.nuclearcraft.salt_mixer;
+
+salt_mixer.removeRecipeWithOutput(<liquid:tough>*144);

@@ -21,7 +21,8 @@ var fluids as string[string] = {
 	"silicon" : "CCCCA3",
 	"concentrated_silicon" : "CCCC83",
 	"dragon_breathe" : "CD00CD",
-	"blend_caminite" : "FFFFFF"
+	"blend_caminite" : "FFFFFF",
+	"neutron" : "349EEB"
 };
 //流体注册
 for key in fluids{

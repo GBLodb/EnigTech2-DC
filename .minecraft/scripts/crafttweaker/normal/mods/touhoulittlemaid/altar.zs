@@ -117,7 +117,7 @@ lumi,
 Altar.addItemCraftRecipe("tlmtweak:tomb",0.3,<touhou_little_maid:tombstone_bauble>,
 <silentgems:soul_urn>,
 <roots:moonglow_seed>,
-<tombstone:ankh_of_pray>,
+<tombstone:prayer_stone>,
 marble,
 marble,
 marble

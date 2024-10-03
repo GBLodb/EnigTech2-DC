@@ -1,0 +1,13 @@
+filename = 'randomenchants-0.1.5.jar'
+name = 'Random Enchants'
+side = 'both'
+
+[download]
+hash = '0bbc29f27ce638ffb7aac6da5acc40fefe71a05f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3034651
+project-id = 319076

@@ -1,5 +1,5 @@
 #packmode normal expert
-#modloaded#modloaded bloodarsenal botania_tweaks botanicadds draconicadditions enderioendergy rf-capability-adapter equivalentintegrations sgextraparts randomenchantments
+#modloaded bloodarsenal botania_tweaks botanicadds draconicadditions enderioendergy rf-capability-adapter equivalentintegrations sgextraparts randomenchantments
 #priority 0
 
 //导包

@@ -7,10 +7,10 @@ val redbb = <contenttweaker:redstone_block_9>;
 //木盆
 recipes.addShaped(<rustic:crushing_tub>,[[<ore:plankWood>,null,<ore:plankWood>],[<ore:slabWood>,<ore:slabWood>,<ore:slabWood>]]);
 //玻璃
-recipes.addShaped(<minecraft:glass>,[[<minecraft:brick>.reuse(),<minecraft:brick>.reuse(),<minecraft:brick>.reuse()],[<minecraft:brick>.reuse(),<minecraft:sand>,<minecraft:brick>.reuse()],[<minecraft:brick>.reuse(),<etutil:wooden_lighter>.anyDamage().transformDamage(10),<minecraft:brick>.reuse()]]);
+recipes.addShaped(<minecraft:glass>,[[<minecraft:brick>.reuse(),<minecraft:brick>.reuse(),<minecraft:brick>.reuse()],[<minecraft:brick>.reuse(),<minecraft:sand>,<minecraft:brick>.reuse()],[<minecraft:brick>.reuse(),<contenttweaker:wooden_lighter>.anyDamage().transformDamage(10),<minecraft:brick>.reuse()]]);
 //石头
-recipes.addShaped(<minecraft:stone>,[[<minecraft:brick>.reuse(),<minecraft:brick>.reuse(),<minecraft:brick>.reuse()],[<minecraft:brick>.reuse(),<minecraft:cobblestone>,<minecraft:brick>.reuse()],[<minecraft:brick>.reuse(),<etutil:wooden_lighter>.anyDamage().transformDamage(10),<minecraft:brick>.reuse()]]);//打火器
-recipes.addShaped(<etutil:wooden_lighter>,[[<ore:stickWood>,<ore:stickWood>]]);
+recipes.addShaped(<minecraft:stone>,[[<minecraft:brick>.reuse(),<minecraft:brick>.reuse(),<minecraft:brick>.reuse()],[<minecraft:brick>.reuse(),<minecraft:cobblestone>,<minecraft:brick>.reuse()],[<minecraft:brick>.reuse(),<contenttweaker:wooden_lighter>.anyDamage().transformDamage(10),<minecraft:brick>.reuse()]]);//打火器
+recipes.addShaped(<contenttweaker:wooden_lighter>,[[<ore:stickWood>,<ore:stickWood>]]);
 //耕地
 recipes.addShaped(<minecraft:farmland>*5,[[<minecraft:dirt>,<minecraft:dye:15>,<minecraft:dirt>],[<minecraft:dye:15>,<minecraft:dirt>,<minecraft:dye:15>],[<minecraft:dirt>,<minecraft:dye:15>,<minecraft:dirt>]]);
 //甜菜种子

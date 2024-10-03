@@ -37,7 +37,7 @@ val removingArray = [
     <extendedcrafting:ender_crafter>,
     <extendedcrafting:ender_alternator>,
     <nuclearcraft:decay_generator>,
-    <nuclearcraft:manufactory>,
+    <nuclearcraft:manufactory_idle>,
     <nuclearcraft:upgrade:1>,
     <nuclearcraft:upgrade>,
     <nuclearcraft:upgrade:1>,

@@ -1,5 +1,8 @@
 #packmode normal
 #priority -100
+
+import crafttweaker.item.IIngredient;
+
 var machineName = "intergrated_assembly_mk2";
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_medidum_core", machineName, 38)

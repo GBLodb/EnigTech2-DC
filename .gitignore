@@ -6,8 +6,10 @@
 !/CONTRIBUTING-OLD.md
 !/.minecraft
 /.minecraft/.mixin.out
+/.minecraft/asm
 /.minecraft/astralsorcery
 /.minecraft/coremods
+/.minecraft/crash-reports
 /.minecraft/CustomSkinLoader
 /.minecraft/dumps
 /.minecraft/journeymap
@@ -22,6 +24,7 @@
 /.minecraft/shaderpacks
 /.minecraft/texturepacks
 /.minecraft/touhou-little-maid-server-pack
+/.minecraft/tombstone
 /.minecraft/.ReAuth.cfg
 /.minecraft/BotaniaVars.dat
 /.minecraft/crafttweaker.log

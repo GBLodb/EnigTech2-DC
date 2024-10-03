@@ -1,0 +1,13 @@
+filename = 'EquivalentIntegrations-0.4.6.jar'
+name = 'Equivalent Integrations'
+side = 'both'
+
+[download]
+hash = '324c5899c6520aacd9a840dc31c208e1f7a80466'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2706338
+project-id = 298341

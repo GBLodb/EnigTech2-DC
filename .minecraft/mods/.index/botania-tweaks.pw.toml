@@ -1,0 +1,13 @@
+filename = 'botaniatweaks-1.9.1.jar'
+name = 'Botania Tweaks'
+side = 'both'
+
+[download]
+hash = 'de67f7666ff5af6486f1687c61be273e0d150d32'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3092102
+project-id = 295114

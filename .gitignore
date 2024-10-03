@@ -2,8 +2,8 @@
 !*.sh
 !/README.md
 !/VERSIONING.md
-!/afdian.md
-!/Setting
+!/afdian-OLD.md
+!/CONTRIBUTING-OLD.md
 !/.minecraft
 /.minecraft/.mixin.out
 /.minecraft/astralsorcery

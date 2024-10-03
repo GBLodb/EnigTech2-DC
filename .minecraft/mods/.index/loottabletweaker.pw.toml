@@ -1,0 +1,13 @@
+filename = 'LootTableTweaker-1.12.2-1.1.17.jar'
+name = 'LootTableTweaker'
+side = 'both'
+
+[download]
+hash = 'ac5b5417d151da85d8e23779304d1f36ada3937d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2644030
+project-id = 261339

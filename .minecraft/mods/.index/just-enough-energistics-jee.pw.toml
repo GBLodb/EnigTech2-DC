@@ -1,0 +1,13 @@
+filename = 'JustEnoughEnergistics-1.12.2-1.0.8.jar'
+name = 'Just Enough Energistics (JEE)'
+side = 'both'
+
+[download]
+hash = 'df5038e7ce86968952fa4baa2ecad6f5329ade60'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2783832
+project-id = 310812

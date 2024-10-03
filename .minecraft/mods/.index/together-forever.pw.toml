@@ -1,0 +1,13 @@
+filename = 'togetherforever-1.12.2-1.0.12-22.jar'
+name = 'Together Forever'
+side = 'both'
+
+[download]
+hash = 'ed5745ae5436969f65e22736582014202fa6cb30'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2700901
+project-id = 285968

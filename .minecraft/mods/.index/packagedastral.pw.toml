@@ -1,0 +1,13 @@
+filename = 'PackagedAstral-1.12.2-1.0.2.15.jar'
+name = 'PackagedAstral'
+side = 'both'
+
+[download]
+hash = '80e978060b85919a0899e580018432eb819b4a15'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5598446
+project-id = 811828

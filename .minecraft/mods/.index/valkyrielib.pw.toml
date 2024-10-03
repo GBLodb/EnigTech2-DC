@@ -1,0 +1,13 @@
+filename = 'valkyrielib-1.12.2-2.0.20.1.jar'
+name = 'ValkyrieLib'
+side = 'both'
+
+[download]
+hash = 'e640e231cb83ea9ff7cda8710e6d7c44467b9658'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2691542
+project-id = 245480

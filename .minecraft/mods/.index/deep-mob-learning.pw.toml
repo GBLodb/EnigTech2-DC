@@ -1,0 +1,13 @@
+filename = 'deepmoblearning-1.12.2-2.5.4-universal.jar'
+name = 'Deep Mob Learning'
+side = 'both'
+
+[download]
+hash = '0b801b3c477aa1ca6e499e848d42c3a9cf1f08de'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2968355
+project-id = 284229

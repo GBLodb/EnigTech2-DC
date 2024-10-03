@@ -1,0 +1,13 @@
+filename = 'XPTeleporters-1.12.2-2.0.2.jar'
+name = 'XPTeleporters 2'
+side = 'both'
+
+[download]
+hash = '812af4a4ab88bbb16dc11dd05be2b0bbc9544869'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2827714
+project-id = 318540

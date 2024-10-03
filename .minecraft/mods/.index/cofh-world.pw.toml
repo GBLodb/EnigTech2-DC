@@ -1,0 +1,13 @@
+filename = 'CoFHWorld-1.12.2-1.4.0.1-universal.jar'
+name = 'CoFH World'
+side = 'both'
+
+[download]
+hash = '863e1524fe0087d434a5e44d27cc2dd0353b9399'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2920434
+project-id = 271384

@@ -1,0 +1,13 @@
+filename = 'OreStages-1.12.2-2.0.38.jar'
+name = 'Ore Stages'
+side = 'both'
+
+[download]
+hash = '4d5bfe450cbb9eee455f09ab77ca5c029b6cf442'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2640414
+project-id = 290201

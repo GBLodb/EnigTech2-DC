@@ -1,0 +1,13 @@
+filename = 'xnet-1.12-1.8.2.jar'
+name = 'XNet'
+side = 'both'
+
+[download]
+hash = '085f5aef1d407f815028e5ecc87265cc5d8142e6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2745852
+project-id = 260912

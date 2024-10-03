@@ -1,0 +1,13 @@
+filename = 'felling-1.4.1-1.12.x.jar'
+name = 'Felling'
+side = 'both'
+
+[download]
+hash = 'd701fa97f03603bda0e1c24301fefbad66dcba91'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2689021
+project-id = 256909

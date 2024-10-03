@@ -1,0 +1,13 @@
+filename = 'hardcoreitemstages-1.12.2-1.0.1.jar'
+name = 'Hardcore Item Stages'
+side = 'both'
+
+[download]
+hash = '94f50994404c782a6629aaad0f63fb4b6b4b8dc8'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2973180
+project-id = 324598

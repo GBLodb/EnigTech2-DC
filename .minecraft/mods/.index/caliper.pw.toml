@@ -1,0 +1,13 @@
+filename = 'Caliper-1.12.2-1.1.46.jar'
+name = 'Caliper'
+side = 'both'
+
+[download]
+hash = '49ad4badb8638e2479cd7b4d74c9e58eb658ac3b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2810222
+project-id = 266824

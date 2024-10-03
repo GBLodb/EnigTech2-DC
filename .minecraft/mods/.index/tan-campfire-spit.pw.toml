@@ -1,0 +1,13 @@
+filename = 'tanspit-1.12.2-1.4.jar'
+name = 'TAN Campfire Spit'
+side = 'both'
+
+[download]
+hash = 'cf740651583a919026f84356624807325e96703e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2853102
+project-id = 267633

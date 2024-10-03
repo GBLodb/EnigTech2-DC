@@ -1,0 +1,13 @@
+filename = 'binnie-mods-1.12.2-2.5.1.203.jar'
+name = "Binnie's Mods"
+side = 'both'
+
+[download]
+hash = '0d18b1080a7dd035d6e7da6a43bb5d69c3d4591b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2916129
+project-id = 223525

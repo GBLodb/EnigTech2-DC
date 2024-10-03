@@ -1,0 +1,13 @@
+filename = 'just-enough-harvestcraft-1.12.2-1.7.2.jar'
+name = 'Just Enough HarvestCraft (JEHC)'
+side = 'both'
+
+[download]
+hash = '4ba48aff5c8936e60939c16faebfd5576b4d8770'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2997129
+project-id = 267939

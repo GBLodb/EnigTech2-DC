@@ -1,0 +1,13 @@
+filename = 'ToughExpansion-1.12-3.4.24.jar'
+name = 'Tough Expansion'
+side = 'both'
+
+[download]
+hash = 'e499c9515a4de8d78bff746d1c1ac479a660494b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2556034
+project-id = 257225

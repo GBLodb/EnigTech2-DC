@@ -1,0 +1,13 @@
+filename = 'HearthstoneMod-1.12.2-0.4.7.jar'
+name = 'Hearthstone Mod'
+side = 'both'
+
+[download]
+hash = '07f324be07c34c7fb0891153c047e4518bfe8dd7'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2714370
+project-id = 243491

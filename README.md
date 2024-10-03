@@ -1,4 +1,22 @@
-# EnigTech2
+# EnigTech2 - Dishwasher's Cut
+
+个人 fork, 旨在翻新与修复。
+
+接受新 Issues，非 bug 修复类 Issue/Pull Request 视本人喜好采纳/合并。
+
+## 一些可观的修改
+
+- [x] Forge 2860
+- [x] 新的仓库架构
+- [x] Mod 列表翻新
+- [ ] 淘汰 ETUtils
+- [ ] 重写部分脚本
+- [ ] 修复原仓库 Issues
+- [ ] 翻新 Nightly 版构建工具链
+
+and so on
+
+## 原 README.md
 
 <u>EnigTech2 uses Twitch for the initial installation, but subsequent updates and changes are performed in the MMC launcher environment.</u>
 

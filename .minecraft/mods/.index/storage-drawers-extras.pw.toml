@@ -1,0 +1,13 @@
+filename = 'StorageDrawersExtras-1.12-3.1.0.jar'
+name = 'Storage Drawers Extras'
+side = 'both'
+
+[download]
+hash = '84ddd1439b5308081e1f96c996dbfe83961ffa97'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2443623
+project-id = 254879

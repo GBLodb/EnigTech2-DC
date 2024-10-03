@@ -1,0 +1,13 @@
+filename = 'DimensionStages-1.12.2-2.0.23.jar'
+name = 'Dimension Stages'
+side = 'both'
+
+[download]
+hash = 'ddb44d2c4fd6a6994ce50537a723cc18c8ceed16'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2643976
+project-id = 269398

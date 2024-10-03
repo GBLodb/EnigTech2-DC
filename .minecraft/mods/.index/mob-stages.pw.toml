@@ -1,0 +1,13 @@
+filename = 'MobStages-1.12.2-2.0.13.jar'
+name = 'Mob Stages'
+side = 'both'
+
+[download]
+hash = '44751d75268438accb1581fffccad6e1c8ab6a2f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2644034
+project-id = 278359

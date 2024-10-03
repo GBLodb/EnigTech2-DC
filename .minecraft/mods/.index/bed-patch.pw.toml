@@ -1,0 +1,13 @@
+filename = 'bedpatch-2.2-1.12.2.jar'
+name = 'Bed Patch'
+side = 'both'
+
+[download]
+hash = '0c54d926ef72088e5f213a89e220d55a2284e44b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2532663
+project-id = 282963

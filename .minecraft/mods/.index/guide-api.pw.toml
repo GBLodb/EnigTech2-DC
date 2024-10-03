@@ -1,0 +1,13 @@
+filename = 'Guide-API-1.12-2.1.8-63.jar'
+name = 'Guide-API'
+side = 'both'
+
+[download]
+hash = '095b3b85d05118602c7678beb1e56d26930fd0e7'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2645992
+project-id = 228832

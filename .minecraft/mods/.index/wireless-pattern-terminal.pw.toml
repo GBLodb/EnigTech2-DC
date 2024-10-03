@@ -1,0 +1,13 @@
+filename = 'WirelessPatternTerminal-1.12.2-1.0.3.jar'
+name = 'Wireless Pattern Terminal'
+side = 'both'
+
+[download]
+hash = '6a7484aa8aa7b69932e0f90884eee29b0c8bdb40'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2830255
+project-id = 324495

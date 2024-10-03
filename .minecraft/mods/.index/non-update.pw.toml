@@ -1,0 +1,13 @@
+filename = 'NonUpdate-AllMCVersion-Final-2.0.2-universal.jar'
+name = 'Non Update'
+side = 'both'
+
+[download]
+hash = '3c737b4a8704a5fa4b1d87808dead6a667515be2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2656640
+project-id = 256359

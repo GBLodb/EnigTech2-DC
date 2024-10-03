@@ -1,0 +1,13 @@
+filename = 'Survivalist-1.12.2-2.1.6.jar'
+name = 'Survivalist'
+side = 'both'
+
+[download]
+hash = 'f1564525e9bc7f1685747854e9cc24879668478b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2625075
+project-id = 242289

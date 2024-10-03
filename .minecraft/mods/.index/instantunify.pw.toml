@@ -1,0 +1,13 @@
+filename = 'instantunify-1.12.2-1.1.2.jar'
+name = 'InstantUnify'
+side = 'both'
+
+[download]
+hash = 'aab5e7597f7a9fa855c22e3a318bc95bfea6479e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2578325
+project-id = 277047

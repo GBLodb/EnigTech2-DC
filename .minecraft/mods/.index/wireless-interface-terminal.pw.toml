@@ -1,0 +1,13 @@
+filename = 'WirelessInterfaceTerminal-1.12.2-1.0.2.jar'
+name = 'AE2 Wireless Interface Terminal'
+side = 'both'
+
+[download]
+hash = '7196d55beb7a885972c2855782648447ad227c68'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2830254
+project-id = 324508

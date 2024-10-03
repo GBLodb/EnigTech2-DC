@@ -1,0 +1,13 @@
+filename = 'WirelessFluidTerminal-1.12.2-1.0.4.jar'
+name = 'AE2 Wireless Fluid Terminal'
+side = 'both'
+
+[download]
+hash = '533d9416c9bcae39ba4626caade9fff0a5291fe9'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2830253
+project-id = 304022

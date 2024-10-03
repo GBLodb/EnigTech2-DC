@@ -1,0 +1,13 @@
+filename = 'environmentaltech-1.12.2-2.0.20.1.jar'
+name = 'Environmental Tech'
+side = 'both'
+
+[download]
+hash = '2505c74c38e7083448a9473a7fba4713d9d620c1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2691536
+project-id = 245453

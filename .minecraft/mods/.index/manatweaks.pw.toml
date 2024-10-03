@@ -1,0 +1,13 @@
+filename = 'manatweaks-1.4.jar'
+name = 'ManaTweaks'
+side = 'both'
+
+[download]
+hash = 'a93848f67c6a7d5ce834a1da55327b4420a6faa0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2691040
+project-id = 304890

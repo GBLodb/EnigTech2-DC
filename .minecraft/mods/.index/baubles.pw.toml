@@ -1,0 +1,13 @@
+filename = 'Baubles-1.12-1.5.2.jar'
+name = 'Baubles'
+side = 'both'
+
+[download]
+hash = 'cb13fcfb18a9cb0cbd825fd5fe8d813c77368549'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2518667
+project-id = 227083

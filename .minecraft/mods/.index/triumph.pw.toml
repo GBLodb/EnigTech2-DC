@@ -1,0 +1,13 @@
+filename = 'Triumph-1.12.2-3.19.2.jar'
+name = 'Triumph'
+side = 'both'
+
+[download]
+hash = '2741423e8aeba105d4f9877aacc152ec611b8959'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2825547
+project-id = 235492

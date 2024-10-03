@@ -1,0 +1,13 @@
+filename = 'eternalwinter-1.0.3.jar'
+name = 'Eternal Winter'
+side = 'both'
+
+[download]
+hash = '5dd99951c44ec6fdf5ead9221088d0dce477703f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2507744
+project-id = 273891

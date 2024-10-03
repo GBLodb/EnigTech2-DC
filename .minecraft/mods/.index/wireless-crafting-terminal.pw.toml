@@ -1,0 +1,13 @@
+filename = 'WirelessCraftingTerminal-1.12.2-3.12.97.jar'
+name = 'Wireless Crafting Terminal'
+side = 'both'
+
+[download]
+hash = 'f1ec1a90b4c351cfc17c6d9a3cbd3c1607258c4e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2830252
+project-id = 244559

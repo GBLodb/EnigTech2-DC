@@ -1,0 +1,13 @@
+filename = 'inworldcrafting-1.12.2-1.2.0-universal.jar'
+name = 'InWorldCrafting'
+side = 'both'
+
+[download]
+hash = '5d51b91a4d1f98d91811009fa830c7cec44dbe64'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2683267
+project-id = 311938

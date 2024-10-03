@@ -1,0 +1,13 @@
+filename = 'looty-1.0.1.jar'
+name = 'Looty Tables'
+side = 'both'
+
+[download]
+hash = '97f502c19255b334eefd902d6666138015259dcb'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2858890
+project-id = 356613

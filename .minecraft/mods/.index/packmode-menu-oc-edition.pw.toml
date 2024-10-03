@@ -1,0 +1,13 @@
+filename = 'PackMode Menu OC Edition-1.jar'
+name = 'PackModeMenu OC Edition'
+side = 'both'
+
+[download]
+hash = '017936e75ca60aa5561c85a5cc0a0afc4fa18e9d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3487649
+project-id = 535854

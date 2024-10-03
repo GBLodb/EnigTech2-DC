@@ -1,0 +1,13 @@
+filename = 'oreveins-2.0.15.jar'
+name = 'Realistic Ore Veins'
+side = 'both'
+
+[download]
+hash = '95d9dcc134d5433f18163c4f367077950eaf78e4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2828147
+project-id = 296887

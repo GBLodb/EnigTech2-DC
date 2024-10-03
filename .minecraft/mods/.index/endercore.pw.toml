@@ -1,0 +1,13 @@
+filename = 'EnderCore-1.12.2-0.5.78.jar'
+name = 'EnderCore'
+side = 'both'
+
+[download]
+hash = '96c2389a5fdb2968cd69fc80b478a9a0b0ecc441'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4671384
+project-id = 231868

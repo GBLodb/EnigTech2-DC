@@ -1,0 +1,13 @@
+filename = 'zenstages-0.5.0.jar'
+name = 'ZenStages'
+side = 'both'
+
+[download]
+hash = '8309d6067a50d29c45cde4c6fd9d2316147b4b8c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2974926
+project-id = 296384

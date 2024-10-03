@@ -1,0 +1,13 @@
+filename = 'multiblockstages-1.2.0.jar'
+name = 'MultiBlock Stages'
+side = 'both'
+
+[download]
+hash = '7e4a5a711ade35247dfd04632f2255da659ec807'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2821069
+project-id = 284139

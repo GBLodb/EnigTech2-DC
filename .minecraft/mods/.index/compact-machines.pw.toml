@@ -1,0 +1,13 @@
+filename = 'compactmachines3-1.12.2-3.0.18-b278.jar'
+name = 'Compact Machines'
+side = 'both'
+
+[download]
+hash = 'aca4d439b8a7c480217c43ebda60772ef6eb392e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2707509
+project-id = 224218

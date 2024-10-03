@@ -1,0 +1,13 @@
+filename = 'EnderIO-1.12.2-5.3.72.jar'
+name = 'Ender IO'
+side = 'both'
+
+[download]
+hash = '60d62a0dab5b12c527fd8eda1d353888e3406175'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4674244
+project-id = 64578

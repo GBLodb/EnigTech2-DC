@@ -1,0 +1,13 @@
+filename = 'AdvancedTweakery-1.2.jar'
+name = 'Advanced Tweakery'
+side = 'both'
+
+[download]
+hash = 'f334aed3f5eb6580e971bd8d6f1adfe39440fb9c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4808578
+project-id = 776425

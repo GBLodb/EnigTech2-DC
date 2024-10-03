@@ -1,0 +1,13 @@
+filename = 'YNot-0.2.4.jar'
+name = 'YNot'
+side = 'both'
+
+[download]
+hash = '7192f98116899b6755fbd631bff2721c40f65bea'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2708030
+project-id = 283589

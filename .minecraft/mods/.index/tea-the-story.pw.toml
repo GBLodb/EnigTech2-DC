@@ -1,0 +1,13 @@
+filename = 'TeaStory-3.3.3-B33.418-1.12.2.jar'
+name = 'Tea the Story'
+side = 'both'
+
+[download]
+hash = '921f04e6670e601b974e371a510d020321e25ea3'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2933372
+project-id = 293030

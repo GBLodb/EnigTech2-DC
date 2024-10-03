@@ -1,0 +1,13 @@
+filename = 'torchmaster_1.12.2-1.8.5.0.jar'
+name = 'TorchMaster'
+side = 'both'
+
+[download]
+hash = '8bc4bae76967b025746768473462d446ee09f505'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3529742
+project-id = 254268

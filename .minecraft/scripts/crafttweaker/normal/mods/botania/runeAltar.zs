@@ -25,13 +25,14 @@ RuneAltar.addRecipe(<silentgems:chaosorb:1>.withTag({ChaosCharge: 0}),[<botania:
 //气血宝珠
 RuneAltar.addRecipe(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}),[<botania:rune:7>,<botania:rune:6>,<botania:rune:5>,<botania:rune:4>,<botania:manaresource:2>,<silentgems:craftingmaterial:1>,<contenttweaker:blood_iron>,<contenttweaker:blood_iron>],10000);
 //辐灵玉
+/* 
 RuneAltar.addRecipe(<etutil:magic_geiger_counter>,[
     <silentgems:craftingmaterial:27>,
     <tombstone:crafting_ingredient:2>,
     <silentgems:gemsuper>,
     <botania:rune>,
     <roots:spell_dust>.withTag({spell_holder: {spell_0: "spell_sense_danger", selectedSlot: 0, lastCooldown: 0, cooldown: 0}}),
-],32000);
+],32000);*/
 
 RuneAltar.addRecipe(<item:contenttweaker:advanced_infinite_fruit>, [
     <botania:infinitefruit>,

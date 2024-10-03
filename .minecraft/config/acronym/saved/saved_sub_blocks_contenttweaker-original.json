@@ -1,7 +1,46 @@
 {
   "savedSubBlockNames": {
-    "0": {},
-    "1": {},
-    "2": {}
+    "0": {
+      "0": "adamantium_ore",
+      "1": "prismarinium_ore",
+      "2": "sinisite_block",
+      "3": "sinisite_ore",
+      "4": "prismarinium_block",
+      "5": "adamantium_block",
+      "6": "tungsten_steel_block",
+      "7": "brass_block",
+      "8": "tungsten_ore",
+      "9": "void_metal_ore",
+      "10": "ardite_block",
+      "11": "tungsten_steel_ore",
+      "12": "hyunium_ore",
+      "13": "zinc_ore",
+      "14": "molybdenum_steel_block",
+      "15": "hyunium_block"
+    },
+    "1": {
+      "0": "molybdenum_block",
+      "1": "manyullyn_ore",
+      "2": "void_metal_block",
+      "3": "tungsten_block",
+      "4": "thyrium_ore",
+      "5": "chromium_block",
+      "6": "chromium_ore",
+      "7": "brass_ore",
+      "8": "molybdenum_ore",
+      "9": "cobalt_block",
+      "10": "thyrium_block",
+      "11": "manyullyn_block",
+      "12": "cobalt_ore_minecraft_netherrack",
+      "13": "neodymium_ore",
+      "14": "nichrome_block",
+      "15": "nichrome_ore"
+    },
+    "2": {
+      "0": "ardite_ore_minecraft_netherrack",
+      "1": "molybdenum_steel_ore",
+      "2": "zinc_block",
+      "3": "neodymium_block"
+    }
   }
 }

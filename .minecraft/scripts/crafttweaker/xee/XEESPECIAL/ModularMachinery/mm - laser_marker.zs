@@ -1,5 +1,5 @@
 #packmode normal expert
- bloodarsenal botania_tweaks botanicadds draconicadditions enderioendergy rf-capability-adapter equivalentintegrations sgextraparts randomenchantments
+#modloaded bloodarsenal botania_tweaks botanicadds draconicadditions enderioendergy rf-capability-adapter equivalentintegrations sgextraparts randomenchantments
 #priority -100
 
 var machineName = "laser_marker";

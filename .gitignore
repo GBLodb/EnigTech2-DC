@@ -9,6 +9,7 @@
 /.minecraft/astralsorcery
 /.minecraft/coremods
 /.minecraft/CustomSkinLoader
+/.minecraft/dumps
 /.minecraft/journeymap
 /.minecraft/logs
 /.minecraft/mods/*.jar
@@ -28,4 +29,6 @@
 /.minecraft/options.txt
 /.minecraft/patchouli_data.json
 /.minecraft/roots.log
-
+/.minecraft/usercache.json
+/.minecraft/usernamecache.json
+/.minecraft/hei_bookmarks.ini

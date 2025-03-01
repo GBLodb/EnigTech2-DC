@@ -1,0 +1,26 @@
+{
+	title: "{advancement.stagebeta_yubi.title}",
+	x: 3.5d,
+	y: -1.0d,
+	text: [
+		"{advancement.stagebeta_yubi.description}"
+	],
+	dependencies: [
+		"366e161f"
+	],
+	tasks: [{
+		uid: "b39a2283",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "touhou_little_maid:hakurei_gohei",
+			tag: {
+				GoheiMode: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

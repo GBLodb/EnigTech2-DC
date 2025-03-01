@@ -18,6 +18,12 @@
 	tasks: [{
 		uid: "0db4c8c1",
 		type: "gamestage",
+		icon: {
+			id: "botania:specialflower",
+			tag: {
+				type: "puredaisy"
+			}
+		},
 		stage: "two"
 	}]
 }

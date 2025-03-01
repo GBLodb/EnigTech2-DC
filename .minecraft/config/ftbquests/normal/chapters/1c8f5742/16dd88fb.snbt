@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagebeta_chaye.title}",
+	x: 2.0d,
+	y: 2.5d,
+	text: [
+		"{advancement.stagebeta_chaye.description}"
+	],
+	dependencies: [
+		"3f192e06"
+	],
+	tasks: [{
+		uid: "2875b274",
+		type: "item",
+		items: [{
+			item: "teastory:broken_tea"
+		}]
+	}]
+}

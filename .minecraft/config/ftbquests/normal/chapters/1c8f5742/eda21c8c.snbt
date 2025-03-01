@@ -1,0 +1,23 @@
+{
+	title: "{advancement.stagebeta_pengrenbiji.title}",
+	x: 2.0d,
+	y: 1.0d,
+	text: [
+		"{advancement.stagebeta_pengrenbiji.description}"
+	],
+	dependencies: [
+		"611a80af"
+	],
+	tasks: [{
+		uid: "d85219b2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "cuisine:manual"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

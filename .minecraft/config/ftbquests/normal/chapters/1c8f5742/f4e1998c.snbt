@@ -1,0 +1,20 @@
+{
+	title: "{advancement.stagebeta_chayedan.title}",
+	x: 2.0d,
+	y: -3.0d,
+	shape: "diamond",
+	text: [
+		"{advancement.stagebeta_chayedan.description}"
+	],
+	dependencies: [
+		"1694cebf"
+	],
+	hide: true,
+	tasks: [{
+		uid: "78a68ce7",
+		type: "item",
+		items: [{
+			item: "teastory:tea_egg"
+		}]
+	}]
+}

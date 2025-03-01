@@ -1,0 +1,23 @@
+{
+	title: "{advancement.stagebeta_caidao.title}",
+	x: 5.0d,
+	y: 1.0d,
+	text: [
+		"{advancement.stagebeta_caidao.description}"
+	],
+	dependencies: [
+		"b142a858"
+	],
+	tasks: [{
+		uid: "06187706",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "cuisine:kitchen_knife"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

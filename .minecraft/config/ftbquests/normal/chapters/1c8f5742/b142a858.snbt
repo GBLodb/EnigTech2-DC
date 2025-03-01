@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagebeta_fanqie.title}",
+	x: 3.5d,
+	y: 1.0d,
+	text: [
+		"{advancement.stagebeta_fanqie.description}"
+	],
+	dependencies: [
+		"eda21c8c"
+	],
+	tasks: [{
+		uid: "73456f93",
+		type: "item",
+		items: [{
+			item: "cuisine:crops 1 4"
+		}]
+	}]
+}

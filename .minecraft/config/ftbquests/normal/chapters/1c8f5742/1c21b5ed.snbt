@@ -1,0 +1,23 @@
+{
+	title: "{advancement.stagebeta_jianceqi.title}",
+	x: 0.5d,
+	y: 4.0d,
+	text: [
+		"{advancement.stagebeta_jianceqi.description}"
+	],
+	dependencies: [
+		"3f192e06"
+	],
+	tasks: [{
+		uid: "60103627",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "teastory:soil_detection_meter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

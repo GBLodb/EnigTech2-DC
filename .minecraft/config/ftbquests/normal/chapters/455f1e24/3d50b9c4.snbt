@@ -1,0 +1,11 @@
+{
+	x: 0.5d,
+	y: 4.0d,
+	tasks: [{
+		uid: "1694cebf",
+		type: "item",
+		items: [{
+			item: "teastory:tea_egg"
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagebeta_chazi.title}",
+	x: 0.5d,
+	y: 2.5d,
+	text: [
+		"{advancement.stagebeta_chazi.description}"
+	],
+	dependencies: [
+		"611a80af"
+	],
+	tasks: [{
+		uid: "7f88b2e1",
+		type: "item",
+		items: [{
+			item: "teastory:tea_seeds"
+		}]
+	}]
+}

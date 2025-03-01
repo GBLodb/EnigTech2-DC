@@ -1,0 +1,23 @@
+{
+	title: "{advancement.stagebeta_chan.title}",
+	x: 8.0d,
+	y: 2.5d,
+	text: [
+		"{advancement.stagebeta_chan.description}"
+	],
+	dependencies: [
+		"b1e66c73"
+	],
+	tasks: [{
+		uid: "4f1fda42",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "cuisine:iron_spatula"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

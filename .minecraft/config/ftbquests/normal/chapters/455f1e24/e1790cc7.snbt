@@ -1,0 +1,15 @@
+{
+	x: 1.5d,
+	y: 4.0d,
+	tasks: [{
+		uid: "18543a5f",
+		type: "item",
+		items: [{
+			id: "touhou_little_maid:garage_kit",
+			tag: {
+				EntityId: "touhou_little_maid:entity.passive.maid",
+				ModelId: "touhou_little_maid:yukari_yakumo"
+			}
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 2.0d,
+	y: 4.0d,
+	dependencies: [
+		"16dd88fb"
+	],
+	tasks: [{
+		uid: "2d2ea0f6",
+		type: "item",
+		items: [{
+			item: "teastory:tea_drying_pan"
+		}]
+	}]
+}

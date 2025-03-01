@@ -1,0 +1,10 @@
+{
+	title: "{advancement.stagefour_root.title}",
+	icon: "thermalfoundation:material 1 23",
+	description: [
+		"{advancement.stagefour_root.description}"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

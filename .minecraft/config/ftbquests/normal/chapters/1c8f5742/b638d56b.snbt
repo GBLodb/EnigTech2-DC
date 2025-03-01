@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagebeta_niudanji.title}",
+	x: 6.5d,
+	y: -1.0d,
+	text: [
+		"{advancement.stagebeta_niudanji.description}"
+	],
+	dependencies: [
+		"65c8162c"
+	],
+	tasks: [{
+		uid: "19980c86",
+		type: "item",
+		items: [{
+			item: "touhou_little_maid:gashapon_machines"
+		}]
+	}]
+}

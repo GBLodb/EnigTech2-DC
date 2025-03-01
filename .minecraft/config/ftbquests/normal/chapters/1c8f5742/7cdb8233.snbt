@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagebeta_chaboji.title}",
+	x: 3.5d,
+	y: 2.5d,
+	text: [
+		"{advancement.stagebeta_chaboji.description}"
+	],
+	dependencies: [
+		"16dd88fb"
+	],
+	tasks: [{
+		uid: "f69a4fd4",
+		type: "item",
+		items: [{
+			item: "teastory:teapan"
+		}]
+	}]
+}

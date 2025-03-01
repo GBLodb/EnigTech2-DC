@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefour_root.title}",
+	x: -1.5d,
+	y: -1.5d,
+	text: [
+		"{advancement.stagefour_root.description}"
+	],
+	dependencies: [
+		"1a174726"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8850c3d6",
+		type: "gamestage",
+		icon: "thermalfoundation:material 1 23",
+		stage: "four"
+	}]
+}

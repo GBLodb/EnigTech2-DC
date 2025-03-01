@@ -1,0 +1,19 @@
+{
+	title: "{advancement.stagebeta_guo.title}",
+	icon: "cuisine:fire_pit 1 1",
+	x: 6.5d,
+	y: 2.5d,
+	text: [
+		"{advancement.stagebeta_guo.description}"
+	],
+	dependencies: [
+		"65825de6"
+	],
+	tasks: [{
+		uid: "fdf01509",
+		type: "item",
+		items: [{
+			item: "cuisine:wok"
+		}]
+	}]
+}

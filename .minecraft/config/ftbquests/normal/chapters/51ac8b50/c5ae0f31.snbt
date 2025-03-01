@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagetwo_huozhifuwen.title}",
+	x: 5.5d,
+	y: 0.0d,
+	text: [
+		"{advancement.stagetwo_huozhifuwen.description}"
+	],
+	dependencies: [
+		"70109243"
+	],
+	tasks: [{
+		uid: "32e40ca9",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 1"
+		}]
+	}]
+}

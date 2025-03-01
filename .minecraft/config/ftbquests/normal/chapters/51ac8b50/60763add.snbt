@@ -1,0 +1,24 @@
+{
+	title: "{advancement.stagetwo_zhimoshouce.title}",
+	x: -4.5d,
+	y: 0.0d,
+	text: [
+		"{advancement.stagetwo_zhimoshouce.description}"
+	],
+	dependencies: [
+		"6221170b"
+	],
+	tasks: [{
+		uid: "ea093d20",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:lexicon",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

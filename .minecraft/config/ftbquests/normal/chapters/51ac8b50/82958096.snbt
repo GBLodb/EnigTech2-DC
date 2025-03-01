@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagetwo_molichen.title}",
+	x: 1.5d,
+	y: 2.0d,
+	text: [
+		"{advancement.stagetwo_molichen.description}"
+	],
+	dependencies: [
+		"58eae6be"
+	],
+	tasks: [{
+		uid: "bf0879b8",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 23"
+		}]
+	}]
+}

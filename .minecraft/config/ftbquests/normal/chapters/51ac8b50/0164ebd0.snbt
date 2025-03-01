@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagetwo_modaohejin.title}",
+	x: 12.0d,
+	y: 1.0d,
+	text: [
+		"{advancement.stagetwo_modaohejin.description}"
+	],
+	dependencies: [
+		"4dae4b45"
+	],
+	tasks: [{
+		uid: "7283e538",
+		type: "item",
+		items: [{
+			item: "contenttweaker:magcondium_ingot"
+		}]
+	}]
+}

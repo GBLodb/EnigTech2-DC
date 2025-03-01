@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagetwo_hejinyao.title}",
+	x: 6.5d,
+	y: 4.5d,
+	text: [
+		"{advancement.stagetwo_hejinyao.description}"
+	],
+	dependencies: [
+		"f1274e08"
+	],
+	tasks: [{
+		uid: "1fbf020a",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 1 10"
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagetwo_huoshi.title}",
+	x: -2.5d,
+	y: 1.0d,
+	text: [
+		"{advancement.stagetwo_huoshi.description}"
+	],
+	dependencies: [
+		"6221170b"
+	],
+	tasks: [{
+		uid: "a7298fa8",
+		type: "item",
+		items: [{
+			item: "botania:livingrock"
+		}]
+	}]
+}

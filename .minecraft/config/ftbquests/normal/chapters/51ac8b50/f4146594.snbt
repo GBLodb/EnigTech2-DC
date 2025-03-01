@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagetwo_qingtong.title}",
+	x: 7.5d,
+	y: 4.0d,
+	text: [
+		"{advancement.stagetwo_qingtong.description}"
+	],
+	dependencies: [
+		"b91d3bd6"
+	],
+	tasks: [{
+		uid: "7683c471",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 163"
+		}]
+	}]
+}

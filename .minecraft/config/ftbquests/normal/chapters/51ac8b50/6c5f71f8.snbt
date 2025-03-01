@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagetwo_molizhenzhu.title}",
+	x: 2.5d,
+	y: 2.0d,
+	text: [
+		"{advancement.stagetwo_molizhenzhu.description}"
+	],
+	dependencies: [
+		"58eae6be"
+	],
+	tasks: [{
+		uid: "eaa35d2e",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 1"
+		}]
+	}]
+}

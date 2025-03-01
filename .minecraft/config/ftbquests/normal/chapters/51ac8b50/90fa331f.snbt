@@ -1,0 +1,23 @@
+{
+	title: "{advancement.stagetwo_lvjuzheyaodai.title}",
+	x: 3.5d,
+	y: 0.0d,
+	text: [
+		"{advancement.stagetwo_lvjuzheyaodai.description}"
+	],
+	dependencies: [
+		"8f5fc32a"
+	],
+	tasks: [{
+		uid: "4d2d1db7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:travelbelt"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

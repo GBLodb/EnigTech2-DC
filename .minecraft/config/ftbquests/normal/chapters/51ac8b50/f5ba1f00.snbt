@@ -1,0 +1,19 @@
+{
+	title: "{advancement.stagetwo_niunaiguan.title}",
+	x: 2.5d,
+	y: 3.0d,
+	text: [
+		"{advancement.stagetwo_niunaiguan.description}"
+	],
+	dependencies: [
+		"d9718912",
+		"c0947923"
+	],
+	tasks: [{
+		uid: "e902862a",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:cow_jar"
+		}]
+	}]
+}

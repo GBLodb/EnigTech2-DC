@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagetwo_xishimolichi.title}",
+	x: 2.5d,
+	y: 1.0d,
+	text: [
+		"{advancement.stagetwo_xishimolichi.description}"
+	],
+	dependencies: [
+		"4d3589c6"
+	],
+	tasks: [{
+		uid: "52f91e08",
+		type: "item",
+		items: [{
+			item: "botania:pool 1 2"
+		}]
+	}]
+}

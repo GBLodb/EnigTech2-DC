@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagetwo_fengsutu.title}",
+	x: 1.5d,
+	y: 0.0d,
+	text: [
+		"{advancement.stagetwo_fengsutu.description}"
+	],
+	dependencies: [
+		"99ff0dfe"
+	],
+	tasks: [{
+		uid: "9003a2fb",
+		type: "item",
+		items: [{
+			item: "roots:elemental_soil_air"
+		}]
+	}]
+}

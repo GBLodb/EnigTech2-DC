@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagetwo_molichi.title}",
+	x: 8.5d,
+	y: 3.0d,
+	text: [
+		"{advancement.stagetwo_molichi.description}"
+	],
+	dependencies: [
+		"1e0f3243"
+	],
+	tasks: [{
+		uid: "481c220b",
+		type: "item",
+		items: [{
+			item: "botania:pool"
+		}]
+	}]
+}

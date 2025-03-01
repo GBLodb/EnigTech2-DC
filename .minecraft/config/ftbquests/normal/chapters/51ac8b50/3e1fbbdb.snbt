@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagetwo_ronglu.title}",
+	x: -3.5d,
+	y: 2.0d,
+	text: [
+		"{advancement.stagetwo_ronglu.description}"
+	],
+	dependencies: [
+		"6221170b"
+	],
+	tasks: [{
+		uid: "862f2f18",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}]
+	}]
+}

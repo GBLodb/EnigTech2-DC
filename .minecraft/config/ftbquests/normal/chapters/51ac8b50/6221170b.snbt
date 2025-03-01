@@ -1,0 +1,23 @@
+{
+	title: "{advancement.stagetwo_root.title}",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "puredaisy"
+		}
+	},
+	x: -3.5d,
+	y: 1.0d,
+	text: [
+		"{advancement.stagetwo_root.description}"
+	],
+	dependencies: [
+		"9681b373"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0db4c8c1",
+		type: "gamestage",
+		stage: "two"
+	}]
+}

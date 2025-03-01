@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagetwo_fuwenjitan.title}",
+	x: 4.5d,
+	y: 1.0d,
+	text: [
+		"{advancement.stagetwo_fuwenjitan.description}"
+	],
+	dependencies: [
+		"41e3b63a"
+	],
+	tasks: [{
+		uid: "7bc7a1ab",
+		type: "item",
+		items: [{
+			item: "botania:runealtar"
+		}]
+	}]
+}

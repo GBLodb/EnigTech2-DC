@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagetwo_tusiji.title}",
+	x: -1.5d,
+	y: 3.0d,
+	text: [
+		"{advancement.stagetwo_tusiji.description}"
+	],
+	dependencies: [
+		"e474fe01"
+	],
+	tasks: [{
+		uid: "702f0021",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:toaster"
+		}]
+	}]
+}

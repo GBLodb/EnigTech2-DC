@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagetwo_molizuanshi.title}",
+	x: 3.5d,
+	y: 1.0d,
+	text: [
+		"{advancement.stagetwo_molizuanshi.description}"
+	],
+	dependencies: [
+		"58eae6be"
+	],
+	tasks: [{
+		uid: "68ae3e0e",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 2"
+		}]
+	}]
+}

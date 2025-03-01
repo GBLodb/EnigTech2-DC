@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagetwo_heitie.title}",
+	x: 11.0d,
+	y: 4.0d,
+	text: [
+		"{advancement.stagetwo_heitie.description}"
+	],
+	dependencies: [
+		"71c4ec41"
+	],
+	tasks: [{
+		uid: "8833b68b",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material"
+		}]
+	}]
+}

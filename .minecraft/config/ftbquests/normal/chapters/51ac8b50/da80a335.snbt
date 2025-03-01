@@ -1,0 +1,20 @@
+{
+	title: "{advancement.stagetwo_tuna5544.title}",
+	x: -4.5d,
+	y: -3.0d,
+	shape: "diamond",
+	text: [
+		"{advancement.stagetwo_tuna5544.title}"
+	],
+	dependencies: [
+		"c4cf3c86"
+	],
+	hide: true,
+	tasks: [{
+		uid: "545315bc",
+		type: "item",
+		items: [{
+			item: "harvestcraft:tunarawitem"
+		}]
+	}]
+}

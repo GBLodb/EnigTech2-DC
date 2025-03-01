@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagetwo_gaolu.title}",
+	x: 8.5d,
+	y: 4.0d,
+	text: [
+		"{advancement.stagetwo_gaolu.description}"
+	],
+	dependencies: [
+		"f4146594"
+	],
+	tasks: [{
+		uid: "2c067dd2",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 1 1"
+		}]
+	}]
+}

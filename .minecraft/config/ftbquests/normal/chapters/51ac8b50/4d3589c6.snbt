@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagetwo_molifasheqi.title}",
+	x: 1.5d,
+	y: 1.0d,
+	text: [
+		"{advancement.stagetwo_molifasheqi.description}"
+	],
+	dependencies: [
+		"3d3863b8"
+	],
+	tasks: [{
+		uid: "200a786b",
+		type: "item",
+		items: [{
+			item: "botania:spreader"
+		}]
+	}]
+}

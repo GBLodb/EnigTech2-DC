@@ -1,0 +1,22 @@
+{
+	title: "{advancement.stagetwo_tailaningjuban.title}",
+	x: 8.5d,
+	y: 1.0d,
+	text: [
+		"{advancement.stagetwo_tailaningjuban.description}"
+	],
+	dependencies: [
+		"bfe4ffd6",
+		"1e0f3243",
+		"8f5fc32a",
+		"07438025",
+		"c5ae0f31"
+	],
+	tasks: [{
+		uid: "af7b4e16",
+		type: "item",
+		items: [{
+			item: "botania:terraplate"
+		}]
+	}]
+}

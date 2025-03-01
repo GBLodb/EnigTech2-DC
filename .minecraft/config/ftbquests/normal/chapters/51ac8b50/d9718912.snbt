@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagetwo_kaoxing.title}",
+	x: 0.5d,
+	y: 3.0d,
+	text: [
+		"{advancement.stagetwo_kaoxing.description}"
+	],
+	dependencies: [
+		"cd187bfd"
+	],
+	tasks: [{
+		uid: "59d4d453",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:oven"
+		}]
+	}]
+}

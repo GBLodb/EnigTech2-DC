@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagetwo_tongxiangzi.title}",
+	x: -2.5d,
+	y: 0.0d,
+	text: [
+		"{advancement.stagetwo_tongxiangzi.description}"
+	],
+	dependencies: [
+		"3d0a0be3"
+	],
+	tasks: [{
+		uid: "a81b3546",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_chest 1 3"
+		}]
+	}]
+}

@@ -1,0 +1,113 @@
+{
+	title: "{advancement.stagetwo_beibao.title}",
+	x: -3.5d,
+	y: -1.0d,
+	text: [
+		"{advancement.stagetwo_beibao.description}"
+	],
+	dependencies: [
+		"3d0a0be3"
+	],
+	tasks: [{
+		uid: "9f03bb18",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					SortType: 0b,
+					UUIDMost: 4725051790445462613L,
+					UUIDLeast: -6898792968054820692L,
+					UpgradeSlots: {
+						Items: []
+					},
+					BackpackInventory: {
+						Items: []
+					},
+					BackpackInventorySize: 27,
+					UpgradeSlotsSize: 1,
+					MemoryItems: {
+						Items: []
+					},
+					LockedSlots: [B;
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b
+					]
+				},
+				"astralsorcery:cap_item_amulet_holder": {},
+				"retro_sophisticated_backpacks:backpack_capability": {
+					SortType: 0b,
+					UUIDMost: 5637622249282882978L,
+					UUIDLeast: -6797889404463111474L,
+					UpgradeSlots: {
+						Items: []
+					},
+					BackpackInventory: {
+						Items: []
+					},
+					BackpackInventorySize: 27,
+					UpgradeSlotsSize: 1,
+					MemoryItems: {
+						Items: []
+					},
+					LockedSlots: [B;
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b
+					]
+				}
+			},
+			id: "retro_sophisticated_backpacks:backpack_leather"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

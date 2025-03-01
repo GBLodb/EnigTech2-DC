@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagetwo_gang.title}",
+	x: 9.5d,
+	y: 4.0d,
+	text: [
+		"{advancement.stagetwo_gang.description}"
+	],
+	dependencies: [
+		"3d558880"
+	],
+	tasks: [{
+		uid: "c3ef9ba7",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 160"
+		}]
+	}]
+}

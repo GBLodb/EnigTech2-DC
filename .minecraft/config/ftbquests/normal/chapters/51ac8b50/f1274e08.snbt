@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagetwo_naihuozhuan.title}",
+	x: 5.5d,
+	y: 4.5d,
+	text: [
+		"{advancement.stagetwo_naihuozhuan.description}"
+	],
+	dependencies: [
+		"ec7595a2"
+	],
+	tasks: [{
+		uid: "185bbe45",
+		type: "item",
+		items: [{
+			item: "contenttweaker:fire_resist_brick"
+		}]
+	}]
+}

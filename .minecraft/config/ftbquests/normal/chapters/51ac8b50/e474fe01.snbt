@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagetwo_shuicao.title}",
+	x: -2.5d,
+	y: 2.0d,
+	text: [
+		"{advancement.stagetwo_shuicao.description}"
+	],
+	dependencies: [
+		"6221170b"
+	],
+	tasks: [{
+		uid: "cf20a463",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:sink"
+		}]
+	}]
+}

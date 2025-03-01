@@ -1,0 +1,20 @@
+{
+	title: "{advancement.stagetwo_jinglingmunhexin.title}",
+	x: 13.5d,
+	y: 2.5d,
+	shape: "rsquare",
+	text: [
+		"{advancement.stagetwo_jinglingmunhexin.description}"
+	],
+	dependencies: [
+		"0164ebd0",
+		"9408189f"
+	],
+	tasks: [{
+		uid: "fcb6bfc1",
+		type: "item",
+		items: [{
+			item: "botania:alfheimportal"
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagetwo_shuisutu.title}",
+	x: 1.5d,
+	y: -1.0d,
+	text: [
+		"{advancement.stagetwo_shuisutu.description}"
+	],
+	dependencies: [
+		"99ff0dfe"
+	],
+	tasks: [{
+		uid: "9fa8b826",
+		type: "item",
+		items: [{
+			item: "roots:elemental_soil_water"
+		}]
+	}]
+}

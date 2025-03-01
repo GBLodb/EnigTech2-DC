@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagetwo_beibaosehgnji.title}",
+	x: -3.5d,
+	y: -2.0d,
+	text: [
+		"{advancement.stagetwo_beibaosehgnji.description}"
+	],
+	dependencies: [
+		"07e3d11b"
+	],
+	tasks: [{
+		uid: "e5bd1c14",
+		type: "item",
+		items: [{
+			item: "retro_sophisticated_backpacks:stack_upgrade_starter_tier"
+		}]
+	}]
+}

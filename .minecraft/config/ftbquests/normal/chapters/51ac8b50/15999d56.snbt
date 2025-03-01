@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagetwo_zisha.title}",
+	x: 0.5d,
+	y: 2.0d,
+	text: [
+		"{advancement.stagetwo_zisha.description}"
+	],
+	dependencies: [
+		"6221170b"
+	],
+	tasks: [{
+		uid: "635d38bb",
+		type: "item",
+		items: [{
+			item: "snad:snad"
+		}]
+	}]
+}

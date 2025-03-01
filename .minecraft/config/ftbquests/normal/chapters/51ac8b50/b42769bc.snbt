@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagetwo_huayaotai.title}",
+	x: -1.5d,
+	y: 1.0d,
+	text: [
+		"{advancement.stagetwo_huayaotai.description}"
+	],
+	dependencies: [
+		"59bee0ac"
+	],
+	tasks: [{
+		uid: "5d8bf06b",
+		type: "item",
+		items: [{
+			item: "botania:altar"
+		}]
+	}]
+}

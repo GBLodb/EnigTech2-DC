@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagetwo_yemushumiao.title}",
+	x: -0.5d,
+	y: 1.0d,
+	text: [
+		"{advancement.stagetwo_yemushumiao.description}"
+	],
+	dependencies: [
+		"b42769bc"
+	],
+	tasks: [{
+		uid: "73ded091",
+		type: "item",
+		items: [{
+			item: "roots:wildwood_sapling"
+		}]
+	}]
+}

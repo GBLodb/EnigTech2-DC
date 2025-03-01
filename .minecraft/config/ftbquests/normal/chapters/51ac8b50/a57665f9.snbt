@@ -1,0 +1,19 @@
+{
+	title: "{advancement.stagetwo_youzhiranliao.title}",
+	x: 3.5d,
+	y: 6.5d,
+	shape: "rsquare",
+	text: [
+		"{advancement.stagetwo_youzhiranliao.description}"
+	],
+	dependencies: [
+		"1617b8ca"
+	],
+	tasks: [{
+		uid: "d224efa3",
+		type: "item",
+		items: [{
+			item: "contenttweaker:good_fuel"
+		}]
+	}]
+}

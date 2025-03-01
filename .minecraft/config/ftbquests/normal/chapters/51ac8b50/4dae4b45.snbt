@@ -1,0 +1,19 @@
+{
+	title: "{advancement.stagetwo_tailagang.title}",
+	x: 10.0d,
+	y: 1.0d,
+	shape: "rsquare",
+	text: [
+		"{advancement.stagetwo_tailagang.description}"
+	],
+	dependencies: [
+		"f5b4a64f"
+	],
+	tasks: [{
+		uid: "01045bd5",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 4"
+		}]
+	}]
+}

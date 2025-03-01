@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagetwo_naihuohunhewu.title}",
+	x: 5.0d,
+	y: 3.5d,
+	text: [
+		"{advancement.stagetwo_naihuohunhewu.description}"
+	],
+	dependencies: [
+		"07438025"
+	],
+	tasks: [{
+		uid: "02c28eaf",
+		type: "item",
+		items: [{
+			item: "contenttweaker:fire_resist_mixture"
+		}]
+	}]
+}

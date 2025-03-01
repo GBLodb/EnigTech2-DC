@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagetwo_yinxiangzi.title}",
+	x: -1.5d,
+	y: 0.0d,
+	text: [
+		"{advancement.stagetwo_yinxiangzi.title}"
+	],
+	dependencies: [
+		"6a165516"
+	],
+	tasks: [{
+		uid: "c2dc66b7",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_chest 1 4"
+		}]
+	}]
+}

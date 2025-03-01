@@ -1,0 +1,19 @@
+{
+	title: "{advancement.stagetwo_gaojigongzuotai.title}",
+	x: 12.0d,
+	y: 4.0d,
+	shape: "rsquare",
+	text: [
+		"{advancement.stagetwo_gaojigongzuotai.description}"
+	],
+	dependencies: [
+		"e608c128"
+	],
+	tasks: [{
+		uid: "2a50482f",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:table_advanced"
+		}]
+	}]
+}

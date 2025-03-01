@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagetwo_xiangzi.title}",
+	x: -3.5d,
+	y: 0.0d,
+	text: [
+		"{advancement.stagetwo_xiangzi.description}"
+	],
+	dependencies: [
+		"6221170b"
+	],
+	tasks: [{
+		uid: "c18fc985",
+		type: "item",
+		items: [{
+			item: "minecraft:chest"
+		}]
+	}]
+}

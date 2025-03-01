@@ -1,0 +1,64 @@
+{
+	title: "{advancement.stageone_zhoushuchen.title}",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "roots:spell_dust",
+		tag: {}
+	},
+	x: 12.5d,
+	y: -4.5d,
+	text: [
+		"{advancement.stageone_zhoushuchen.description}"
+	],
+	dependencies: [
+		"ef6b4a53"
+	],
+	tasks: [{
+		uid: "05f8ed51",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "doorWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any doorWood"
+				}
+			}
+		}]
+	},
+	{
+		uid: "940a7a8f",
+		type: "item",
+		items: [{
+			item: "minecraft:mossy_cobblestone"
+		}]
+	},
+	{
+		uid: "9aa9d8cd",
+		type: "item",
+		items: [{
+			item: "minecraft:sapling"
+		}]
+	},
+	{
+		uid: "30b505f1",
+		type: "item",
+		items: [{
+			item: "roots:wildroot"
+		}]
+	},
+	{
+		uid: "c0c7399d",
+		type: "item",
+		items: [{
+			item: "roots:petals"
+		}]
+	}]
+}

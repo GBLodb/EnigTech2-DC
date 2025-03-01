@@ -1,0 +1,22 @@
+{
+	title: "{advancement.stageone_wdnmd.title}",
+	icon: "mysticalworld:aubergine",
+	x: 3.0d,
+	y: -5.5d,
+	shape: "diamond",
+	text: [
+		"{advancement.stageone_wdnmd.description}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"7db6a58b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b0cc1c7c",
+		type: "item",
+		items: [{
+			item: "mysticalworld:aubergine"
+		}]
+	}]
+}

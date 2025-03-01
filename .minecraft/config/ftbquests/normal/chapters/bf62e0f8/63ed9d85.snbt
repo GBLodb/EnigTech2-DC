@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stageone_yinghuo.title}",
+	x: 5.5d,
+	y: -1.5d,
+	text: [
+		"{advancement.stageone_yinghuo.description}"
+	],
+	dependencies: [
+		"ccfea56f"
+	],
+	tasks: [{
+		uid: "11ed950f",
+		type: "item",
+		items: [{
+			item: "toughasnails:campfire"
+		}]
+	}]
+}

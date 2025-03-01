@@ -1,0 +1,23 @@
+{
+	title: "{advancement.stageone_bishou.title}",
+	x: 5.5d,
+	y: -3.5d,
+	text: [
+		"{advancement.stageone_bishou.description}"
+	],
+	dependencies: [
+		"ccfea56f"
+	],
+	tasks: [{
+		uid: "81d5de1a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "roots:wood_knife"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

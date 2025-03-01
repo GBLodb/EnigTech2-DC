@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stageone_wenshiboli.title}",
+	x: 7.5d,
+	y: 1.5d,
+	text: [
+		"{advancement.stageone_wenshiboli.description}"
+	],
+	dependencies: [
+		"14c514b7"
+	],
+	tasks: [{
+		uid: "e402a917",
+		type: "item",
+		items: [{
+			item: "sereneseasons:greenhouse_glass"
+		}]
+	}]
+}

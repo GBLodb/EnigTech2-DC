@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stageone_boli.title}",
+	x: 7.5d,
+	y: 0.5d,
+	text: [
+		"{advancement.stageone_boli.description}"
+	],
+	dependencies: [
+		"68dbe0be"
+	],
+	tasks: [{
+		uid: "4d6d4663",
+		type: "item",
+		items: [{
+			item: "minecraft:glass"
+		}]
+	}]
+}

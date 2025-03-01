@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stageone_taishi.title}",
+	x: 2.0d,
+	y: -2.5d,
+	text: [
+		"{advancement.stageone_taishi.description}"
+	],
+	dependencies: [
+		"e9144082"
+	],
+	tasks: [{
+		uid: "68c14342",
+		type: "item",
+		items: [{
+			item: "minecraft:mossy_cobblestone"
+		}]
+	}]
+}

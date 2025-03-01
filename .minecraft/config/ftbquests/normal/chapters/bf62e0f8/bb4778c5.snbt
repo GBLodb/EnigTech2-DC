@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stageone_mugun.title}",
+	x: 0.5d,
+	y: 0.5d,
+	text: [
+		"{advancement.stageone_mugun.description}"
+	],
+	dependencies: [
+		"296a7d02"
+	],
+	tasks: [{
+		uid: "3c87dfb6",
+		type: "item",
+		items: [{
+			item: "minecraft:stick"
+		}]
+	}]
+}

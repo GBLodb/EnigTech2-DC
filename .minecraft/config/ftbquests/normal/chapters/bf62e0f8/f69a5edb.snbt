@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stageone_tieli.title}",
+	x: 9.5d,
+	y: -5.5d,
+	text: [
+		"{advancement.stageone_tieli.description}"
+	],
+	dependencies: [
+		"43465ce6"
+	],
+	tasks: [{
+		uid: "756f683c",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_nugget"
+		}]
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "{advancement.stageone_liangganjia.title}",
+	x: 5.5d,
+	y: -0.5d,
+	text: [
+		"{advancement.stageone_liangganjia.description}"
+	],
+	dependencies: [
+		"ccfea56f",
+		"e29d6d3a"
+	],
+	tasks: [{
+		uid: "4051f4df",
+		type: "item",
+		items: [{
+			item: "survivalist:rack"
+		}]
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "{advancement.stageone_yanbo.title}",
+	x: 9.5d,
+	y: -4.5d,
+	text: [
+		"{advancement.stageone_yanbo.description}"
+	],
+	dependencies: [
+		"c31d2e08"
+	],
+	tasks: [{
+		uid: "56bf892f",
+		type: "item",
+		items: [{
+			item: "roots:mortar"
+		}]
+	},
+	{
+		uid: "1be03dfa",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "roots:pestle"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

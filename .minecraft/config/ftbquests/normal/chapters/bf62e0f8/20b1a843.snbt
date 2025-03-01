@@ -1,0 +1,29 @@
+{
+	title: "{advancement.stageone_yuanmu.title}",
+	x: 2.5d,
+	y: -0.5d,
+	text: [
+		"{advancement.stageone_yuanmu.description}"
+	],
+	dependencies: [
+		"25bcc114"
+	],
+	tasks: [{
+		uid: "9f99ec3c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any logWood"
+				}
+			}
+		}]
+	}]
+}

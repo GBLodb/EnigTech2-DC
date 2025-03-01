@@ -1,0 +1,12 @@
+{
+	x: -0.5d,
+	y: 3.0d,
+	hide_dependency_lines: true,
+	tasks: [{
+		uid: "7db6a58b",
+		type: "item",
+		items: [{
+			item: "mysticalworld:aubergine"
+		}]
+	}]
+}

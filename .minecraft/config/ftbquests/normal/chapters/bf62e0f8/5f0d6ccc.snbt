@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stageone_zhengfamin.title}",
+	x: 5.5d,
+	y: -5.5d,
+	text: [
+		"{advancement.stageone_zhengfamin.description}"
+	],
+	dependencies: [
+		"47c21faf"
+	],
+	tasks: [{
+		uid: "d032958b",
+		type: "item",
+		items: [{
+			item: "rustic:evaporating_basin"
+		}]
+	}]
+}

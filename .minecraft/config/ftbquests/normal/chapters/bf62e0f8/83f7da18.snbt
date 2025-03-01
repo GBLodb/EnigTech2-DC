@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stageone_aoshuyuanzhi.title}",
+	x: 13.5d,
+	y: -5.5d,
+	text: [
+		"{advancement.stageone_aoshuyuanzhi.description}"
+	],
+	dependencies: [
+		"381b5a4c"
+	],
+	tasks: [{
+		uid: "b696922f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:arcane_essence"
+		}]
+	}]
+}

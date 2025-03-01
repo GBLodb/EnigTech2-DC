@@ -1,0 +1,19 @@
+{
+	title: "{advancement.stageone_dadijunsi.title}",
+	x: 6.5d,
+	y: -2.5d,
+	text: [
+		"{advancement.stageone_dadijunsi.description}"
+	],
+	dependencies: [
+		"a36bc687",
+		"7512e57a"
+	],
+	tasks: [{
+		uid: "2af18199",
+		type: "item",
+		items: [{
+			item: "roots:terra_moss"
+		}]
+	}]
+}

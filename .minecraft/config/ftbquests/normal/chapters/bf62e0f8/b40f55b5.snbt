@@ -1,0 +1,23 @@
+{
+	title: "{advancement.stageone_shuiping.title}",
+	x: 11.5d,
+	y: 0.5d,
+	text: [
+		"{advancement.stageone_shuiping.description}"
+	],
+	dependencies: [
+		"23ae8232"
+	],
+	tasks: [{
+		uid: "dadbd648",
+		type: "item",
+		items: [{
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:water"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stageone_yazhamupen.title}",
+	x: 3.5d,
+	y: -3.5d,
+	text: [
+		"{advancement.stageone_yazhamupen.description}"
+	],
+	dependencies: [
+		"ccfea56f"
+	],
+	tasks: [{
+		uid: "cfc1a7d8",
+		type: "item",
+		items: [{
+			item: "rustic:crushing_tub"
+		}]
+	}]
+}

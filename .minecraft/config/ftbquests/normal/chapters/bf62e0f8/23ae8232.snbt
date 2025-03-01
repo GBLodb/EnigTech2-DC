@@ -1,0 +1,19 @@
+{
+	title: "{advancement.stageone_boliping.title}",
+	x: 9.5d,
+	y: 0.5d,
+	shape: "rsquare",
+	text: [
+		"{advancement.stageone_boliping.description}"
+	],
+	dependencies: [
+		"14c514b7"
+	],
+	tasks: [{
+		uid: "80e070a6",
+		type: "item",
+		items: [{
+			item: "minecraft:glass_bottle"
+		}]
+	}]
+}

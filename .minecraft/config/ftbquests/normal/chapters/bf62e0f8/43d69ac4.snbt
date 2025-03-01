@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stageone_caoxianwei.title}",
+	x: 0.5d,
+	y: -1.5d,
+	text: [
+		"{advancement.stageone_caoxianwei.description}"
+	],
+	dependencies: [
+		"296a7d02"
+	],
+	tasks: [{
+		uid: "e5874944",
+		type: "item",
+		items: [{
+			item: "survivalist:plant_fibres"
+		}]
+	}]
+}

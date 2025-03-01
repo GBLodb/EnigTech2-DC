@@ -1,0 +1,14 @@
+{
+	title: "{advancement.stageone_root.title}",
+	icon: "survivalist:rock",
+	x: -1.5d,
+	y: -0.5d,
+	text: [
+		"{advancement.stageone_root.description}"
+	],
+	tasks: [{
+		uid: "4d42d339",
+		type: "gamestage",
+		stage: "one"
+	}]
+}

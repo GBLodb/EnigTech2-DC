@@ -1,0 +1,23 @@
+{
+	title: "{advancement.stageone_nianlitongshu.title}",
+	x: 4.5d,
+	y: -0.5d,
+	text: [
+		"{advancement.stageone_nianlitongshu.description}"
+	],
+	dependencies: [
+		"ccfea56f"
+	],
+	tasks: [{
+		uid: "c07b6a60",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "rustic:book"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

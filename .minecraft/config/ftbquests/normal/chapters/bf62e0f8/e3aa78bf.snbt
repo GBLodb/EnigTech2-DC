@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stageone_taoguan.title}",
+	x: 7.0d,
+	y: -0.5d,
+	text: [
+		"{advancement.stageone_taoguan.description}"
+	],
+	dependencies: [
+		"90a5d732"
+	],
+	tasks: [{
+		uid: "930d0054",
+		type: "item",
+		items: [{
+			item: "rustic:vase"
+		}]
+	}]
+}

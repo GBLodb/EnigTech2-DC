@@ -1,0 +1,26 @@
+{
+	title: "{advancement.stageone_lengningqi.title}",
+	x: 13.5d,
+	y: -3.5d,
+	text: [
+		"{advancement.stageone_lengningqi.description}"
+	],
+	dependencies: [
+		"381b5a4c"
+	],
+	tasks: [{
+		uid: "e5303bef",
+		type: "item",
+		items: [{
+			item: "rustic:condenser"
+		}]
+	},
+	{
+		uid: "28e57034",
+		type: "item",
+		items: [{
+			item: "rustic:retort"
+		}],
+		count: 2L
+	}]
+}

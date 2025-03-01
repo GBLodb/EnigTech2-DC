@@ -1,0 +1,25 @@
+{
+	title: "{advancement.stageone_zhihuiyaoji.title}",
+	x: 14.5d,
+	y: -4.5d,
+	shape: "hexagon",
+	text: [
+		"{advancement.stageone_zhihuiyaoji.description}"
+	],
+	dependencies: [
+		"5641656d",
+		"83f7da18"
+	],
+	tasks: [{
+		uid: "2e91fe4f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "contenttweaker:potion_inteligence"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

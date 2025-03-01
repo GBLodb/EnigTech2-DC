@@ -1,0 +1,26 @@
+{
+	title: "{advancement.stageone_kuangshicidian.title}",
+	x: 3.5d,
+	y: -0.5d,
+	text: [
+		"{advancement.stageone_kuangshicidian.description}"
+	],
+	dependencies: [
+		"ccfea56f"
+	],
+	tasks: [{
+		uid: "8fe86528",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "patchouli:et2_orevein_wiki"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

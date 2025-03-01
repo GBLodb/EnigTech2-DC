@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stageone_dadibaozi.title}",
+	x: 0.5d,
+	y: -2.5d,
+	text: [
+		"{advancement.stageone_dadibaozi.description}"
+	],
+	dependencies: [
+		"296a7d02"
+	],
+	tasks: [{
+		uid: "db95dba2",
+		type: "item",
+		items: [{
+			item: "roots:terra_spores"
+		}]
+	}]
+}

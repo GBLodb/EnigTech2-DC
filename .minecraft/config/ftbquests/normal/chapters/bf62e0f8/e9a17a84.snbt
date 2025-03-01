@@ -1,0 +1,19 @@
+{
+	title: "{advancement.stageone_tieding.title}",
+	x: 11.5d,
+	y: -5.5d,
+	shape: "rsquare",
+	text: [
+		"{advancement.stageone_tieding.description}"
+	],
+	dependencies: [
+		"f69a5edb"
+	],
+	tasks: [{
+		uid: "280fc789",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}]
+	}]
+}

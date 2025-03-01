@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stageone_yeshenggenjing.title}",
+	x: -1.0d,
+	y: 1.5d,
+	text: [
+		"{advancement.stageone_yeshenggenjing.description}"
+	],
+	dependencies: [
+		"296a7d02"
+	],
+	tasks: [{
+		uid: "cc275345",
+		type: "item",
+		items: [{
+			item: "roots:wildroot"
+		}]
+	}]
+}

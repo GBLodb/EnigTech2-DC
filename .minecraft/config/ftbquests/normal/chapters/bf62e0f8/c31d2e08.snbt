@@ -1,0 +1,29 @@
+{
+	title: "{advancement.stageone_shupi.title}",
+	x: 6.5d,
+	y: -4.5d,
+	text: [
+		"{advancement.stageone_shupi.description}"
+	],
+	dependencies: [
+		"a36bc687"
+	],
+	tasks: [{
+		uid: "428acce8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "rootsBark",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any rootsBark"
+				}
+			}
+		}]
+	}]
+}

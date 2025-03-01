@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stageone_tiexie.title}",
+	x: 7.5d,
+	y: -5.5d,
+	text: [
+		"{advancement.stageone_tiexie.description}"
+	],
+	dependencies: [
+		"5f0d6ccc"
+	],
+	tasks: [{
+		uid: "6fb1a71e",
+		type: "item",
+		items: [{
+			item: "rustic:dust_tiny_iron"
+		}]
+	}]
+}

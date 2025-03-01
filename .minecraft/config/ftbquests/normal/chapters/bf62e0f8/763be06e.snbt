@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stageone_suishi.title}",
+	x: 0.0d,
+	y: -0.5d,
+	text: [
+		"{advancement.stageone_suishi.description}"
+	],
+	dependencies: [
+		"296a7d02"
+	],
+	tasks: [{
+		uid: "fdc43de5",
+		type: "item",
+		items: [{
+			item: "minecraft:flint"
+		}]
+	}]
+}

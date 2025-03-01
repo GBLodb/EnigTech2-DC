@@ -1,0 +1,25 @@
+{
+	title: "{advancement.stageone_suishifu.title}",
+	x: 1.0d,
+	y: -0.5d,
+	text: [
+		"{advancement.stageone_suishifu.description}"
+	],
+	dependencies: [
+		"763be06e",
+		"43d69ac4",
+		"bb4778c5"
+	],
+	tasks: [{
+		uid: "67ba3552",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "survivalist:hatchet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

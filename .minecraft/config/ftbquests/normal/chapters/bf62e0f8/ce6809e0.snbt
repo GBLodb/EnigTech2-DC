@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stageone_zhenban.title}",
+	x: 2.5d,
+	y: 0.5d,
+	text: [
+		"{advancement.stageone_zhenban.description}"
+	],
+	dependencies: [
+		"20b1a843"
+	],
+	tasks: [{
+		uid: "257182de",
+		type: "item",
+		items: [{
+			item: "survivalist:chopping_block"
+		}]
+	}]
+}

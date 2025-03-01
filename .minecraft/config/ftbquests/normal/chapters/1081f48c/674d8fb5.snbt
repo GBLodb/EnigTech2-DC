@@ -1,0 +1,19 @@
+{
+	title: "{advancement.stagethree_dahuoba.title}",
+	x: 8.0d,
+	y: 1.5d,
+	text: [
+		"{advancement.stagethree_dahuoba.description}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"3a9bbd75"
+	],
+	tasks: [{
+		uid: "1bf1e4ea",
+		type: "item",
+		items: [{
+			item: "torchmaster:mega_torch"
+		}]
+	}]
+}

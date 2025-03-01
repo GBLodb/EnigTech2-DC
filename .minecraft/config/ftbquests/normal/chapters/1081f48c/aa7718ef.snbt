@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagethree_jinyefen.title}",
+	x: 7.0d,
+	y: -2.0d,
+	text: [
+		"{advancement.stagethree_jinyefen.description}"
+	],
+	dependencies: [
+		"29e4469c"
+	],
+	tasks: [{
+		uid: "8f6ad778",
+		type: "item",
+		items: [{
+			item: "naturesaura:gold_powder"
+		}]
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "{advancement.stagethree_zhanpuyinji.title}",
+	x: 16.5d,
+	y: -1.0d,
+	text: [
+		"{advancement.stagethree_zhanpuyinji.description}"
+	],
+	dependencies: [
+		"af78a5a0"
+	],
+	tasks: [{
+		uid: "945e007c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:sigil_divination"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

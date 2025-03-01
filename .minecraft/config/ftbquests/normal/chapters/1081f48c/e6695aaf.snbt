@@ -1,0 +1,24 @@
+{
+	title: "{advancement.stagethree_ganzhizhijian.title}",
+	x: 14.5d,
+	y: -1.0d,
+	text: [
+		"{advancement.stagethree_ganzhizhijian.description}"
+	],
+	dependencies: [
+		"4d2d5759"
+	],
+	tasks: [{
+		uid: "40490c45",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:sentient_sword",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "{advancement.stagethree_qixuebaozhu.title}",
+	x: 18.0d,
+	y: 2.0d,
+	text: [
+		"{advancement.stagethree_qixuebaozhu.description}"
+	],
+	dependencies: [
+		"a5217582"
+	],
+	tasks: [{
+		uid: "4d517547",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:weak"
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

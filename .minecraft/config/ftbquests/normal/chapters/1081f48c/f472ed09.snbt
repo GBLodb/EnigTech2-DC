@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagethree_mokuaihuahejindin.title}",
+	x: 1.5d,
+	y: 1.0d,
+	text: [
+		"{advancement.stagethree_mokuaihuahejindin.description}"
+	],
+	dependencies: [
+		"3a9bbd75"
+	],
+	tasks: [{
+		uid: "1f18a743",
+		type: "item",
+		items: [{
+			item: "modularmachinery:itemmodularium"
+		}]
+	}]
+}

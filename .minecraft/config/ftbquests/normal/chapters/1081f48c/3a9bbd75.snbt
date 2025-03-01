@@ -1,0 +1,23 @@
+{
+	title: "{advancement.stagethree_root.title}",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "naturesaura:range_visualizer"
+	},
+	x: -0.5d,
+	y: 0.0d,
+	text: [
+		"{advancement.stagethree_root.description}"
+	],
+	dependencies: [
+		"48eb2670"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ce5eed14",
+		type: "gamestage",
+		stage: "three"
+	}]
+}

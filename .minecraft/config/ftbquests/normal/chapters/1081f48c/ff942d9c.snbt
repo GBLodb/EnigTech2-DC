@@ -1,0 +1,22 @@
+{
+	title: "{advancement.stagethree_emoyuanzhi.title}",
+	x: 14.5d,
+	y: -3.0d,
+	text: [
+		"{advancement.stagethree_emoyuanzhi.description}"
+	],
+	dependencies: [
+		"d0d59224"
+	],
+	tasks: [{
+		uid: "e9c4f308",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:monster_soul"
+		}],
+		ignore_nbt: 1b
+	}]
+}

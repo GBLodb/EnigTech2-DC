@@ -1,0 +1,24 @@
+{
+	title: "{advancement.stagethree_stage_beta.title}",
+	x: -6.0d,
+	y: -4.5d,
+	text: [
+		"{advancement.stagethree_stage_beta.description}"
+	],
+	dependencies: [
+		"371d5c52"
+	],
+	hide: true,
+	tasks: [{
+		uid: "70dfbf6b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "contenttweaker:life_insight"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagethree_gongzhuo.title}",
+	x: 21.0d,
+	y: 2.0d,
+	text: [
+		"{advancement.stagethree_gongzhuo.description}"
+	],
+	dependencies: [
+		"32c77455"
+	],
+	tasks: [{
+		uid: "43c28001",
+		type: "item",
+		items: [{
+			item: "naturesaura:offering_table"
+		}]
+	}]
+}

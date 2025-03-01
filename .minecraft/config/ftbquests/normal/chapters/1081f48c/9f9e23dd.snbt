@@ -1,0 +1,21 @@
+{
+	title: "{advancement.stagethree_molifensuiji.title}",
+	x: 2.5d,
+	y: 1.0d,
+	text: [
+		"{advancement.stagethree_molifensuiji.description}"
+	],
+	dependencies: [
+		"f472ed09"
+	],
+	tasks: [{
+		uid: "6ec22fe4",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:magic_crusher"
+			}
+		}]
+	}]
+}

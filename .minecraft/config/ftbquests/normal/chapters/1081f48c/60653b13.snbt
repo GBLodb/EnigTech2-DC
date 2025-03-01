@@ -1,0 +1,23 @@
+{
+	title: "{advancement.stagethree_aoshufenhui.title}",
+	x: 13.5d,
+	y: 0.5d,
+	text: [
+		"{advancement.stagethree_aoshufenhui.description}"
+	],
+	dependencies: [
+		"f735b504"
+	],
+	tasks: [{
+		uid: "0e291c24",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:arcane_ashes"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

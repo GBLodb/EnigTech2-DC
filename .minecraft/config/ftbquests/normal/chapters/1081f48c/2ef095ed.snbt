@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagethree_fennuhuizhang.title}",
+	x: 8.0d,
+	y: -3.5d,
+	text: [
+		"{advancement.stagethree_fennuhuizhang.description}"
+	],
+	dependencies: [
+		"43d3170d"
+	],
+	tasks: [{
+		uid: "6c265720",
+		type: "item",
+		items: [{
+			item: "naturesaura:token_anger"
+		}]
+	}]
+}

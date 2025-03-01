@@ -1,0 +1,23 @@
+{
+	title: "{advancement.stagethree_book_bm.title}",
+	x: -2.5d,
+	y: 2.0d,
+	text: [
+		"{advancement.stagethree_book_bm.description}"
+	],
+	dependencies: [
+		"a6dc1504"
+	],
+	tasks: [{
+		uid: "f70d8c7e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "guideapi:bloodmagic-guide"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

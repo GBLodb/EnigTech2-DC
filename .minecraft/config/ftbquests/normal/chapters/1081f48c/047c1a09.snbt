@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagethree_zhongxinggongchenkuai.title}",
+	x: 5.5d,
+	y: 0.0d,
+	text: [
+		"{advancement.stagethree_zhongxinggongchenkuai.description}"
+	],
+	dependencies: [
+		"3fe92bd0"
+	],
+	tasks: [{
+		uid: "9db3e92a",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 5"
+		}]
+	}]
+}

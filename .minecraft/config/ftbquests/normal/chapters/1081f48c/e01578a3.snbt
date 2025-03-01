@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagethree_monengyaoshi.title}",
+	x: 1.5d,
+	y: -1.0d,
+	text: [
+		"{advancement.stagethree_monengyaoshi.description}"
+	],
+	dependencies: [
+		"3a9bbd75"
+	],
+	tasks: [{
+		uid: "bc99070f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:magic_key"
+		}]
+	}]
+}

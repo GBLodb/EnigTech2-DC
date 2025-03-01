@@ -1,0 +1,19 @@
+{
+	title: "{advancement.stagethree_shanyaoxianwei.title}",
+	x: 4.0d,
+	y: -2.0d,
+	text: [
+		"{advancement.stagethree_shanyaoxianwei.description}"
+	],
+	dependencies: [
+		"4d63ecdc",
+		"d82610b5"
+	],
+	tasks: [{
+		uid: "9a5dbf84",
+		type: "item",
+		items: [{
+			item: "naturesaura:gold_fiber"
+		}]
+	}]
+}

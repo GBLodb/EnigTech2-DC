@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagethree_yuanshitouwang.title}",
+	x: 13.0d,
+	y: -3.0d,
+	text: [
+		"{advancement.stagethree_yuanshitouwang.description}"
+	],
+	dependencies: [
+		"1c5419f2"
+	],
+	tasks: [{
+		uid: "7806493c",
+		type: "item",
+		items: [{
+			item: "bloodmagic:soul_snare"
+		}]
+	}]
+}

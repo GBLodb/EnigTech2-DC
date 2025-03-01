@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagethree_xiazhifuwen.title}",
+	x: 8.0d,
+	y: -4.5d,
+	text: [
+		"{advancement.stagethree_xiazhifuwen.description}"
+	],
+	dependencies: [
+		"2ef095ed"
+	],
+	tasks: [{
+		uid: "94d98edf",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 5"
+		}]
+	}]
+}

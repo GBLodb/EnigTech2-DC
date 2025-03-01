@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagethree_diyuhunshi.title}",
+	x: 13.5d,
+	y: -1.0d,
+	text: [
+		"{advancement.stagethree_diyuhunshi.description}"
+	],
+	dependencies: [
+		"f735b504"
+	],
+	tasks: [{
+		uid: "729252c9",
+		type: "item",
+		items: [{
+			item: "bloodarsenal:gem 1 2"
+		}]
+	}]
+}

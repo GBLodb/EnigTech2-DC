@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagethree_xuezhijitan.title}",
+	x: 15.5d,
+	y: 0.5d,
+	text: [
+		"{advancement.stagethree_xuezhijitan.description}"
+	],
+	dependencies: [
+		"0598f7b0"
+	],
+	tasks: [{
+		uid: "ba29c42b",
+		type: "item",
+		items: [{
+			item: "bloodmagic:altar"
+		}]
+	}]
+}

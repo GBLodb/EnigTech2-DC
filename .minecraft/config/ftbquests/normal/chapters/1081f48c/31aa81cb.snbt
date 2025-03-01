@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagethree_guanzhushi.title}",
+	x: 11.5d,
+	y: -1.0d,
+	text: [
+		"{advancement.stagethree_guanzhushi.description}"
+	],
+	dependencies: [
+		"01b76336"
+	],
+	tasks: [{
+		uid: "cba0e86a",
+		type: "item",
+		items: [{
+			item: "naturesaura:infused_stone"
+		}]
+	}]
+}

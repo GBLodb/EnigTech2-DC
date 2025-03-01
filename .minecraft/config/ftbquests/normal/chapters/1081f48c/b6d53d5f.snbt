@@ -1,0 +1,23 @@
+{
+	title: "{advancement.stagethree_book_ie.title}",
+	x: -4.0d,
+	y: -2.0d,
+	text: [
+		"{advancement.stagethree_book_ie.description}"
+	],
+	dependencies: [
+		"a6dc1504"
+	],
+	tasks: [{
+		uid: "410fd5ee",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "immersiveengineering:tool",
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}]
+}

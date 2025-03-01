@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagethree_chunzhifuwen.title}",
+	x: 7.0d,
+	y: -4.5d,
+	text: [
+		"{advancement.stagethree_chunzhifuwen.description}"
+	],
+	dependencies: [
+		"4c155b2e"
+	],
+	tasks: [{
+		uid: "805cef9e",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 4"
+		}]
+	}]
+}

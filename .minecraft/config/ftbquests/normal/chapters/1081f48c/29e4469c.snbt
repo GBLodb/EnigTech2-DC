@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagethree_jinye.title}",
+	x: 5.5d,
+	y: -2.0d,
+	text: [
+		"{advancement.stagethree_jinye.description}"
+	],
+	dependencies: [
+		"e8e86455"
+	],
+	tasks: [{
+		uid: "17182f62",
+		type: "item",
+		items: [{
+			item: "naturesaura:gold_leaf"
+		}]
+	}]
+}

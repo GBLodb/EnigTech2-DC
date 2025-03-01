@@ -1,0 +1,23 @@
+{
+	title: "{advancement.stagethree_chuansongqika.title}",
+	x: 19.5d,
+	y: 0.5d,
+	text: [
+		"{advancement.stagethree_chuansongqika.description}"
+	],
+	dependencies: [
+		"cf745965"
+	],
+	tasks: [{
+		uid: "79021e83",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "xpt:link_card"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagethree_yasuoji.title}",
+	x: 4.0d,
+	y: 0.0d,
+	text: [
+		"{advancement.stagethree_yasuoji.description}"
+	],
+	dependencies: [
+		"3a9bbd75"
+	],
+	tasks: [{
+		uid: "5b16ca54",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 4"
+		}]
+	}]
+}

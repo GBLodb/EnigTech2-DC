@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagethree_yexuetie.title}",
+	x: 16.5d,
+	y: 0.5d,
+	text: [
+		"{advancement.stagethree_yexuetie.description}"
+	],
+	dependencies: [
+		"af78a5a0"
+	],
+	tasks: [{
+		uid: "604243a0",
+		type: "item",
+		items: [{
+			item: "contenttweaker:blood_iron"
+		}]
+	}]
+}

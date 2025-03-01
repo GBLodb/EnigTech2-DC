@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagethree_chuansongqi.title}",
+	x: 18.0d,
+	y: 0.5d,
+	text: [
+		"{advancement.stagethree_chuansongqi.description}"
+	],
+	dependencies: [
+		"88536c0e"
+	],
+	tasks: [{
+		uid: "45a95521",
+		type: "item",
+		items: [{
+			item: "xpt:teleporter"
+		}]
+	}]
+}

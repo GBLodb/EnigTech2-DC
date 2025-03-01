@@ -1,0 +1,21 @@
+{
+	title: "{advancement.stagethree_pingzhuangyangguang.title}",
+	x: 2.5d,
+	y: -3.0d,
+	text: [
+		"{advancement.stagethree_pingzhuangyangguang.description}"
+	],
+	dependencies: [
+		"44ca5bd7"
+	],
+	tasks: [{
+		uid: "9797f9e9",
+		type: "item",
+		items: [{
+			id: "naturesaura:aura_bottle",
+			tag: {
+				stored_type: "naturesaura:overworld"
+			}
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagethree_shengyuzhihun.title}",
+	x: 7.5d,
+	y: 0.0d,
+	text: [
+		"{advancement.stagethree_shengyuzhihun.description}"
+	],
+	dependencies: [
+		"7b48dd80"
+	],
+	tasks: [{
+		uid: "5b4c0ff5",
+		type: "item",
+		items: [{
+			item: "naturesaura:birth_spirit"
+		}]
+	}]
+}

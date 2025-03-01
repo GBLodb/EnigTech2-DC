@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagethree_guanzhushiban.title}",
+	x: 20.0d,
+	y: 2.0d,
+	text: [
+		"{advancement.stagethree_guanzhushiban.description}"
+	],
+	dependencies: [
+		"3426a5b6"
+	],
+	tasks: [{
+		uid: "ee232c3b",
+		type: "item",
+		items: [{
+			item: "bloodmagic:slate 1 2"
+		}]
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "{advancement.stagethree_shenzhiqishi.title}",
+	x: 21.0d,
+	y: 0.5d,
+	text: [
+		"{advancement.stagethree_shenzhiqishi.description}"
+	],
+	dependencies: [
+		"b551c9f5"
+	],
+	tasks: [{
+		uid: "1a174726",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "contenttweaker:divine_inspiration"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

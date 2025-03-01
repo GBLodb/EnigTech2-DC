@@ -1,0 +1,21 @@
+{
+	title: "{advancement.stagethree_chuansongdai.title}",
+	x: 1.5d,
+	y: 2.5d,
+	text: [
+		"{advancement.stagethree_chuansongdai.description}"
+	],
+	dependencies: [
+		"3a9bbd75"
+	],
+	tasks: [{
+		uid: "c472c943",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:conveyor",
+			tag: {
+				conveyorType: "immersiveengineering:conveyor"
+			}
+		}]
+	}]
+}

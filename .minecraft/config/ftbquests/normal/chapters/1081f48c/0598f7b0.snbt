@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagethree_kongbaishiban.title}",
+	x: 14.5d,
+	y: 0.5d,
+	text: [
+		"{advancement.stagethree_kongbaishiban.description}"
+	],
+	dependencies: [
+		"60653b13"
+	],
+	tasks: [{
+		uid: "d7319f1a",
+		type: "item",
+		items: [{
+			item: "bloodmagic:slate"
+		}]
+	}]
+}

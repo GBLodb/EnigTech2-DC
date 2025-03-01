@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagethree_suliao.title}",
+	x: 16.5d,
+	y: 2.0d,
+	text: [
+		"{advancement.stagethree_suliao.description}"
+	],
+	dependencies: [
+		"146fdbe0"
+	],
+	tasks: [{
+		uid: "355b8c6a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:plastic_plate"
+		}]
+	}]
+}

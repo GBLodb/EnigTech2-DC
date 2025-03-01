@@ -1,0 +1,16 @@
+{
+	title: "{advancement.stagethree_liusuan.title}",
+	x: 13.5d,
+	y: 2.0d,
+	text: [
+		"{advancement.stagethree_liusuan.description}"
+	],
+	dependencies: [
+		"6a84fa0d"
+	],
+	tasks: [{
+		uid: "e6e442fe",
+		type: "fluid",
+		fluid: "sulfuricacid"
+	}]
+}

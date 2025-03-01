@@ -1,0 +1,12 @@
+{
+	title: "{advancement.stagethree_jinshuchongyaji.title}",
+	icon: "immersiveengineering:metal_multiblock",
+	x: 5.5d,
+	y: 1.5d,
+	text: [
+		"{advancement.stagethree_jinshuchongyaji.description}"
+	],
+	dependencies: [
+		"3fe92bd0"
+	]
+}

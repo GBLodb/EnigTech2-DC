@@ -1,0 +1,19 @@
+{
+	title: "{advancement.stagethree_shanyaozhideng.title}",
+	x: 9.0d,
+	y: 1.5d,
+	text: [
+		"{advancement.stagethree_shanyaozhideng.description}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"3a9bbd75"
+	],
+	tasks: [{
+		uid: "ec8e5fff",
+		type: "item",
+		items: [{
+			item: "torchmaster:feral_flare_lantern"
+		}]
+	}]
+}

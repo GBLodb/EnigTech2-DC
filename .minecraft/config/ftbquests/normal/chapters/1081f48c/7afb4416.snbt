@@ -1,0 +1,19 @@
+{
+	title: "{advancement.stagethree_zhanshijian.title}",
+	x: -1.0d,
+	y: 2.0d,
+	text: [
+		"{advancement.stagethree_zhanshijian.description}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"3a9bbd75"
+	],
+	tasks: [{
+		uid: "1e381f91",
+		type: "item",
+		items: [{
+			item: "bibliocraft:bookcase"
+		}]
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	title: "{advancement.stagethree_yichun.title}",
+	x: 14.5d,
+	y: 2.0d,
+	text: [
+		"{advancement.stagethree_yichun.description}"
+	],
+	dependencies: [
+		"f37a7498"
+	],
+	tasks: [{
+		uid: "a3284302",
+		type: "fluid",
+		fluid: "ethanol"
+	}]
+}

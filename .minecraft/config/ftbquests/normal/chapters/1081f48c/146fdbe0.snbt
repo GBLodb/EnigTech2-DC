@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagethree_yixi.title}",
+	x: 15.5d,
+	y: 2.0d,
+	text: [
+		"{advancement.stagethree_yixi.description}"
+	],
+	dependencies: [
+		"2dfd7c80"
+	],
+	tasks: [{
+		uid: "d873796c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:solid_ethylene"
+		}]
+	}]
+}

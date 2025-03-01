@@ -1,0 +1,17 @@
+filename = 'betterp2p-1.12.2-1.2.3-extended_life.jar'
+name = 'Enhanced P2P'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'betterp2p-1.12.2-1.2.3-extended_life.jar'
+
+[download]
+hash = 'e67fc569343332dc3b04f1bdb6d3dda99cbef609'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4815198
+project-id = 876339

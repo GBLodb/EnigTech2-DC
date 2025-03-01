@@ -1,0 +1,17 @@
+filename = 'scalar-1.12.2-2.11.1-3.jar'
+name = 'Scalar'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'scalar-1.12.2-2.11.1-3.jar'
+
+[download]
+hash = '5ea811b41e0c5cc3bdaace91cfae102f4080aad9'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6130572
+project-id = 1012168

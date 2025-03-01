@@ -1,0 +1,17 @@
+filename = 'ARLib-17-09-2024.jar'
+name = 'ARLib'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ARLib-17-09-2024.jar'
+
+[download]
+hash = '84f5e8253db03319bc1086e64cbfd331a9d93542'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5732205
+project-id = 1038780

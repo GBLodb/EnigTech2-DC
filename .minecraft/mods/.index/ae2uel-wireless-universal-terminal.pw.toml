@@ -1,0 +1,17 @@
+filename = 'ae2wut-1.0.5.jar'
+name = 'AE2UEL Wireless Universal Terminal'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ae2wut-1.0.5.jar'
+
+[download]
+hash = 'e8f2a7e92ca8e1582ad8dbc9826fb94811859055'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6213870
+project-id = 1196988

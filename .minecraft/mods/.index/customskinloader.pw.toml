@@ -1,13 +1,42 @@
-filename = 'CustomSkinLoader_ForgeV1-14.20.jar'
+filename = 'CustomSkinLoader_ForgeV1-14.22.jar'
 name = 'CustomSkinLoader'
 side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [
+    '1.10',
+    '1.10.2',
+    '1.11',
+    '1.11.2',
+    '1.12',
+    '1.12.1',
+    '1.12.2',
+    '1.13.2',
+    '1.14.2',
+    '1.14.3',
+    '1.14.4',
+    '1.15',
+    '1.15.1',
+    '1.15.2',
+    '1.16.1',
+    '1.16.2',
+    '1.16.3',
+    '1.16.4',
+    '1.16.5',
+    '1.8',
+    '1.8.8',
+    '1.8.9',
+    '1.9',
+    '1.9.4'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'CustomSkinLoader_ForgeV1_14.22'
 
 [download]
-hash = '34364d11de176ff90e1e8a9ffb232d44216adca2'
+hash = '332f9a342ad8730ab3dbe5e2ce8a06d10fa0f7d5'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 5497381
+file-id = 6092641
 project-id = 286924

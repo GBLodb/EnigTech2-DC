@@ -1,13 +1,17 @@
-filename = 'journeymap-1.12.2-5.7.1p2.jar'
+filename = 'journeymap-1.12.2-5.7.1p3.jar'
 name = 'JourneyMap'
 side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'journeymap-1.12.2-5.7.1p3'
 
 [download]
-hash = 'ca1a0dc76131b5af3a2e9628870f3e56dc487aa8'
+hash = '2b96f7b27b088fddbb5e603848d7aeaebedb96f3'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 5157846
+file-id = 5172461
 project-id = 32274

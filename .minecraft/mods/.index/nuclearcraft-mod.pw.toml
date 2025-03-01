@@ -1,13 +1,17 @@
-filename = 'nuclearcraft-1.12.2-2.19.jar'
+filename = 'nuclearcraft-1.12.2-2.19a.jar'
 name = 'NuclearCraft'
 side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'NuclearCraft-2.19a-1.12.2'
 
 [download]
-hash = '49f7951be1ede869c5dc7c14f88be4261885340b'
+hash = '05db28e36a141316f8fa511f226c794110e58d12'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 5340979
+file-id = 6151363
 project-id = 226254

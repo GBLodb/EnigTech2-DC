@@ -89,7 +89,9 @@ val removingArray = [
     <thermalexpansion:capacitor:1>,
     <actuallyadditions:item_bag>,
     <forestry:frame_untreated>,
-    <forestry:frame_impregnated>
+    <forestry:frame_impregnated>,
+    <retro_sophisticated_backpacks:stack_upgrade_tier_4>,
+    <retro_sophisticated_backpacks:exponential_stack_upgrade>
 ] as IItemStack[];
 
 for items in removingArray{

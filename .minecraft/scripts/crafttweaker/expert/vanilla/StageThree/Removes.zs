@@ -47,4 +47,4 @@ recipes.remove(<modularmachinery:blockcasing:2>);
 recipes.removeByRecipeName("mekanism:cardboardbox");
 recipes.remove(<forestry:apiary>);
 recipes.remove(<forestry:bee_house>);
-
+recipes.remove(<retro_sophisticated_backpacks:stack_upgrade_tier_3>);

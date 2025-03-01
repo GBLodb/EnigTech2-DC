@@ -46,3 +46,4 @@ furnace.remove(<silentgems:craftingmaterial:30>);
 recipes.remove(<modularmachinery:blockcasing:2>);
 recipes.remove(<forestry:apiary>);
 recipes.remove(<forestry:bee_house>);
+recipes.remove(<retro_sophisticated_backpacks:stack_upgrade_tier_3>);

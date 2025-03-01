@@ -66,4 +66,29 @@ mods.recipestages.Recipes.addShaped("two",<silentgems:craftingmaterial:2>, [[sta
 //纸箱
 mods.recipestages.Recipes.addShaped("two",<mekanism:cardboardbox>,[[dwood,dwood,dwood],[dwood,slm,dwood],[dwood,dwood,dwood]]);
 
+recipes.addShaped(<retro_sophisticated_backpacks:backpack_leather>, [
+    [<ore:string>, <survivalist:tanned_leather>, <ore:string>],
+    [<ore:string>, <ore:chestWood>, <ore:string>],
+    [<survivalist:tanned_leather>, <survivalist:tanned_leather>, <survivalist:tanned_leather>]
+]);
+
+recipes.addShaped(<retro_sophisticated_backpacks:stack_upgrade_starter_tier>, [
+    [<ore:logWood>, <ore:logWood>, <ore:logWood>],
+    [<ore:logWood>, <retro_sophisticated_backpacks:upgrade_base>, <ore:logWood>],
+    [<ore:logWood>, <ore:logWood>, <ore:logWood>]
+]);
+
+recipes.addShaped(<retro_sophisticated_backpacks:stack_upgrade_tier_1>, [
+    [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
+    [<ore:ingotIron>, <retro_sophisticated_backpacks:upgrade_base>, <ore:ingotIron>],
+    [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]
+]);
+
+recipes.addShaped(<retro_sophisticated_backpacks:stack_upgrade_tier_2>, [
+    [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>],
+    [<ore:ingotGold>, <retro_sophisticated_backpacks:upgrade_base>, <ore:ingotGold>],
+    [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>],
+
+]);
+
 recipes.replaceAllOccurences(<minecraft:leather>,<ore:materialTannedLeather>,<harvestcraft:hardenedleatheritem>);

@@ -89,3 +89,9 @@ recipes.addShaped(<forestry:impregnated_casing>,[[<immersiveengineering:treated_
 recipes.addShaped(<forestry:portable_alyzer>.withTag({UID: -1947629440, Slots: {}, Charges: 0}),[[<ore:ingotTin>,<botania:elfglasspane>,<ore:ingotTin>],[<ore:ingotTin>,<botania:elfglasspane>,<ore:ingotTin>],[<immersiveengineering:material:8>,<ore:manaDiamond>,<immersiveengineering:material:8>]]);
 recipes.addShaped(<forestry:bee_house>,[[<immersiveengineering:treated_wood_slab>,<immersiveengineering:treated_wood_slab>,<immersiveengineering:treated_wood_slab>],[<immersiveengineering:treated_wood>,<ore:beeComb>,<immersiveengineering:treated_wood>],[<immersiveengineering:treated_wood>,<immersiveengineering:treated_wood>,<immersiveengineering:treated_wood>]]);
 recipes.addShaped(<forestry:apiary>,[[<botania:dreamwood0slab>,<botania:dreamwood0slab>,<botania:dreamwood0slab>],[<botania:dreamwood>,<forestry:impregnated_casing>,<botania:dreamwood>],[<botania:dreamwood>,<botania:dreamwood>,<botania:dreamwood>]]);
+
+recipes.addShaped(<retro_sophisticated_backpacks:stack_upgrade_tier_3>, [
+    [<naturesaura:infused_iron>, <naturesaura:infused_iron>, <naturesaura:infused_iron>],
+    [<naturesaura:infused_iron>, <retro_sophisticated_backpacks:upgrade_base>, <naturesaura:infused_iron>],
+    [<naturesaura:infused_iron>, <naturesaura:infused_iron>, <naturesaura:infused_iron>]
+]);

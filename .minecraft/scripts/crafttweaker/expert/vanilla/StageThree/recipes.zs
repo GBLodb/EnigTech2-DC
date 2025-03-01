@@ -96,3 +96,9 @@ recipes.addShaped(<naturesaura:gold_fiber>*3,
     [<ore:ingotGold>,(<forestry:logs.fireproof.0:*> | <forestry:logs.fireproof.1:*> | <forestry:logs.fireproof.2:*> | <forestry:logs.fireproof.3:*> | <forestry:logs.fireproof.4:*> | <forestry:logs.fireproof.5:*> | <forestry:logs.fireproof.6:*> | <forestry:logs.fireproof.7:*> | <forestry:logs.vanilla.fireproof.0:*> | <forestry:logs.vanilla.fireproof.1:*>),<ore:ingotGold>],
     [<contenttweaker:shining_essence>,<ore:ingotGold>,<contenttweaker:shining_essence>]]
 );
+
+recipes.addShaped(<retro_sophisticated_backpacks:stack_upgrade_tier_3>, [
+    [<naturesaura:infused_iron>, <naturesaura:infused_iron>, <naturesaura:infused_iron>],
+    [<naturesaura:infused_iron>, <retro_sophisticated_backpacks:upgrade_base>, <naturesaura:infused_iron>],
+    [<naturesaura:infused_iron>, <naturesaura:infused_iron>, <naturesaura:infused_iron>]
+]);

@@ -164,7 +164,7 @@ Altar.addItemCraftRecipe("tlmtweak:smallc",0.1,<touhou_little_maid:maid_backpack
 <ore:dyeRed>,
 <ore:materialTannedLeather>,
 <ore:materialTannedLeather>,
-<improvedbackpacks:upgrade:0>,
+<retro_sophisticated_backpacks:stack_upgrade_starter_tier>,
 <botania:rune:4>
 );
 
@@ -173,7 +173,7 @@ Altar.addItemCraftRecipe("tlmtweak:midc",0.2,<touhou_little_maid:maid_backpack:2
 <silentgems:soulgem>.withTag({sg_soul_gem: "Pig"}),
 <harvestcraft:hardenedleatheritem>,
 <harvestcraft:hardenedleatheritem>,
-<improvedbackpacks:upgrade:2>,
+<retro_sophisticated_backpacks:stack_upgrade_tier_1>,
 <botania:rune:4>
 );
 

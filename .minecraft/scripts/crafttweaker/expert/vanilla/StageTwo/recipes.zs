@@ -54,6 +54,31 @@ recipes.addShapeless(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "
 recipes.addShapeless(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:blast_furnace_mk5"}),[<minecraft:paper>,<ore:plateVoidMetal>]);
 recipes.addShapeless(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:magic_magtinizer_mk2"}),[<minecraft:paper>,<environmentaltech:pladium_crystal>]);
 
+recipes.addShaped(<retro_sophisticated_backpacks:backpack_leather>, [
+    [<ore:string>, <survivalist:tanned_leather>, <ore:string>],
+    [<ore:string>, <ore:chestWood>, <ore:string>],
+    [<survivalist:tanned_leather>, <survivalist:tanned_leather>, <survivalist:tanned_leather>]
+]);
+
+recipes.addShaped(<retro_sophisticated_backpacks:stack_upgrade_starter_tier>, [
+    [<ore:logWood>, <ore:logWood>, <ore:logWood>],
+    [<ore:logWood>, <retro_sophisticated_backpacks:upgrade_base>, <ore:logWood>],
+    [<ore:logWood>, <ore:logWood>, <ore:logWood>]
+]);
+
+recipes.addShaped(<retro_sophisticated_backpacks:stack_upgrade_tier_1>, [
+    [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
+    [<ore:ingotIron>, <retro_sophisticated_backpacks:upgrade_base>, <ore:ingotIron>],
+    [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]
+]);
+
+recipes.addShaped(<retro_sophisticated_backpacks:stack_upgrade_tier_2>, [
+    [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>],
+    [<ore:ingotGold>, <retro_sophisticated_backpacks:upgrade_base>, <ore:ingotGold>],
+    [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>],
+
+]);
+
 //神秘粘液
 mods.recipestages.Recipes.addShaped("two",<silentgems:craftingmaterial:28>*6,[[slm,slm,slm],[slm,<botania:manaresource:23>,slm],[slm,slm,slm]]);
 

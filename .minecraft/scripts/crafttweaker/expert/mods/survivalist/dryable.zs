@@ -17,4 +17,4 @@ Dryable.addRecipe(<minecraft:clay_ball>, <minecraft:brick>, 600);
 //铁屑
 Dryable.addRecipe(<rustic:dust_tiny_iron>, <minecraft:iron_nugget>, 1200);
 //鞣制皮革
-Dryable.addRecipe(<improvedbackpacks:bound_leather>,<improvedbackpacks:tanned_leather>, 600);
+Dryable.addRecipe(<ore:leather>,<survivalist:tanned_leather>, 600);

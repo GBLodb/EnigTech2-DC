@@ -151,3 +151,16 @@ recipes.addShaped(<forestry:frame_impregnated>, [
     [<forestry:oak_stick>,<ore:clothManaweave>,<forestry:oak_stick>],
     [<forestry:oak_stick>,<forestry:oak_stick>,<forestry:oak_stick>]]
 );
+
+recipes.addShaped(<retro_sophisticated_backpacks:stack_upgrade_tier_4>,[
+    [<arcanearchives:shaped_quartz>, <arcanearchives:shaped_quartz>, <arcanearchives:shaped_quartz>],
+    [<arcanearchives:shaped_quartz>, <retro_sophisticated_backpacks:upgrade_base>, <arcanearchives:shaped_quartz>],
+    [<arcanearchives:shaped_quartz>, <arcanearchives:shaped_quartz>, <arcanearchives:shaped_quartz>]
+
+]);
+
+recipes.addShaped(<retro_sophisticated_backpacks:exponential_stack_upgrade>, [
+    [<arcanearchives:storage_shaped_quartz>, <contenttweaker:magfusive_crystal>, <arcanearchives:storage_shaped_quartz>],
+    [<retro_sophisticated_backpacks:stack_upgrade_tier_4>, <retro_sophisticated_backpacks:upgrade_base>, <retro_sophisticated_backpacks:stack_upgrade_tier_4>],
+    [<ore:blockDawnstone>, <retro_sophisticated_backpacks:stack_upgrade_tier_4>, <ore:blockDawnstone>]
+]);

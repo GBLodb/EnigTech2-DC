@@ -1,0 +1,17 @@
+filename = 'Retro-Sophisticated-Backpack-1.0.0-rc5.jar'
+name = 'Retro Sophisticated Backpacks'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Retro-Sophisticated-Backpack-1.0.0-rc5.jar'
+
+[download]
+hash = 'a36fb51bfbb969372be68a0498a82ea91b0c2206'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6248334
+project-id = 1197465

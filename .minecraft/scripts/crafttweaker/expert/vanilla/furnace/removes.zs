@@ -4,7 +4,6 @@
 furnace.remove(<appliedenergistics2:material:5>);
 furnace.remove(<ore:ingotOsmium>);
 furnace.remove(<ore:ingotAluminum>);
-furnace.remove(<improvedbackpacks:tanned_leather>);
 furnace.remove(<ore:ingotIridium>);
 furnace.remove(<ore:gemAquamarine>);
 furnace.remove(<item:draconicevolution:draconium_ingot>);

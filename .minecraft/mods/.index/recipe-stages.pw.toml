@@ -1,0 +1,17 @@
+filename = 'RecipeStages-1.1.3.8.jar'
+name = 'Recipe Stages'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'RecipeStages-1.1.3.8.jar'
+
+[download]
+hash = 'fa16c9222e94633429c85b885fdead763e176c24'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3405071
+project-id = 280554

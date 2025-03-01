@@ -1,0 +1,110 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = mainmenu_slide
+  action = setbackgroundslideshow
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 320
+  width = 214
+  action = deep_customization_element:title_screen_forge_top
+  actionid = a19c5c5f-4c99-4e97-a752-09cea1e7e47b1740845475860
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 139
+  action = deep_customization_element:title_screen_branding
+  actionid = 221cdcc8-56e7-4902-86a3-f18dae3ab37c1740845475866
+  y = 456
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 666
+  width = 187
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 929a4ebf-e6d8-4a00-9d22-ba6747b93b831740845475866
+  y = 478
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 530
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 7df424b1-0005-4db5-aff4-cd5bce0339951740845475866
+  y = 224
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 290
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = b49cd9b2-dbd9-49e4-bd4a-1d4d2812678b1740845475866
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = top-centered
+  splash_color = #ffff00
+  hidden = false
+  x = 120
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 34f65a9a-7d55-4411-9786-d3286c98ccd41740845475866
+  y = 82
+  height = 30
+}
+
+customization {
+  path = 
+  orientation = top-left
+  x = 0
+  width = 0
+  actionid = 2d09c160-c9ff-4e34-9add-715b2ec09b461740845699637
+  action = addtexture
+  y = 6
+  height = 100
+}
+
+customization {
+  path = resources/et2/textures/gui/et2_title.png
+  orientation = top-centered
+  x = -154
+  width = 308
+  actionid = cc1c7271-83d3-4f3d-af1f-4004bf1bbb841740845709085
+  action = addtexture
+  y = 29
+  height = 77
+}
+

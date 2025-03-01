@@ -8,16 +8,18 @@
 
 ## 一些可观的修改
 
-- [x] Forge 2860
-- [x] Cleanroom Loader
+- [x] ~~Forge 2860~~ Latest Cleanroom Loader
 - [x] 新的仓库架构
 - [x] Mod 列表翻新, 重做 QoL
+- [x] CustomMainMenu → FancyMenu
+- [x] ImprovedBackpack → Retro Sophisticated Backpacks
 - [x] 内置连锁
 - [x] 淘汰 ETUtils, 移除所有反作弊
 - [x] 移除了对最终发行文件大小起举足轻重影响作用的十几 MB 的启动动画
 - [x] 重写部分脚本
 - [x] ~~他妈的, 材料系统矿词怎么一个也没写~~只改了一部分, 粪坑太大根本不是人干的活儿, 恢复了 saved json, 去死吧
-- [ ] 所有 Triumph 内容迁移到 FTBQuests (目前完成第一章)
+- [ ] 所有 Triumph 内容迁移到 FTBQuests (目前完成第一, 二章)
+- [ ] OpenComputer 融合
 - [ ] 修复原仓库 Issues
 - [ ] 翻新 Nightly 版构建工具链
 

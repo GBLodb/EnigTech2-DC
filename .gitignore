@@ -35,3 +35,5 @@
 /.minecraft/usercache.json
 /.minecraft/usernamecache.json
 /.minecraft/hei_bookmarks.ini
+/.minecraft/config/jei/worldSettings.cfg
+/.minecraft/*.dll

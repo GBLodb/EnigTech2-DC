@@ -274,6 +274,14 @@ advancement.stagefive_ymmyd.title=Mana Infused Ingot
 advancement.stagefive_ymmyd.description=
 advancement.stagefive_yskjjxzzq.title=Miniaturization Field Projector
 advancement.stagefive_yskjjxzzq.description=
+advancement.stagefive_dynamo1.title=Reactant Dynamo
+advancement.stagefive_dynamo1.description=Power generation utilizing reactions between items and fluids
+advancement.stagefive_dynamo2.title=Compression Dynamo
+advancement.stagefive_dynamo2.description=Power generation utilizing various fluids
+advancement.stagefive_dynamo3.title=Magmatic Dynamo
+advancement.stagefive_dynamo3.description=Power generation utilizing lava
+advancement.stagefive_dynamo4.title=Money money money
+advancement.stagefive_dynamo4.description=Power generation by burning coins
 
 advancement.stagefour_16k.title=16K ME Storage Cell
 advancement.stagefour_16k.description=

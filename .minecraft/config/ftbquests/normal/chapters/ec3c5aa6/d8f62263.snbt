@@ -1,0 +1,23 @@
+{
+	title: "{advancement.stagesix_1-2-3.title}",
+	x: -3.0d,
+	y: 3.0d,
+	text: [
+		"{advancement.stagesix_1-2-3.description}"
+	],
+	dependencies: [
+		"e20a82c9"
+	],
+	tasks: [{
+		uid: "46460862",
+		type: "item",
+		items: [{
+			id: "xnet:connector",
+			tag: {
+				display: {
+					LocName: "tile.xnet.connector_blue.name"
+				}
+			}
+		}]
+	}]
+}

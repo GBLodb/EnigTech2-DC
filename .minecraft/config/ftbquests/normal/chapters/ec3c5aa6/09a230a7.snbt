@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefive_moon.title}",
+	x: 19.0d,
+	y: 3.0d,
+	text: [
+		"{advancement.stagefive_moon.description}"
+	],
+	dependencies: [
+		"78d5a37e"
+	],
+	tasks: [{
+		uid: "362a72b9",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:seat"
+		}]
+	}]
+}

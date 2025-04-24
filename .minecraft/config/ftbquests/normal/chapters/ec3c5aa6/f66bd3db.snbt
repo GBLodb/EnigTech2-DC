@@ -1,0 +1,33 @@
+{
+	title: "{advancement.stagefive_lxj.title}",
+	x: 4.0d,
+	y: 3.0d,
+	text: [
+		"{advancement.stagefive_lxj.description}"
+	],
+	dependencies: [
+		"022ef495"
+	],
+	tasks: [{
+		uid: "0bc02209",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 10s
+		}]
+	}]
+}

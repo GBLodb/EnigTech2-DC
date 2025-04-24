@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefive_lunar_essence.title}",
+	x: 20.5d,
+	y: 1.5d,
+	text: [
+		"{advancement.stagefive_lunar_essence.description}"
+	],
+	dependencies: [
+		"b284e215"
+	],
+	tasks: [{
+		uid: "ed4b36db",
+		type: "item",
+		items: [{
+			item: "contenttweaker:lunar_essence"
+		}]
+	}]
+}

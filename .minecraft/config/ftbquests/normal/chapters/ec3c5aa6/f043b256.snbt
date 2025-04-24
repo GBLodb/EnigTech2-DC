@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefive_cr.title}",
+	x: 5.5d,
+	y: 3.0d,
+	text: [
+		"{advancement.stagefive_cr.description}"
+	],
+	dependencies: [
+		"f66bd3db"
+	],
+	tasks: [{
+		uid: "a7f02b0b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:material_part 1 21"
+		}]
+	}]
+}

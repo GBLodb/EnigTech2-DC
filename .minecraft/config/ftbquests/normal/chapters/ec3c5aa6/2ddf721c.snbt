@@ -1,0 +1,25 @@
+{
+	title: "{advancement.stagefive_xt.title}",
+	x: -0.5d,
+	y: 6.0d,
+	text: [
+		"{advancement.stagefive_xt.description}"
+	],
+	dependencies: [
+		"eaa70a92"
+	],
+	tasks: [{
+		uid: "6cd02049",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemconstellationpaper",
+			tag: {
+				astralsorcery: {}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

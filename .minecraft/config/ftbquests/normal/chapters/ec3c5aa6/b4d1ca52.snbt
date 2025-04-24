@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefive_holo.title}",
+	x: 12.5d,
+	y: 4.5d,
+	text: [
+		"{advancement.stagefive_holo.description}"
+	],
+	dependencies: [
+		"1626c4ed"
+	],
+	tasks: [{
+		uid: "127305c4",
+		type: "item",
+		items: [{
+			item: "libvulpes:holoprojector"
+		}]
+	}]
+}

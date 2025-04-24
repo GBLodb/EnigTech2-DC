@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefive_ti.title}",
+	x: -1.5d,
+	y: 0.5d,
+	text: [
+		"{advancement.stagefive_ti.description}"
+	],
+	dependencies: [
+		"82a1d986"
+	],
+	tasks: [{
+		uid: "5ac5b1e0",
+		type: "item",
+		items: [{
+			item: "libvulpes:ore0 1 8"
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefive_yskjjxzzq.title}",
+	x: 13.0d,
+	y: 3.0d,
+	text: [
+		"{advancement.stagefive_yskjjxzzq.description}"
+	],
+	dependencies: [
+		"4308b6b7"
+	],
+	tasks: [{
+		uid: "15d202e8",
+		type: "item",
+		items: [{
+			item: "compactmachines3:fieldprojector"
+		}]
+	}]
+}

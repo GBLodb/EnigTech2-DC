@@ -1,0 +1,21 @@
+{
+	title: "{advancement.stagefive_fwyxq.title}",
+	x: -0.5d,
+	y: 3.0d,
+	text: [
+		"{advancement.stagefive_fwyxq.description}"
+	],
+	dependencies: [
+		"36c4da7e"
+	],
+	tasks: [{
+		uid: "985b23ea",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:rune_compressor"
+			}
+		}]
+	}]
+}

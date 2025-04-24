@@ -1,0 +1,19 @@
+{
+	title: "{advancement.stagefive_adv_core.title}",
+	x: 4.0d,
+	y: 0.0d,
+	shape: "hexagon",
+	text: [
+		"{advancement.stagefive_adv_core.description}"
+	],
+	dependencies: [
+		"82a1d986"
+	],
+	tasks: [{
+		uid: "5a4dc1e4",
+		type: "item",
+		items: [{
+			item: "contenttweaker:reinforced_machine_core"
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefive_drill.title}",
+	x: 16.0d,
+	y: 7.5d,
+	text: [
+		"{advancement.stagefive_drill.description}"
+	],
+	dependencies: [
+		"b3e4a92f"
+	],
+	tasks: [{
+		uid: "8716e70e",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:drill"
+		}]
+	}]
+}

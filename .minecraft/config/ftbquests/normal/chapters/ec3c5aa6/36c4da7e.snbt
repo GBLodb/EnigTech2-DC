@@ -1,0 +1,19 @@
+{
+	title: "{advancement.stagefive_dlsh.title}",
+	x: 1.5d,
+	y: 3.0d,
+	text: [
+		"{advancement.stagefive_dlsh.description}"
+	],
+	dependencies: [
+		"93317085",
+		"3c02d4b3"
+	],
+	tasks: [{
+		uid: "787f250b",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble"
+		}]
+	}]
+}

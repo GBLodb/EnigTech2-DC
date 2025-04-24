@@ -1,0 +1,23 @@
+{
+	title: "{advancement.stagefive_xhjt.title}",
+	x: 1.5d,
+	y: 7.5d,
+	text: [
+		"{advancement.stagefive_xhjt.description}"
+	],
+	dependencies: [
+		"eaa70a92"
+	],
+	tasks: [{
+		uid: "ced3b0cb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:blockaltar",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}]
+}

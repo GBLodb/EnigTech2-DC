@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefive_mu.title}",
+	x: 16.0d,
+	y: 6.0d,
+	text: [
+		"{advancement.stagefive_mu.description}"
+	],
+	dependencies: [
+		"4a363aae"
+	],
+	tasks: [{
+		uid: "506061a5",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_0 1 14"
+		}]
+	}]
+}

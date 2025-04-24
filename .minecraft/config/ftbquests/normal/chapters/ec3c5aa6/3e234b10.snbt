@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefive_sjjhd.title}",
+	x: 4.5d,
+	y: 7.5d,
+	text: [
+		"{advancement.stagefive_sjjhd.description}"
+	],
+	dependencies: [
+		"c3bbbe6c"
+	],
+	tasks: [{
+		uid: "ba4ab0e5",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 1 24"
+		}]
+	}]
+}

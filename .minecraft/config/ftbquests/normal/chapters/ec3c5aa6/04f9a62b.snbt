@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefive_jygzt.title}",
+	x: 14.5d,
+	y: 3.0d,
+	text: [
+		"{advancement.stagefive_jygzt.description}"
+	],
+	dependencies: [
+		"b99c28e6"
+	],
+	tasks: [{
+		uid: "785b0ad3",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:table_elite"
+		}]
+	}]
+}

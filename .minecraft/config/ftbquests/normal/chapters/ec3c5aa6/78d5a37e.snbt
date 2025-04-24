@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefive_wfe.title}",
+	x: 17.5d,
+	y: 3.0d,
+	text: [
+		"{advancement.stagefive_wfe.description}"
+	],
+	dependencies: [
+		"58eda031"
+	],
+	tasks: [{
+		uid: "14940b75",
+		type: "item",
+		items: [{
+			item: "contenttweaker:material_part 1 54"
+		}]
+	}]
+}

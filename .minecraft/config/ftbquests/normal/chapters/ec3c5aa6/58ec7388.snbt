@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefive_nicr.title}",
+	x: 7.0d,
+	y: 3.0d,
+	text: [
+		"{advancement.stagefive_nicr.description}"
+	],
+	dependencies: [
+		"f043b256"
+	],
+	tasks: [{
+		uid: "d5be4971",
+		type: "item",
+		items: [{
+			item: "contenttweaker:material_part 1 32"
+		}]
+	}]
+}

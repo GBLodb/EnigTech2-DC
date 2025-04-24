@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefive_rdzjgt.title}",
+	x: 4.0d,
+	y: -1.5d,
+	text: [
+		"{advancement.stagefive_rdzjgt.description}"
+	],
+	dependencies: [
+		"458762af"
+	],
+	tasks: [{
+		uid: "321164bf",
+		type: "item",
+		items: [{
+			item: "forestry:fabricator"
+		}]
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "{advancement.stagealpha_tansuo.title}",
+	x: 12.0d,
+	y: 1.5d,
+	text: [
+		"{advancement.stagealpha_tansuo.description}"
+	],
+	dependencies: [
+		"e01ed58d"
+	],
+	tasks: [{
+		uid: "80323fad",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:energy_solidifier"
+			}
+		}]
+	}]
+}

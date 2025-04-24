@@ -1,15 +1,16 @@
 {
-	title: "{advancement.stagethree_liusuan.title}",
-	x: 14.0d,
-	y: 2.0d,
+	title: "{advancement.stagealpha_hpsteam.title}",
+	x: 4.5d,
+	y: 9.5d,
+	shape: "rsquare",
 	text: [
-		"{advancement.stagethree_liusuan.description}"
+		"{advancement.stagealpha_hpsteam.description}"
 	],
 	dependencies: [
-		"6a84fa0d"
+		"c527556b"
 	],
 	tasks: [{
-		uid: "dd579840",
+		uid: "27150b00",
 		type: "item",
 		items: [{
 			ForgeCaps: {
@@ -17,7 +18,7 @@
 			},
 			id: "forge:bucketfilled",
 			tag: {
-				FluidName: "sulfuric_acid",
+				FluidName: "high_pressure_steam",
 				Amount: 1000
 			}
 		}],

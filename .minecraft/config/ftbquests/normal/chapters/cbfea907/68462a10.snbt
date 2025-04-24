@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagealpha_daziran.title}",
+	x: 16.5d,
+	y: -1.5d,
+	text: [
+		"{advancement.stagealpha_daziran.description}"
+	],
+	dependencies: [
+		"64a0b72e"
+	],
+	tasks: [{
+		uid: "ec8364ae",
+		type: "item",
+		items: [{
+			item: "contenttweaker:pity_from_nature"
+		}]
+	}]
+}

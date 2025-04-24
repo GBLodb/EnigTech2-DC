@@ -1,0 +1,24 @@
+{
+	title: "{advancement.stagealpha_xianzhezhishi.title}",
+	x: 1.5d,
+	y: -1.5d,
+	text: [
+		"{advancement.stagealpha_xianzhezhishi.description}"
+	],
+	dependencies: [
+		"862a4f67"
+	],
+	tasks: [{
+		uid: "9f750f55",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "projecte:item.pe_philosophers_stone",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

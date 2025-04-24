@@ -1,0 +1,26 @@
+{
+	title: "{advancement.stagealpha_juhe.title}",
+	x: 7.5d,
+	y: 0.0d,
+	text: [
+		"{advancement.stagealpha_juhe.description}"
+	],
+	dependencies: [
+		"00fe7a24"
+	],
+	tasks: [{
+		uid: "88c75385",
+		type: "item",
+		items: [{
+			item: "draconicevolution:fusion_crafting_core"
+		}]
+	},
+	{
+		uid: "bf484441",
+		type: "item",
+		items: [{
+			item: "draconicevolution:crafting_injector"
+		}],
+		count: 8L
+	}]
+}

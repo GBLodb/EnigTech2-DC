@@ -1,0 +1,19 @@
+{
+	title: "{advancement.stagealpha_zhenliding.title}",
+	x: 18.0d,
+	y: 1.5d,
+	text: [
+		"{advancement.stagealpha_zhenliding.description}"
+	],
+	dependencies: [
+		"bb481ad6",
+		"51fafcad"
+	],
+	tasks: [{
+		uid: "ab16568b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:technium"
+		}]
+	}]
+}

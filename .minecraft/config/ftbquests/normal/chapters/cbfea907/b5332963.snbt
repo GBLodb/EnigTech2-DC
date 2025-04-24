@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagealpha_ncturbine.title}",
+	x: 6.0d,
+	y: 9.5d,
+	text: [
+		"{advancement.stagealpha_ncturbine.description}"
+	],
+	dependencies: [
+		"3ee7e77d"
+	],
+	tasks: [{
+		uid: "d0f51da1",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:turbine_controller"
+		}]
+	}]
+}

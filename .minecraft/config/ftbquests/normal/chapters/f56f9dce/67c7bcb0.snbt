@@ -1,7 +1,7 @@
 {
 	title: "{advancement.stagesix_chuangzaobishou.title}",
 	x: 21.5d,
-	y: 1.5d,
+	y: 3.0d,
 	text: [
 		"{advancement.stagesix_chuangzaobishou.description}"
 	],

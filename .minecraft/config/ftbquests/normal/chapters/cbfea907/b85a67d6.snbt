@@ -1,15 +1,11 @@
 {
-	title: "{advancement.stagethree_liusuan.title}",
-	x: 14.0d,
-	y: 2.0d,
-	text: [
-		"{advancement.stagethree_liusuan.description}"
-	],
+	x: 10.5d,
+	y: 9.5d,
 	dependencies: [
-		"6a84fa0d"
+		"6a8db6c1"
 	],
 	tasks: [{
-		uid: "dd579840",
+		uid: "501ead7b",
 		type: "item",
 		items: [{
 			ForgeCaps: {
@@ -17,7 +13,7 @@
 			},
 			id: "forge:bucketfilled",
 			tag: {
-				FluidName: "sulfuric_acid",
+				FluidName: "nak",
 				Amount: 1000
 			}
 		}],

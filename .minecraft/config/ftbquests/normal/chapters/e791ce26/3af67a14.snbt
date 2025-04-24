@@ -9,8 +9,19 @@
 		"3e2d3a13"
 	],
 	tasks: [{
-		uid: "516def78",
-		type: "fluid",
-		fluid: "fluid_hydrochloric_acid"
+		uid: "facb76f3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "fluid_hydrochloric_acid",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}]
 }

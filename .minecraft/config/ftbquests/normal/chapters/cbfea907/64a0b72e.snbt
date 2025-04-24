@@ -1,0 +1,21 @@
+{
+	title: "{advancement.stagealpha_lingqifuzhouzhuangzhi.title}",
+	x: 15.0d,
+	y: -1.5d,
+	text: [
+		"{advancement.stagealpha_lingqifuzhouzhuangzhi.description}"
+	],
+	dependencies: [
+		"86715496"
+	],
+	tasks: [{
+		uid: "0fda385f",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:aura_collector"
+			}
+		}]
+	}]
+}

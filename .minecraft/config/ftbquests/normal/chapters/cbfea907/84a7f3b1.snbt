@@ -1,15 +1,16 @@
 {
-	title: "{advancement.stagethree_liusuan.title}",
-	x: 14.0d,
-	y: 2.0d,
+	title: "{advancement.stagealpha_wasteam.title}",
+	x: 7.5d,
+	y: 9.5d,
+	shape: "rsquare",
 	text: [
-		"{advancement.stagethree_liusuan.description}"
+		"{advancement.stagealpha_wasteam.description}"
 	],
 	dependencies: [
-		"6a84fa0d"
+		"b5332963"
 	],
 	tasks: [{
-		uid: "dd579840",
+		uid: "5c871233",
 		type: "item",
 		items: [{
 			ForgeCaps: {
@@ -17,7 +18,7 @@
 			},
 			id: "forge:bucketfilled",
 			tag: {
-				FluidName: "sulfuric_acid",
+				FluidName: "exhaust_steam",
 				Amount: 1000
 			}
 		}],

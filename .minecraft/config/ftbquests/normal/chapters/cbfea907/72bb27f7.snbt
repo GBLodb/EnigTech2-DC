@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagealpha_chuangzaozhuanhuantaojian.title}",
+	x: 19.5d,
+	y: 3.0d,
+	text: [
+		"{advancement.stagealpha_chuangzaozhuanhuantaojian.description}"
+	],
+	dependencies: [
+		"abd05ea4"
+	],
+	tasks: [{
+		uid: "6426e144",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:upgrade 1 256"
+		}]
+	}]
+}

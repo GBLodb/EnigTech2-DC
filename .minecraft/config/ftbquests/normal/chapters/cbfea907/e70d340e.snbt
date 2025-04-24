@@ -1,0 +1,19 @@
+{
+	title: "{advancement.stagealpha_zhuo.title}",
+	x: 15.0d,
+	y: 3.0d,
+	shape: "rsquare",
+	text: [
+		"{advancement.stagealpha_zhuo.description}"
+	],
+	dependencies: [
+		"16d9ec5b"
+	],
+	tasks: [{
+		uid: "69e62259",
+		type: "item",
+		items: [{
+			item: "projecte:transmutation_table"
+		}]
+	}]
+}

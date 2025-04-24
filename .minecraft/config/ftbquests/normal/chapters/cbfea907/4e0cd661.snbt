@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagealpha_m3.title}",
+	x: 10.5d,
+	y: -3.0d,
+	text: [
+		"{advancement.stagealpha_m3.description}"
+	],
+	dependencies: [
+		"ed8f0dcf"
+	],
+	tasks: [{
+		uid: "1dbd359e",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_fuel 1 2"
+		}]
+	}]
+}

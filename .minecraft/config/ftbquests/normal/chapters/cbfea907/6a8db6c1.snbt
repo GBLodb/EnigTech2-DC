@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagealpha_salt.title}",
+	x: 9.0d,
+	y: 8.0d,
+	text: [
+		"{advancement.stagealpha_salt.description}"
+	],
+	dependencies: [
+		"84a7f3b1"
+	],
+	tasks: [{
+		uid: "f175ae19",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:salt_fission_controller"
+		}]
+	}]
+}

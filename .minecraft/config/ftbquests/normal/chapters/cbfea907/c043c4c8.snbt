@@ -1,15 +1,15 @@
 {
-	title: "{advancement.stagethree_liusuan.title}",
-	x: 14.0d,
-	y: 2.0d,
+	title: "{advancement.stagealpha_tbu.title}",
+	x: 9.0d,
+	y: 6.5d,
 	text: [
-		"{advancement.stagethree_liusuan.description}"
+		"{advancement.stagealpha_tbu.description}"
 	],
 	dependencies: [
-		"6a84fa0d"
+		"47aa4393"
 	],
 	tasks: [{
-		uid: "dd579840",
+		uid: "25bb20cf",
 		type: "item",
 		items: [{
 			ForgeCaps: {
@@ -17,7 +17,7 @@
 			},
 			id: "forge:bucketfilled",
 			tag: {
-				FluidName: "sulfuric_acid",
+				FluidName: "fuel_tbu",
 				Amount: 1000
 			}
 		}],

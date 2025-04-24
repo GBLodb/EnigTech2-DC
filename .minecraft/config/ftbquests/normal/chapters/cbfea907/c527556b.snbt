@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagealpha_resonance.title}",
+	x: 3.0d,
+	y: 9.5d,
+	text: [
+		"{advancement.stagealpha_resonance.description}"
+	],
+	dependencies: [
+		"4fb157a6"
+	],
+	tasks: [{
+		uid: "d05ed494",
+		type: "item",
+		items: [{
+			item: "contenttweaker:resonance_heatsource"
+		}]
+	}]
+}

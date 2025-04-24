@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagealpha_chuangzaoshengji.title}",
+	x: 21.5d,
+	y: -1.5d,
+	text: [
+		"{advancement.stagealpha_chuangzaoshengji.description}"
+	],
+	dependencies: [
+		"bb481ad6"
+	],
+	tasks: [{
+		uid: "a6ab8e84",
+		type: "item",
+		items: [{
+			item: "storagedrawers:upgrade_creative 1 1"
+		}]
+	}]
+}

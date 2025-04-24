@@ -10,8 +10,19 @@
 		"39ebd0de"
 	],
 	tasks: [{
-		uid: "873ef457",
-		type: "fluid",
-		fluid: "steam"
+		uid: "39c8e83c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "steam",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}]
 }

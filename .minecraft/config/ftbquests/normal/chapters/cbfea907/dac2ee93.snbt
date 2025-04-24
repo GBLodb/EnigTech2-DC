@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagealpha_relay.title}",
+	x: 4.5d,
+	y: 8.0d,
+	text: [
+		"{advancement.stagealpha_relay.description}"
+	],
+	dependencies: [
+		"b5332963"
+	],
+	tasks: [{
+		uid: "432a3348",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_laser_relay_fluids"
+		}]
+	}]
+}

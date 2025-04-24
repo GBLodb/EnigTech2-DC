@@ -9,8 +9,19 @@
 		"a0b87e94"
 	],
 	tasks: [{
-		uid: "78e97bdb",
-		type: "fluid",
-		fluid: "fluid_silicon"
+		uid: "74a2546f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "fluid_concentrated_silicon",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}]
 }

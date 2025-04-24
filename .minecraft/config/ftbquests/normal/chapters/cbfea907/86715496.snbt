@@ -1,0 +1,19 @@
+{
+	title: "{advancement.stagealpha_hongwuzhi.title}",
+	x: 12.0d,
+	y: -1.5d,
+	text: [
+		"{advancement.stagealpha_hongwuzhi.description}"
+	],
+	dependencies: [
+		"4e0cd661",
+		"e01ed58d"
+	],
+	tasks: [{
+		uid: "d72f3f41",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_matter 1 1"
+		}]
+	}]
+}

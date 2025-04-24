@@ -1,0 +1,19 @@
+{
+	title: "{advancement.stagealpha_longsuhejinding.title}",
+	x: 3.0d,
+	y: 1.5d,
+	text: [
+		"{advancement.stagealpha_longsuhejinding.description}"
+	],
+	dependencies: [
+		"e5e03e65",
+		"c792d2fc"
+	],
+	tasks: [{
+		uid: "ff587e43",
+		type: "item",
+		items: [{
+			item: "contenttweaker:draconium_alloy_ingot"
+		}]
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "{advancement.stagealpha_reactor.title}",
+	x: 10.5d,
+	y: 1.5d,
+	shape: "hexagon",
+	text: [
+		"{advancement.stagealpha_reactor.description}"
+	],
+	dependencies: [
+		"b2e04506"
+	],
+	tasks: [{
+		uid: "da7247c0",
+		type: "item",
+		items: [{
+			item: "draconicevolution:reactor_core"
+		}]
+	}]
+}

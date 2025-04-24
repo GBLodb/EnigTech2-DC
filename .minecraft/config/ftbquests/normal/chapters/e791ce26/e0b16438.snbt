@@ -9,8 +9,19 @@
 		"336155ad"
 	],
 	tasks: [{
-		uid: "74a74c41",
-		type: "fluid",
-		fluid: "fluid_dragon_breathe"
+		uid: "d833e5fc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "fluid_dragon_breathe",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}]
 }

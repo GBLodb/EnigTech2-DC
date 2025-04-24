@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefour_qudongqi.title}",
+	x: 13.5d,
+	y: 4.0d,
+	text: [
+		"{advancement.stagefour_qudongqi.description}"
+	],
+	dependencies: [
+		"154fd0cf"
+	],
+	tasks: [{
+		uid: "a28c076d",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:drive"
+		}]
+	}]
+}

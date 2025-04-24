@@ -1,0 +1,16 @@
+{
+	title: "{advancement.stagefour_yetailongxi.title}",
+	x: -1.5d,
+	y: 1.0d,
+	text: [
+		"{advancement.stagefour_yetailongxi.description}"
+	],
+	dependencies: [
+		"336155ad"
+	],
+	tasks: [{
+		uid: "74a74c41",
+		type: "fluid",
+		fluid: "fluid_dragon_breathe"
+	}]
+}

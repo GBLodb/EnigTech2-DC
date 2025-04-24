@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefour_beng.title}",
+	x: -1.5d,
+	y: -3.5d,
+	text: [
+		"{advancement.stagefour_beng.description}"
+	],
+	dependencies: [
+		"777107ee"
+	],
+	tasks: [{
+		uid: "bd20c33b",
+		type: "item",
+		items: [{
+			item: "rangedpumps:pump"
+		}]
+	}]
+}

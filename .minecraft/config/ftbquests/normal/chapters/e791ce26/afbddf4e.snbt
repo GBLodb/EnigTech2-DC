@@ -1,0 +1,16 @@
+{
+	title: "{advancement.stagefour_juyixi.title}",
+	x: 10.5d,
+	y: 4.0d,
+	text: [
+		"{advancement.stagefour_juyixi.description}"
+	],
+	dependencies: [
+		"a0b87e94"
+	],
+	tasks: [{
+		uid: "6c498cf8",
+		type: "fluid",
+		fluid: "fluid_concentrated_ethylene"
+	}]
+}

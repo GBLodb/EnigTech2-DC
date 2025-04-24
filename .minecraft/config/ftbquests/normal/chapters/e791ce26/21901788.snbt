@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefour_maichongtieding.title}",
+	x: 4.5d,
+	y: 1.0d,
+	text: [
+		"{advancement.stagefour_maichongtieding.description}"
+	],
+	dependencies: [
+		"22ec39d0"
+	],
+	tasks: [{
+		uid: "224d4147",
+		type: "item",
+		items: [{
+			item: "enderio:item_alloy_ingot 1 2"
+		}]
+	}]
+}

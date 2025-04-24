@@ -1,0 +1,20 @@
+{
+	title: "{advancement.stagefour_gaiyashuijing.title}",
+	x: 13.5d,
+	y: 8.5d,
+	shape: "rsquare",
+	text: [
+		"{advancement.stagefour_gaiyashuijing.description}"
+	],
+	dependencies: [
+		"e456e82b",
+		"798ced9f"
+	],
+	tasks: [{
+		uid: "56b50290",
+		type: "item",
+		items: [{
+			item: "botania:pylon 1 2"
+		}]
+	}]
+}

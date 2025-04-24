@@ -1,0 +1,21 @@
+{
+	title: "{advancement.stagefour_caiyouchang.title}",
+	x: -3.0d,
+	y: 1.0d,
+	text: [
+		"{advancement.stagefour_caiyouchang.description}"
+	],
+	dependencies: [
+		"12a406d1"
+	],
+	tasks: [{
+		uid: "28db4504",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:oil_drill"
+			}
+		}]
+	}]
+}

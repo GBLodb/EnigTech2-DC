@@ -1,0 +1,21 @@
+{
+	title: "{advancement.stagefour_silicon_grower.title}",
+	x: 9.0d,
+	y: 10.0d,
+	text: [
+		"{advancement.stagefour_silicon_grower.description}"
+	],
+	dependencies: [
+		"290ffbb5"
+	],
+	tasks: [{
+		uid: "093ed339",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "crafttweaker:silicon_grower"
+			}
+		}]
+	}]
+}

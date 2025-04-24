@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefour_fushexiezhentai.title}",
+	x: 4.5d,
+	y: 2.5d,
+	text: [
+		"{advancement.stagefour_fushexiezhentai.description}"
+	],
+	dependencies: [
+		"21901788"
+	],
+	tasks: [{
+		uid: "30a23813",
+		type: "item",
+		items: [{
+			item: "arcanearchives:radiant_resonator"
+		}]
+	}]
+}

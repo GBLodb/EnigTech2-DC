@@ -1,7 +1,7 @@
 {
 	title: "{advancement.stagefour_root.title}",
 	x: -1.5d,
-	y: -1.5d,
+	y: -2.0d,
 	text: [
 		"{advancement.stagefour_root.description}"
 	],

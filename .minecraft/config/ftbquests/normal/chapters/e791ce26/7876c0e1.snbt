@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefour_reformer.title}",
+	x: 12.0d,
+	y: 7.0d,
+	text: [
+		"{advancement.stagefour_reformer.description}"
+	],
+	dependencies: [
+		"b6ae4126"
+	],
+	tasks: [{
+		uid: "940de753",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_atomic_reconstructor"
+		}]
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "{advancement.stagefour_fluider.title}",
+	x: 10.5d,
+	y: 2.5d,
+	text: [
+		"{advancement.stagefour_fluider.description}"
+	],
+	dependencies: [
+		"afbddf4e"
+	],
+	tasks: [{
+		uid: "74494b88",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "crafttweaker:fluider_mk1"
+			}
+		}]
+	}]
+}

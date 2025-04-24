@@ -1,0 +1,21 @@
+{
+	title: "{advancement.stagefour_zhuangpeiji.title}",
+	x: 12.0d,
+	y: 2.5d,
+	text: [
+		"{advancement.stagefour_zhuangpeiji.description}"
+	],
+	dependencies: [
+		"6af47945"
+	],
+	tasks: [{
+		uid: "39ef8a36",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:steam_assembly"
+			}
+		}]
+	}]
+}

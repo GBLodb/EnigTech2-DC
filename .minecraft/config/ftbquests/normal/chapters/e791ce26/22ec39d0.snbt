@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefour_jianyihejinlu.title}",
+	x: 3.0d,
+	y: -0.5d,
+	text: [
+		"{advancement.stagefour_jianyihejinlu.description}"
+	],
+	dependencies: [
+		"02c728cc"
+	],
+	tasks: [{
+		uid: "c98bd897",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_alloy_smelter"
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefour_4k.title}",
+	x: 14.5d,
+	y: 3.0d,
+	text: [
+		"{advancement.stagefour_4k.description}"
+	],
+	dependencies: [
+		"c75047b4"
+	],
+	tasks: [{
+		uid: "a4abd046",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 36"
+		}]
+	}]
+}

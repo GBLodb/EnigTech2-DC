@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefour_lianjinshujizuo.title}",
+	x: 14.5d,
+	y: -1.0d,
+	text: [
+		"{advancement.stagefour_lianjinshujizuo.description}"
+	],
+	dependencies: [
+		"9aa9965e"
+	],
+	tasks: [{
+		uid: "582375ce",
+		type: "item",
+		items: [{
+			item: "embers:alchemy_pedestal"
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefour_jianyiyouxianchongdinaqi.title}",
+	x: 1.5d,
+	y: 1.0d,
+	text: [
+		"{advancement.stagefour_jianyiyouxianchongdinaqi.description}"
+	],
+	dependencies: [
+		"02c728cc"
+	],
+	tasks: [{
+		uid: "c51bfb0e",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_wired_charger"
+		}]
+	}]
+}

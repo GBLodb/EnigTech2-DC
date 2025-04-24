@@ -1,0 +1,21 @@
+{
+	title: "{advancement.stagefour_zhengliuqi.title}",
+	x: 10.5d,
+	y: 5.5d,
+	text: [
+		"{advancement.stagefour_zhengliuqi.description}"
+	],
+	dependencies: [
+		"b6ae4126"
+	],
+	tasks: [{
+		uid: "965ec097",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "crafttweaker:fluid_concentrator"
+			}
+		}]
+	}]
+}

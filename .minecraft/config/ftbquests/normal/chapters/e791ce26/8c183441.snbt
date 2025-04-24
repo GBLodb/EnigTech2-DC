@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefour_monishi.title}",
+	x: 15.0d,
+	y: 8.5d,
+	text: [
+		"{advancement.stagefour_monishi.description}"
+	],
+	dependencies: [
+		"52e7be6e"
+	],
+	tasks: [{
+		uid: "c46053bc",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:simulation_chamber"
+		}]
+	}]
+}

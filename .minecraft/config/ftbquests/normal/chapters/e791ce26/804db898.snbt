@@ -1,0 +1,16 @@
+{
+	title: "{advancement.stagefour_shiyou.title}",
+	x: -3.0d,
+	y: -2.0d,
+	text: [
+		"{advancement.stagefour_shiyou.description}"
+	],
+	dependencies: [
+		"777107ee"
+	],
+	tasks: [{
+		uid: "915f6b03",
+		type: "fluid",
+		fluid: "crude_oil"
+	}]
+}

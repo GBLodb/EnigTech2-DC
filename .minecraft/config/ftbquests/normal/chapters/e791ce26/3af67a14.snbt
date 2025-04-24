@@ -1,0 +1,16 @@
+{
+	title: "{advancement.stagefour_HCL.title}",
+	x: 9.0d,
+	y: 2.5d,
+	text: [
+		"{advancement.stagefour_HCL.description}"
+	],
+	dependencies: [
+		"3e2d3a13"
+	],
+	tasks: [{
+		uid: "516def78",
+		type: "fluid",
+		fluid: "fluid_hydrochloric_acid"
+	}]
+}

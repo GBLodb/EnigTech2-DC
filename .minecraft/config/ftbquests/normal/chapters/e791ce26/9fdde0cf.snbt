@@ -1,0 +1,22 @@
+{
+	title: "{advancement.stagefour_zhengqiwolun.title}",
+	x: 10.5d,
+	y: -0.5d,
+	text: [
+		"{advancement.stagefour_zhengqiwolun.description}"
+	],
+	dependencies: [
+		"6af47945"
+	],
+	optional: true,
+	tasks: [{
+		uid: "1eeb7ac4",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:steam_generator"
+			}
+		}]
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "{advancement.stagefour_jingtikaicaiqi.title}",
+	x: 1.5d,
+	y: -2.0d,
+	text: [
+		"{advancement.stagefour_jingtikaicaiqi.description}"
+	],
+	dependencies: [
+		"d7e5bc8d",
+		"5cd38fc7"
+	],
+	tasks: [{
+		uid: "5df51109",
+		type: "item",
+		items: [{
+			item: "embers:ember_bore"
+		}]
+	}]
+}

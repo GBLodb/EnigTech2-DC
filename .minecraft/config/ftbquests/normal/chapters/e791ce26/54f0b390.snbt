@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefour_quanshizhiyan.title}",
+	x: 19.5d,
+	y: 0.0d,
+	text: [
+		"{advancement.stagefour_quanshizhiyan.description}"
+	],
+	dependencies: [
+		"f6a73d53"
+	],
+	tasks: [{
+		uid: "521d4d87",
+		type: "item",
+		items: [{
+			item: "arcanearchives:monitoring_crystal"
+		}]
+	}]
+}

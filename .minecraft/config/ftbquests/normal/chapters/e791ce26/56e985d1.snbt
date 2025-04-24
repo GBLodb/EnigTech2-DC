@@ -1,0 +1,24 @@
+{
+	title: "{advancement.stagefour_chuizi.title}",
+	x: 4.5d,
+	y: -3.5d,
+	text: [
+		"{advancement.stagefour_chuizi.description}"
+	],
+	dependencies: [
+		"cbb8edb5"
+	],
+	tasks: [{
+		uid: "ff630796",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "embers:tinker_hammer",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

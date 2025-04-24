@@ -1,0 +1,19 @@
+{
+	title: "{advancement.stagefour_longxi.title}",
+	x: -1.5d,
+	y: -0.5d,
+	shape: "rsquare",
+	text: [
+		"{advancement.stagefour_longxi.description}"
+	],
+	dependencies: [
+		"777107ee"
+	],
+	tasks: [{
+		uid: "ca281653",
+		type: "item",
+		items: [{
+			item: "minecraft:dragon_breath"
+		}]
+	}]
+}

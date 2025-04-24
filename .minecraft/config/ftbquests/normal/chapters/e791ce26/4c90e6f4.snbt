@@ -1,0 +1,21 @@
+{
+	title: "{advancement.stagefour_molicihuaji.title}",
+	x: 0.0d,
+	y: -0.5d,
+	text: [
+		"{advancement.stagefour_molicihuaji.description}"
+	],
+	dependencies: [
+		"777107ee"
+	],
+	tasks: [{
+		uid: "8e084c64",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:magic_magtinizer"
+			}
+		}]
+	}]
+}

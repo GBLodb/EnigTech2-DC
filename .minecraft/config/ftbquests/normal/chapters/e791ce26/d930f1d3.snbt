@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefour_kbyb.title}",
+	x: 19.5d,
+	y: 10.0d,
+	text: [
+		"{advancement.stagefour_kbyb.description}"
+	],
+	dependencies: [
+		"8d61c19b"
+	],
+	tasks: [{
+		uid: "e4b630d3",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 52"
+		}]
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "{advancement.stagefour_nengliangfasheqi.title}",
+	x: 4.5d,
+	y: -2.0d,
+	text: [
+		"{advancement.stagefour_nengliangfasheqi.description}"
+	],
+	dependencies: [
+		"c795b107"
+	],
+	tasks: [{
+		uid: "b5cccdce",
+		type: "item",
+		items: [{
+			item: "embers:ember_emitter"
+		}]
+	},
+	{
+		uid: "a716ff37",
+		type: "item",
+		items: [{
+			item: "embers:ember_receiver"
+		}]
+	}]
+}

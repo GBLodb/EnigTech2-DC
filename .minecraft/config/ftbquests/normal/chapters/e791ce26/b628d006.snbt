@@ -1,0 +1,21 @@
+{
+	title: "{advancement.stagefour_molijifaqi.title}",
+	x: 10.5d,
+	y: 8.5d,
+	text: [
+		"{advancement.stagefour_molijifaqi.description}"
+	],
+	dependencies: [
+		"e456e82b"
+	],
+	tasks: [{
+		uid: "69c2cab3",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:mana_extractor"
+			}
+		}]
+	}]
+}

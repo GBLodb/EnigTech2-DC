@@ -1,0 +1,21 @@
+{
+	title: "{advancement.stagefour_chlorinizer.title}",
+	x: 9.0d,
+	y: 5.5d,
+	text: [
+		"{advancement.stagefour_chlorinizer.description}"
+	],
+	dependencies: [
+		"844e82d3"
+	],
+	tasks: [{
+		uid: "76a4bec8",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "crafttweaker:chlorinizer"
+			}
+		}]
+	}]
+}

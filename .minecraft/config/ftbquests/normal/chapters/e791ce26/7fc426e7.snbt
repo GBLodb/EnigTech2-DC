@@ -1,0 +1,19 @@
+{
+	title: "{advancement.stagefour_wafer.title}",
+	x: 15.0d,
+	y: 11.5d,
+	shape: "rsquare",
+	text: [
+		"{advancement.stagefour_wafer.description}"
+	],
+	dependencies: [
+		"87e85702"
+	],
+	tasks: [{
+		uid: "5acc0e71",
+		type: "item",
+		items: [{
+			item: "contenttweaker:ic_wafer"
+		}]
+	}]
+}

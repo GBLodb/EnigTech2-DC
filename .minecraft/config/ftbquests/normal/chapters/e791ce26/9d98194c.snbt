@@ -1,0 +1,21 @@
+{
+	title: "{advancement.stagefour_qiegeji.title}",
+	x: 12.0d,
+	y: 10.0d,
+	text: [
+		"{advancement.stagefour_qiegeji.description}"
+	],
+	dependencies: [
+		"e456e82b"
+	],
+	tasks: [{
+		uid: "fcfa6c02",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:embers_chopper"
+			}
+		}]
+	}]
+}

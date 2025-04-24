@@ -1,0 +1,23 @@
+{
+	title: "{advancement.stagesix_laser.title}",
+	x: 8.0d,
+	y: 3.0d,
+	text: [
+		"{advancement.stagesix_laser.description}"
+	],
+	dependencies: [
+		"fc9497d4"
+	],
+	tasks: [{
+		uid: "d189d69d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:machineblock2",
+			Damage: 13s
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagesix_solar.title}",
+	x: 17.0d,
+	y: 1.5d,
+	text: [
+		"{advancement.stagesix_solar.description}"
+	],
+	dependencies: [
+		"2dedd1d6"
+	],
+	tasks: [{
+		uid: "62b69479",
+		type: "item",
+		items: [{
+			item: "environmentaltech:solar_cont_1"
+		}]
+	}]
+}

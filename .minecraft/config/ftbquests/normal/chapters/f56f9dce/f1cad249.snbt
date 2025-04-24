@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagesix_2-4-1.title}",
+	x: 6.5d,
+	y: -3.0d,
+	text: [
+		"{advancement.stagesix_2-4-1.description}"
+	],
+	dependencies: [
+		"b8e4f9ef"
+	],
+	tasks: [{
+		uid: "d9c46d09",
+		type: "item",
+		items: [{
+			item: "environmentaltech:void_ore_miner_cont_2"
+		}]
+	}]
+}

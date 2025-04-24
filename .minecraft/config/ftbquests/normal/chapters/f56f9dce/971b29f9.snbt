@@ -1,0 +1,19 @@
+{
+	title: "{advancement.stagesix_5.title}",
+	x: 5.0d,
+	y: 0.0d,
+	text: [
+		"{advancement.stagesix_5.description}"
+	],
+	dependencies: [
+		"1479549d",
+		"945fd94a"
+	],
+	tasks: [{
+		uid: "826b7280",
+		type: "item",
+		items: [{
+			item: "mekanism:enrichedalloy"
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagesix_13.title}",
+	x: 17.0d,
+	y: 0.0d,
+	text: [
+		"{advancement.stagesix_13.description}"
+	],
+	dependencies: [
+		"2dedd1d6"
+	],
+	tasks: [{
+		uid: "db96ece7",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fission_controller_new_fixed"
+		}]
+	}]
+}

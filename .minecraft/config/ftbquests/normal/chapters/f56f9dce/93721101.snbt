@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagesix_mana.title}",
+	x: 21.5d,
+	y: 3.0d,
+	text: [
+		"{advancement.stagesix_mana.description}"
+	],
+	dependencies: [
+		"37611982"
+	],
+	tasks: [{
+		uid: "459cb7a8",
+		type: "item",
+		items: [{
+			item: "botania:pool 1 1"
+		}]
+	}]
+}

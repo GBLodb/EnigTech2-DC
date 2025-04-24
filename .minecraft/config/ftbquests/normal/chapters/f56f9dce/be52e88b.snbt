@@ -1,0 +1,23 @@
+{
+	title: "{advancement.stagesix_20.title}",
+	x: 21.5d,
+	y: 4.5d,
+	text: [
+		"{advancement.stagesix_20.description}"
+	],
+	dependencies: [
+		"37611982"
+	],
+	tasks: [{
+		uid: "102312cd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "contenttweaker:orders_truth"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

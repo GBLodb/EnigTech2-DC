@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagesix_8.title}",
+	x: 9.5d,
+	y: 0.0d,
+	text: [
+		"{advancement.stagesix_8.description}"
+	],
+	dependencies: [
+		"72392518"
+	],
+	tasks: [{
+		uid: "cf773980",
+		type: "item",
+		items: [{
+			item: "contenttweaker:compress_crystaltine"
+		}]
+	}]
+}

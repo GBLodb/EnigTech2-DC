@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagesix_rock3.title}",
+	x: 17.0d,
+	y: -1.5d,
+	text: [
+		"{advancement.stagesix_rock3.description}"
+	],
+	dependencies: [
+		"b84e1c6d"
+	],
+	tasks: [{
+		uid: "8a64d4bf",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:cobblestone_generator_dense"
+		}]
+	}]
+}

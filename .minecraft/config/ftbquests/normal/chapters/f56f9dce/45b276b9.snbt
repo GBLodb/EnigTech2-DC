@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagesix_1-3-2.title}",
+	x: -1.0d,
+	y: -1.5d,
+	text: [
+		"{advancement.stagesix_1-3-2.description}"
+	],
+	dependencies: [
+		"655e1203"
+	],
+	tasks: [{
+		uid: "6b9cade7",
+		type: "item",
+		items: [{
+			item: "packagedexcrafting:elite_crafter"
+		}]
+	}]
+}

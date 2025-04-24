@@ -1,0 +1,19 @@
+{
+	title: "{advancement.stagesix_root.title}",
+	x: 0.5d,
+	y: 0.0d,
+	text: [
+		"{advancement.stagesix_root.description}"
+	],
+	dependencies: [
+		"226aa3ee"
+	],
+	hide: true,
+	tasks: [{
+		uid: "88c3e747",
+		type: "gamestage",
+		title: "{advancement.stagesix_root.title}",
+		icon: "appliedenergistics2:material 1 47",
+		stage: "six"
+	}]
+}

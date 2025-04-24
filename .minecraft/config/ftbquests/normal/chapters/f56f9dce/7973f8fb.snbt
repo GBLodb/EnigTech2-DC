@@ -1,0 +1,21 @@
+{
+	title: "{advancement.stagesix_14.title}",
+	x: 18.5d,
+	y: 0.0d,
+	text: [
+		"{advancement.stagesix_14.description}"
+	],
+	dependencies: [
+		"6877b7e2"
+	],
+	tasks: [{
+		uid: "ad837bc1",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:vaccum_alloy_furnace"
+			}
+		}]
+	}]
+}

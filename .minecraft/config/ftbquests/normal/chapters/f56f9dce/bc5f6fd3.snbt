@@ -1,0 +1,23 @@
+{
+	title: "{advancement.stagesix_4-1.title}",
+	x: 8.0d,
+	y: 1.5d,
+	text: [
+		"{advancement.stagesix_4-1.description}"
+	],
+	dependencies: [
+		"3ab70c44"
+	],
+	tasks: [{
+		uid: "ed073578",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:blockaltar",
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}]
+}

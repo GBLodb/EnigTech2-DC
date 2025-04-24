@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagesix_x5.title}",
+	x: 11.5d,
+	y: 3.0d,
+	text: [
+		"{advancement.stagesix_x5.description}"
+	],
+	dependencies: [
+		"a3d474c2"
+	],
+	tasks: [{
+		uid: "cec4c919",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:electrolyser_idle"
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagesix_10.title}",
+	x: 12.5d,
+	y: 0.0d,
+	text: [
+		"{advancement.stagesix_10.description}"
+	],
+	dependencies: [
+		"80d6f90b"
+	],
+	tasks: [{
+		uid: "8a73a4c0",
+		type: "item",
+		items: [{
+			item: "environmentaltech:aethium_crystal"
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagesix_x9.title}",
+	x: 14.5d,
+	y: 4.0d,
+	text: [
+		"{advancement.stagesix_x9.description}"
+	],
+	dependencies: [
+		"a3d474c2"
+	],
+	tasks: [{
+		uid: "c1283411",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:salt_mixer_idle"
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagesix_rock2.title}",
+	x: 15.5d,
+	y: -1.5d,
+	text: [
+		"{advancement.stagesix_rock2.description}"
+	],
+	dependencies: [
+		"410aa40b"
+	],
+	tasks: [{
+		uid: "ea53f28c",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:cobblestone_generator_compact"
+		}]
+	}]
+}

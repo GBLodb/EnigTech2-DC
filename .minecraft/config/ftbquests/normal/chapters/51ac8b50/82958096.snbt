@@ -1,7 +1,7 @@
 {
 	title: "{advancement.stagetwo_molichen.title}",
-	x: 1.5d,
-	y: 2.0d,
+	x: 1.0d,
+	y: 2.5d,
 	text: [
 		"{advancement.stagetwo_molichen.description}"
 	],

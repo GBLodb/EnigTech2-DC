@@ -1,6 +1,6 @@
 {
 	title: "{advancement.stagethree_kongbaishiban.title}",
-	x: 14.5d,
+	x: 15.5d,
 	y: 0.5d,
 	text: [
 		"{advancement.stagethree_kongbaishiban.description}"

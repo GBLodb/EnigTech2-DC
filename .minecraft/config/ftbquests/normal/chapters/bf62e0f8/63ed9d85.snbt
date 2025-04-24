@@ -1,6 +1,6 @@
 {
 	title: "{advancement.stageone_yinghuo.title}",
-	x: 5.5d,
+	x: 6.0d,
 	y: -1.5d,
 	text: [
 		"{advancement.stageone_yinghuo.description}"

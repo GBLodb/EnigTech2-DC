@@ -1,6 +1,6 @@
 {
 	title: "{advancement.stagethree_yexuetie.title}",
-	x: 16.5d,
+	x: 18.5d,
 	y: 0.5d,
 	text: [
 		"{advancement.stagethree_yexuetie.description}"

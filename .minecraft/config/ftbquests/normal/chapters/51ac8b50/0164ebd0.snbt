@@ -1,6 +1,6 @@
 {
 	title: "{advancement.stagetwo_modaohejin.title}",
-	x: 12.0d,
+	x: 14.5d,
 	y: 1.0d,
 	text: [
 		"{advancement.stagetwo_modaohejin.description}"

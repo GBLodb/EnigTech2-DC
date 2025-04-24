@@ -1,7 +1,7 @@
 {
 	title: "{advancement.stageone_shuiping.title}",
 	x: 11.5d,
-	y: 0.5d,
+	y: 1.5d,
 	text: [
 		"{advancement.stageone_shuiping.description}"
 	],

@@ -1,6 +1,6 @@
 {
 	title: "{advancement.stagetwo_molifuwen.title}",
-	x: 6.5d,
+	x: 7.5d,
 	y: 1.0d,
 	text: [
 		"{advancement.stagetwo_molifuwen.title}"

@@ -1,6 +1,6 @@
 {
 	title: "{advancement.stagethree_emoyuanzhi.title}",
-	x: 14.5d,
+	x: 15.5d,
 	y: -3.0d,
 	text: [
 		"{advancement.stagethree_emoyuanzhi.description}"

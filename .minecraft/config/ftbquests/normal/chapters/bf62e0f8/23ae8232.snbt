@@ -1,7 +1,7 @@
 {
 	title: "{advancement.stageone_boliping.title}",
-	x: 9.5d,
-	y: 0.5d,
+	x: 10.0d,
+	y: 1.5d,
 	shape: "rsquare",
 	text: [
 		"{advancement.stageone_boliping.description}"

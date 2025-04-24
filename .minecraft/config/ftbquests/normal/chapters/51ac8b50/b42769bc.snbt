@@ -1,6 +1,6 @@
 {
 	title: "{advancement.stagetwo_huayaotai.title}",
-	x: -1.5d,
+	x: -3.5d,
 	y: 1.0d,
 	text: [
 		"{advancement.stagetwo_huayaotai.description}"

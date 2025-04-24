@@ -1,6 +1,6 @@
 {
 	title: "{advancement.stageone_caoxianwei.title}",
-	x: 0.5d,
+	x: -0.5d,
 	y: -1.5d,
 	text: [
 		"{advancement.stageone_caoxianwei.description}"

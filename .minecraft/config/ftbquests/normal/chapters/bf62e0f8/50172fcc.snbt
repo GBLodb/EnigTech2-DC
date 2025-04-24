@@ -1,8 +1,8 @@
 {
 	title: "{advancement.stageone_wdnmd.title}",
 	icon: "mysticalworld:aubergine",
-	x: 3.0d,
-	y: -5.5d,
+	x: 1.5d,
+	y: -6.5d,
 	shape: "diamond",
 	text: [
 		"{advancement.stageone_wdnmd.description}"

@@ -1,6 +1,6 @@
 {
 	title: "{advancement.stagethree_pingzimusai.title}",
-	x: 1.5d,
+	x: 1.0d,
 	y: -3.0d,
 	text: [
 		"{advancement.stagethree_pingzimusai.description}"

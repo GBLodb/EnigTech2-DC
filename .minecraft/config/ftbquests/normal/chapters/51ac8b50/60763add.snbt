@@ -1,6 +1,6 @@
 {
 	title: "{advancement.stagetwo_zhimoshouce.title}",
-	x: -4.5d,
+	x: -8.0d,
 	y: 0.0d,
 	text: [
 		"{advancement.stagetwo_zhimoshouce.description}"

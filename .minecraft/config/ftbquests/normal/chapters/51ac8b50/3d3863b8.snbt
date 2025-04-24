@@ -1,6 +1,6 @@
 {
 	title: "{advancement.stagetwo_huomu.title}",
-	x: 0.5d,
+	x: -0.5d,
 	y: 1.0d,
 	text: [
 		"{advancement.stagetwo_huomu.description}"

@@ -1,6 +1,6 @@
 {
 	title: "{advancement.stageone_lengningqi.title}",
-	x: 13.5d,
+	x: 14.0d,
 	y: -3.5d,
 	text: [
 		"{advancement.stageone_lengningqi.description}"

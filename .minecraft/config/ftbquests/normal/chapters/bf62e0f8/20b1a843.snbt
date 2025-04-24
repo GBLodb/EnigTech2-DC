@@ -1,7 +1,7 @@
 {
 	title: "{advancement.stageone_yuanmu.title}",
-	x: 2.5d,
-	y: -0.5d,
+	x: 2.0d,
+	y: 0.0d,
 	text: [
 		"{advancement.stageone_yuanmu.description}"
 	],

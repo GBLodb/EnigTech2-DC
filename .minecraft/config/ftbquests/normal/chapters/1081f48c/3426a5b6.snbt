@@ -1,6 +1,6 @@
 {
 	title: "{advancement.stagethree_kongbaifuwen.title}",
-	x: 19.0d,
+	x: 21.5d,
 	y: 2.0d,
 	text: [
 		"{advancement.stagethree_kongbaifuwen.description}"

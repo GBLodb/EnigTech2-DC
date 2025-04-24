@@ -1,7 +1,7 @@
 {
 	title: "{advancement.stageone_boli.title}",
-	x: 7.5d,
-	y: 0.5d,
+	x: 8.5d,
+	y: 1.5d,
 	text: [
 		"{advancement.stageone_boli.description}"
 	],

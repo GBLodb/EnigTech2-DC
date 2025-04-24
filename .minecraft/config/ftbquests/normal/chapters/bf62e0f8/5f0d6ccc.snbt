@@ -1,7 +1,7 @@
 {
 	title: "{advancement.stageone_zhengfamin.title}",
 	x: 5.5d,
-	y: -5.5d,
+	y: -6.5d,
 	text: [
 		"{advancement.stageone_zhengfamin.description}"
 	],

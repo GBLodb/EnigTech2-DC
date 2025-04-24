@@ -1,6 +1,6 @@
 {
 	title: "{advancement.stagethree_xuezhijitan.title}",
-	x: 15.5d,
+	x: 17.0d,
 	y: 0.5d,
 	text: [
 		"{advancement.stagethree_xuezhijitan.description}"

@@ -1,6 +1,6 @@
 {
 	title: "{advancement.stagethree_yuanshitouwang.title}",
-	x: 13.0d,
+	x: 13.5d,
 	y: -3.0d,
 	text: [
 		"{advancement.stagethree_yuanshitouwang.description}"

@@ -1,7 +1,7 @@
 {
 	title: "{advancement.stagetwo_heitie.title}",
-	x: 11.0d,
-	y: 4.0d,
+	x: 13.0d,
+	y: 4.5d,
 	text: [
 		"{advancement.stagetwo_heitie.description}"
 	],

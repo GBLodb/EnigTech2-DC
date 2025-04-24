@@ -1,7 +1,7 @@
 {
 	title: "{advancement.stageone_jiaocheng.title}",
 	x: 11.5d,
-	y: -3.5d,
+	y: -3.0d,
 	text: [
 		"{advancement.stageone_jiaocheng.description}"
 	],

@@ -1,7 +1,7 @@
 {
 	title: "{advancement.stagetwo_yinxiangzi.title}",
-	x: -1.5d,
-	y: 0.0d,
+	x: -3.5d,
+	y: -0.5d,
 	text: [
 		"{advancement.stagetwo_yinxiangzi.title}"
 	],

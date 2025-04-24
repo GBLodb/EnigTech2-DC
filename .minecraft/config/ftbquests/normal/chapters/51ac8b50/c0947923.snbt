@@ -1,7 +1,7 @@
 {
 	title: "{advancement.stagetwo_pengrenzhuo.title}",
-	x: 1.5d,
-	y: 3.0d,
+	x: 1.0d,
+	y: 4.0d,
 	text: [
 		"{advancement.stagetwo_pengrenzhuo.description}"
 	],

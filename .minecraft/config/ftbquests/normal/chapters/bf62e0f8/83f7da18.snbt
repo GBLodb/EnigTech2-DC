@@ -1,6 +1,6 @@
 {
 	title: "{advancement.stageone_aoshuyuanzhi.title}",
-	x: 13.5d,
+	x: 14.0d,
 	y: -5.5d,
 	text: [
 		"{advancement.stageone_aoshuyuanzhi.description}"

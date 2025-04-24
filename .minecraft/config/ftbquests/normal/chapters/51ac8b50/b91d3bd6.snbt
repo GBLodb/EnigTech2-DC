@@ -1,6 +1,6 @@
 {
 	title: "{advancement.stagetwo_hejinyao.title}",
-	x: 6.5d,
+	x: 7.0d,
 	y: 4.5d,
 	text: [
 		"{advancement.stagetwo_hejinyao.description}"

@@ -1,7 +1,7 @@
 {
 	title: "{advancement.stageone_kuangshicidian.title}",
 	x: 3.5d,
-	y: -0.5d,
+	y: 0.0d,
 	text: [
 		"{advancement.stageone_kuangshicidian.description}"
 	],

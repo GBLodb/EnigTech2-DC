@@ -1,6 +1,6 @@
 {
 	title: "{advancement.stagetwo_shanggujuanzhou.title}",
-	x: 15.0d,
+	x: 18.0d,
 	y: 2.5d,
 	shape: "hexagon",
 	text: [

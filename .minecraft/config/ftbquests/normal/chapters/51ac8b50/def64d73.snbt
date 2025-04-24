@@ -1,6 +1,6 @@
 {
 	title: "{advancement.stagetwo_jinglingmunhexin.title}",
-	x: 13.5d,
+	x: 16.0d,
 	y: 2.5d,
 	shape: "rsquare",
 	text: [

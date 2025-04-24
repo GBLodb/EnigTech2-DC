@@ -1,8 +1,8 @@
 {
 	title: "{advancement.stageone_root.title}",
 	icon: "survivalist:rock",
-	x: -1.5d,
-	y: -0.5d,
+	x: -2.5d,
+	y: 0.0d,
 	text: [
 		"{advancement.stageone_root.description}"
 	],

@@ -1,7 +1,8 @@
 {
 	title: "{advancement.stagethree_suliao.title}",
-	x: 16.5d,
+	x: 18.5d,
 	y: 2.0d,
+	shape: "rsquare",
 	text: [
 		"{advancement.stagethree_suliao.description}"
 	],

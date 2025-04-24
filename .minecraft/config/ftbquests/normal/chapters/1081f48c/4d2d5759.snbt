@@ -1,6 +1,6 @@
 {
 	title: "{advancement.stagethree_diyuhunshi.title}",
-	x: 13.5d,
+	x: 14.0d,
 	y: -1.0d,
 	text: [
 		"{advancement.stagethree_diyuhunshi.description}"

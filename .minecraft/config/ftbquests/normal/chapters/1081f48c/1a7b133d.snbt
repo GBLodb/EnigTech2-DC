@@ -1,7 +1,7 @@
 {
 	title: "{advancement.stagethree_xiazhifuwen.title}",
 	x: 8.0d,
-	y: -4.5d,
+	y: -5.0d,
 	text: [
 		"{advancement.stagethree_xiazhifuwen.description}"
 	],

@@ -1,6 +1,6 @@
 {
 	title: "{advancement.stagethree_chuansongqika.title}",
-	x: 19.5d,
+	x: 22.0d,
 	y: 0.5d,
 	text: [
 		"{advancement.stagethree_chuansongqika.description}"

@@ -1,6 +1,6 @@
 {
 	title: "{advancement.stagethree_gongzhuo.title}",
-	x: 21.0d,
+	x: 24.5d,
 	y: 2.0d,
 	text: [
 		"{advancement.stagethree_gongzhuo.description}"

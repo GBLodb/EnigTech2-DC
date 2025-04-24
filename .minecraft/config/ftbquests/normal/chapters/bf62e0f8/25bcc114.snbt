@@ -1,7 +1,7 @@
 {
 	title: "{advancement.stageone_suishifu.title}",
-	x: 1.0d,
-	y: -0.5d,
+	x: 0.5d,
+	y: 0.0d,
 	text: [
 		"{advancement.stageone_suishifu.description}"
 	],

@@ -2,6 +2,7 @@
 	title: "{advancement.stagethree_shanyaoxianwei.title}",
 	x: 4.0d,
 	y: -2.0d,
+	shape: "rsquare",
 	text: [
 		"{advancement.stagethree_shanyaoxianwei.description}"
 	],

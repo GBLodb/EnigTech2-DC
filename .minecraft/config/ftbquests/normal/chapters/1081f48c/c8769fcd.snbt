@@ -1,7 +1,8 @@
 {
 	title: "{advancement.stagethree_shenzhiqishi.title}",
-	x: 21.0d,
+	x: 24.5d,
 	y: 0.5d,
+	shape: "hexagon",
 	text: [
 		"{advancement.stagethree_shenzhiqishi.description}"
 	],

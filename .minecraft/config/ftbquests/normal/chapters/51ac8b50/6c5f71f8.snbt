@@ -1,7 +1,7 @@
 {
 	title: "{advancement.stagetwo_molizhenzhu.title}",
 	x: 2.5d,
-	y: 2.0d,
+	y: 2.5d,
 	text: [
 		"{advancement.stagetwo_molizhenzhu.description}"
 	],

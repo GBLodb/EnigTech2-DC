@@ -1,6 +1,6 @@
 {
 	title: "{advancement.stagetwo_huoshi.title}",
-	x: -2.5d,
+	x: -5.0d,
 	y: 1.0d,
 	text: [
 		"{advancement.stagetwo_huoshi.description}"

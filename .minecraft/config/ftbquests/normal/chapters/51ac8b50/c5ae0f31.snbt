@@ -1,6 +1,6 @@
 {
 	title: "{advancement.stagetwo_huozhifuwen.title}",
-	x: 5.5d,
+	x: 6.5d,
 	y: 0.0d,
 	text: [
 		"{advancement.stagetwo_huozhifuwen.description}"

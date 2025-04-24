@@ -1,6 +1,6 @@
 {
 	title: "{advancement.stageone_shupi.title}",
-	x: 6.5d,
+	x: 7.0d,
 	y: -4.5d,
 	text: [
 		"{advancement.stageone_shupi.description}"

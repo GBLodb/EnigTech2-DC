@@ -1,6 +1,6 @@
 {
 	title: "{advancement.stagetwo_yemushumiao.title}",
-	x: -0.5d,
+	x: -2.0d,
 	y: 1.0d,
 	text: [
 		"{advancement.stagetwo_yemushumiao.description}"

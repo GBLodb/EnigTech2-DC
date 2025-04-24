@@ -1,6 +1,6 @@
 {
 	title: "{advancement.stagetwo_tailaningjuban.title}",
-	x: 8.5d,
+	x: 10.0d,
 	y: 1.0d,
 	text: [
 		"{advancement.stagetwo_tailaningjuban.description}"

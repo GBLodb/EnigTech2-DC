@@ -1,0 +1,19 @@
+{
+	title: "{advancement.stagealpha_feilong.title}",
+	x: 9.0d,
+	y: 0.0d,
+	text: [
+		"{advancement.stagealpha_feilong.description}"
+	],
+	dependencies: [
+		"0054cd18"
+	],
+	tasks: [{
+		uid: "9b4d4133",
+		type: "item",
+		items: [{
+			item: "draconicevolution:crafting_injector 1 1"
+		}],
+		count: 8L
+	}]
+}

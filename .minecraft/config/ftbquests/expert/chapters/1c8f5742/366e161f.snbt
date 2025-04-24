@@ -1,0 +1,26 @@
+{
+	title: "{advancement.stagebeta_chewanshouce.title}",
+	x: 2.0d,
+	y: -1.0d,
+	text: [
+		"{advancement.stagebeta_chewanshouce.description}"
+	],
+	dependencies: [
+		"611a80af"
+	],
+	tasks: [{
+		uid: "d41b9dee",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "touhou_little_maid:memorizable_gensokyo"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

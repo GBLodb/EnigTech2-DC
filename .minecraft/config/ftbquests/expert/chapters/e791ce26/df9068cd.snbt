@@ -1,0 +1,19 @@
+{
+	title: "{advancement.stagefour_gaojichuliqi.title}",
+	x: 18.0d,
+	y: 11.5d,
+	shape: "rsquare",
+	text: [
+		"{advancement.stagefour_gaojichuliqi.description}"
+	],
+	dependencies: [
+		"7fc426e7"
+	],
+	tasks: [{
+		uid: "540ea3a8",
+		type: "item",
+		items: [{
+			item: "contenttweaker:advanced_processor"
+		}]
+	}]
+}

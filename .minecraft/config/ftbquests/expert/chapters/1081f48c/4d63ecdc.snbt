@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagethree_huojujiangguo.title}",
+	x: 2.5d,
+	y: -1.0d,
+	text: [
+		"{advancement.stagethree_huojujiangguo.description}"
+	],
+	dependencies: [
+		"e01578a3"
+	],
+	tasks: [{
+		uid: "afcbe3f2",
+		type: "item",
+		items: [{
+			item: "twilightforest:torchberries"
+		}]
+	}]
+}

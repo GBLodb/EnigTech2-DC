@@ -1,0 +1,17 @@
+filename = 'findme-1.12.2-1.1.0.jar'
+name = 'FindMeAnyDurability'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'findme-1.12.2-1.1.0.jar'
+
+[download]
+hash = '32af344f6a07e9150cea7c551e5617ce353353b3'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2758262
+project-id = 334692

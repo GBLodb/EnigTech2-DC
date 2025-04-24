@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefour_guangshupao.title}",
+	x: 14.5d,
+	y: -3.0d,
+	text: [
+		"{advancement.stagefour_guangshupao.description}"
+	],
+	dependencies: [
+		"9aa9965e"
+	],
+	tasks: [{
+		uid: "73746d6a",
+		type: "item",
+		items: [{
+			item: "embers:beam_cannon"
+		}]
+	}]
+}

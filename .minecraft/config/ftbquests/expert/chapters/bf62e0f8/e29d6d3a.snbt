@@ -1,0 +1,29 @@
+{
+	title: "{advancement.stageone_muban.title}",
+	x: 5.0d,
+	y: 1.5d,
+	text: [
+		"{advancement.stageone_muban.description}"
+	],
+	dependencies: [
+		"ce6809e0"
+	],
+	tasks: [{
+		uid: "cb7c5d6f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "plankWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any plankWood"
+				}
+			}
+		}]
+	}]
+}

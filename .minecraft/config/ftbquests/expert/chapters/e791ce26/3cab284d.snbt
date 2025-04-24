@@ -1,0 +1,27 @@
+{
+	title: "{advancement.stagefour_linbing.title}",
+	x: -1.5d,
+	y: 2.5d,
+	text: [
+		"{advancement.stagefour_linbing.description}"
+	],
+	dependencies: [
+		"e0b16438"
+	],
+	tasks: [{
+		uid: "660eb878",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "cryotheum",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

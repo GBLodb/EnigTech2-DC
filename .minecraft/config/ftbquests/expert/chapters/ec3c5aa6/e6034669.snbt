@@ -1,0 +1,58 @@
+{
+	title: "{advancement.stagefive_tshzhh.title}",
+	x: 23.5d,
+	y: 6.0d,
+	text: [
+		"{advancement.stagefive_tshzhh.description}"
+	],
+	dependencies: [
+		"fb2ad5a6"
+	],
+	tasks: [{
+		uid: "fa3d16aa",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrautils2:angelring"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrautils2:angelring",
+			Damage: 1s
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrautils2:angelring",
+			Damage: 3s
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrautils2:angelring",
+			Damage: 2s
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrautils2:angelring",
+			Damage: 4s
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrautils2:angelring",
+			Damage: 5s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

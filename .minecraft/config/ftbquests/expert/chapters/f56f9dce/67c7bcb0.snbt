@@ -1,0 +1,24 @@
+{
+	title: "{advancement.stagesix_chuangzaobishou.title}",
+	x: 21.5d,
+	y: 3.0d,
+	text: [
+		"{advancement.stagesix_chuangzaobishou.description}"
+	],
+	dependencies: [
+		"37611982"
+	],
+	tasks: [{
+		uid: "51bf667b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:sacrificial_dagger",
+			tag: {},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}]
+}

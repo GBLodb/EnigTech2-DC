@@ -1,0 +1,19 @@
+{
+	title: "{advancement.stagealpha_clathrate.title}",
+	x: 1.5d,
+	y: 9.5d,
+	text: [
+		"{advancement.stagealpha_clathrate.description}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"862a4f67"
+	],
+	tasks: [{
+		uid: "7785c60c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:energetic_clathrate"
+		}]
+	}]
+}

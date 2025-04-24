@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagealpha_depleted.title}",
+	x: 3.0d,
+	y: 11.0d,
+	text: [
+		"{advancement.stagealpha_depleted.description}"
+	],
+	dependencies: [
+		"c527556b"
+	],
+	tasks: [{
+		uid: "fb4858d0",
+		type: "item",
+		items: [{
+			item: "contenttweaker:depleted_heatsource"
+		}]
+	}]
+}

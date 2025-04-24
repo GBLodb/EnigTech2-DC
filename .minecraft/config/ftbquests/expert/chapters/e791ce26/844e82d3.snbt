@@ -1,0 +1,27 @@
+{
+	title: "{advancement.stagefour_concentrated_guiwan.title}",
+	x: 9.0d,
+	y: 7.0d,
+	text: [
+		"{advancement.stagefour_concentrated_guiwan.description}"
+	],
+	dependencies: [
+		"a0b87e94"
+	],
+	tasks: [{
+		uid: "74a2546f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "fluid_concentrated_silicon",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

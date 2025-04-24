@@ -1,0 +1,19 @@
+{
+	title: "{advancement.stagealpha_cool.title}",
+	x: 12.0d,
+	y: 11.0d,
+	shape: "hexagon",
+	text: [
+		"{advancement.stagealpha_cool.description}"
+	],
+	dependencies: [
+		"d556d89b"
+	],
+	tasks: [{
+		uid: "4388fd63",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:generator 1 13"
+		}]
+	}]
+}

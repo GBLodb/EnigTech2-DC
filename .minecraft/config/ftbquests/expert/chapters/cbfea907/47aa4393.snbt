@@ -1,0 +1,27 @@
+{
+	title: "{advancement.stagealpha_flibe.title}",
+	x: 10.5d,
+	y: 6.5d,
+	text: [
+		"{advancement.stagealpha_flibe.description}"
+	],
+	dependencies: [
+		"6a8db6c1"
+	],
+	tasks: [{
+		uid: "e9fb6a73",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "flibe",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

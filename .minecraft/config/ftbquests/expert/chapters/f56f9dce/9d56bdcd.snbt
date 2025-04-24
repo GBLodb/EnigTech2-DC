@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagesix_collector.title}",
+	x: 18.5d,
+	y: -1.5d,
+	text: [
+		"{advancement.stagesix_collector.description}"
+	],
+	dependencies: [
+		"35b920d5"
+	],
+	tasks: [{
+		uid: "b65b7ec5",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:condenser"
+		}]
+	}]
+}

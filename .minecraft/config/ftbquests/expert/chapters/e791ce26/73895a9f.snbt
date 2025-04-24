@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefour_zhumoshuijing.title}",
+	x: 16.5d,
+	y: 0.5d,
+	text: [
+		"{advancement.stagefour_zhumoshuijing.description}"
+	],
+	dependencies: [
+		"313fbe75"
+	],
+	tasks: [{
+		uid: "5e10a4e7",
+		type: "item",
+		items: [{
+			item: "contenttweaker:magfusive_crystal"
+		}]
+	}]
+}

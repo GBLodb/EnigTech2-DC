@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagealpha_xuansuding.title}",
+	x: 18.0d,
+	y: -1.5d,
+	text: [
+		"{advancement.stagealpha_xuansuding.description}"
+	],
+	dependencies: [
+		"68462a10"
+	],
+	tasks: [{
+		uid: "debac707",
+		type: "item",
+		items: [{
+			item: "contenttweaker:enigarium"
+		}]
+	}]
+}

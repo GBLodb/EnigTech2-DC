@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefour_qixuesuipian.title}",
+	x: 16.5d,
+	y: 3.5d,
+	text: [
+		"{advancement.stagefour_qixuesuipian.description}"
+	],
+	dependencies: [
+		"d2309b62"
+	],
+	tasks: [{
+		uid: "e0483da0",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_shard"
+		}]
+	}]
+}

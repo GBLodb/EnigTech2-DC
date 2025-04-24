@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagesix_2-2.title}",
+	x: 3.5d,
+	y: -1.5d,
+	text: [
+		"{advancement.stagesix_2-2.description}"
+	],
+	dependencies: [
+		"a55edb86"
+	],
+	tasks: [{
+		uid: "b4bfe0da",
+		type: "item",
+		items: [{
+			item: "environmentaltech:erodium_crystal"
+		}]
+	}]
+}

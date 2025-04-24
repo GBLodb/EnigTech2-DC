@@ -1,0 +1,16 @@
+{
+	title: "{advancement.stagetwo_root.title}",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "puredaisy"
+		}
+	},
+	disable_toast: true,
+	description: [
+		"{advancement.stagetwo_root.description}"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

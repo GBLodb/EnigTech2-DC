@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefive_turf.title}",
+	x: 20.5d,
+	y: 3.0d,
+	text: [
+		"{advancement.stagefive_turf.description}"
+	],
+	dependencies: [
+		"09a230a7"
+	],
+	tasks: [{
+		uid: "f667fdaa",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:moonturf"
+		}]
+	}]
+}

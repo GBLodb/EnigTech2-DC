@@ -1,0 +1,27 @@
+{
+	title: "{advancement.stagefour_HCL.title}",
+	x: 9.0d,
+	y: 2.5d,
+	text: [
+		"{advancement.stagefour_HCL.description}"
+	],
+	dependencies: [
+		"3e2d3a13"
+	],
+	tasks: [{
+		uid: "facb76f3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "fluid_hydrochloric_acid",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

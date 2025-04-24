@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagesix_1-1-2.title}",
+	x: 0.5d,
+	y: 3.0d,
+	text: [
+		"{advancement.stagesix_1-1-2.description}"
+	],
+	dependencies: [
+		"0e642062"
+	],
+	tasks: [{
+		uid: "9384e46a",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxpoint"
+		}]
+	}]
+}

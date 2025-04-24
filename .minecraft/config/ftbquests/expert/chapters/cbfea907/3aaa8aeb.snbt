@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagealpha_shengmignjinghua.title}",
+	x: 16.5d,
+	y: -3.0d,
+	text: [
+		"{advancement.stagealpha_shengmignjinghua.description}"
+	],
+	dependencies: [
+		"68462a10"
+	],
+	tasks: [{
+		uid: "33f84002",
+		type: "item",
+		items: [{
+			item: "contenttweaker:forbidden_life_essence"
+		}]
+	}]
+}

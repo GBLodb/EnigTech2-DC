@@ -1,0 +1,22 @@
+{
+	title: "{advancement.stagesix_6.title}",
+	x: 6.5d,
+	y: 0.0d,
+	text: [
+		"{advancement.stagesix_6.description}"
+	],
+	dependencies: [
+		"971b29f9"
+	],
+	tasks: [{
+		uid: "7d35571c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:machineblock"
+		}],
+		ignore_nbt: 1b
+	}]
+}

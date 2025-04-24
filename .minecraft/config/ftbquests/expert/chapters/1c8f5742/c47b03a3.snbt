@@ -1,0 +1,23 @@
+{
+	title: "{advancement.stagebeta_xiangji.title}",
+	x: 6.5d,
+	y: 0.0d,
+	text: [
+		"{advancement.stagebeta_xiangji.title}"
+	],
+	dependencies: [
+		"65c8162c"
+	],
+	tasks: [{
+		uid: "7ed6a8fe",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "touhou_little_maid:camera"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "{advancement.stagefour_jiguangshikeji.title}",
+	x: 10.5d,
+	y: 7.0d,
+	text: [
+		"{advancement.stagefour_jiguangshikeji.description}"
+	],
+	dependencies: [
+		"e456e82b"
+	],
+	tasks: [{
+		uid: "4821b942",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:laser_marker"
+			}
+		}]
+	}]
+}

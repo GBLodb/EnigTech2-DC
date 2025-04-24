@@ -1,0 +1,19 @@
+{
+	title: "{advancement.stagealpha_longkuai.title}",
+	x: 10.5d,
+	y: 0.0d,
+	text: [
+		"{advancement.stagealpha_longkuai.description}"
+	],
+	dependencies: [
+		"f26bb517",
+		"aa9964b5"
+	],
+	tasks: [{
+		uid: "8d5927fd",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_block"
+		}]
+	}]
+}

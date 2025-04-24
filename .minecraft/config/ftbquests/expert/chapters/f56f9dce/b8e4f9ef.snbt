@@ -1,0 +1,21 @@
+{
+	title: "{advancement.stagesix_2-4.title}",
+	x: 5.0d,
+	y: -3.0d,
+	text: [
+		"{advancement.stagesix_2-4.description}"
+	],
+	dependencies: [
+		"c4a004fa"
+	],
+	tasks: [{
+		uid: "3e723873",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:blast_furnace_mk3"
+			}
+		}]
+	}]
+}

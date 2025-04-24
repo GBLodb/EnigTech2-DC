@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefour_huijinjingti.title}",
+	x: 3.0d,
+	y: -2.0d,
+	text: [
+		"{advancement.stagefour_huijinjingti.description}"
+	],
+	dependencies: [
+		"867bbf8f"
+	],
+	tasks: [{
+		uid: "b46a04d7",
+		type: "item",
+		items: [{
+			item: "embers:crystal_ember"
+		}]
+	}]
+}

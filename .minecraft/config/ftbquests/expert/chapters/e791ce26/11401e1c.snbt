@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefour_jiaobanqi.title}",
+	x: 10.5d,
+	y: -2.0d,
+	text: [
+		"{advancement.stagefour_jiaobanqi.description}"
+	],
+	dependencies: [
+		"5a0f33fa"
+	],
+	tasks: [{
+		uid: "0f361058",
+		type: "item",
+		items: [{
+			item: "embers:mixer"
+		}]
+	}]
+}

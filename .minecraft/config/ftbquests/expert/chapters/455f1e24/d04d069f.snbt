@@ -1,0 +1,16 @@
+{
+	x: -0.5d,
+	y: 4.0d,
+	tasks: [{
+		uid: "c1948b84",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "teastory:black_tea",
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	}]
+}

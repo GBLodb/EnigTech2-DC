@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagesix_19.title}",
+	x: 20.0d,
+	y: 3.0d,
+	text: [
+		"{advancement.stagesix_19.description}"
+	],
+	dependencies: [
+		"1ea7a97d"
+	],
+	tasks: [{
+		uid: "e637526e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:entropy"
+		}]
+	}]
+}

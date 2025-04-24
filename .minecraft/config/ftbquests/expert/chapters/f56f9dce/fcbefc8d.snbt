@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagesix_11.title}",
+	x: 14.0d,
+	y: 0.0d,
+	text: [
+		"{advancement.stagesix_11.description}"
+	],
+	dependencies: [
+		"3342118e"
+	],
+	tasks: [{
+		uid: "98fba83e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:ether_alloy_ingot"
+		}]
+	}]
+}

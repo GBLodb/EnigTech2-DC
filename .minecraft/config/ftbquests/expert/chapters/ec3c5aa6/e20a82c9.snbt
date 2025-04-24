@@ -1,0 +1,25 @@
+{
+	title: "{advancement.stagesix_1-2-2.title}",
+	x: -3.0d,
+	y: 1.5d,
+	text: [
+		"{advancement.stagesix_1-2-2.description}"
+	],
+	dependencies: [
+		"45262ce4"
+	],
+	tasks: [{
+		uid: "227514bd",
+		type: "item",
+		items: [{
+			id: "xnet:netcable",
+			tag: {
+				display: {
+					LocName: "tile.xnet.netcable_blue.name"
+				}
+			}
+		}],
+		ignore_nbt: 1b,
+		only_from_crafting: false
+	}]
+}

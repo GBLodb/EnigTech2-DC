@@ -1,0 +1,27 @@
+{
+	title: "{advancement.stagefour_juyixi.title}",
+	x: 10.5d,
+	y: 4.0d,
+	text: [
+		"{advancement.stagefour_juyixi.description}"
+	],
+	dependencies: [
+		"a0b87e94"
+	],
+	tasks: [{
+		uid: "32788816",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "fluid_concentrated_ethylene",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

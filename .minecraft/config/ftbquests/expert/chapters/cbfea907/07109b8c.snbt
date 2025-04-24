@@ -1,0 +1,23 @@
+{
+	title: "{advancement.stagealpha_yuezhifengren.title}",
+	x: 13.5d,
+	y: -3.0d,
+	text: [
+		"{advancement.stagealpha_yuezhifengren.description}"
+	],
+	dependencies: [
+		"ee201c7f"
+	],
+	tasks: [{
+		uid: "894ca255",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "contenttweaker:moon_blade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

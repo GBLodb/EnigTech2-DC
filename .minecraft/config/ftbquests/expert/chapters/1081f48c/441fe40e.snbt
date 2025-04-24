@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagethree_kongjuhuizhang.title}",
+	x: 9.0d,
+	y: -3.5d,
+	text: [
+		"{advancement.stagethree_kongjuhuizhang.description}"
+	],
+	dependencies: [
+		"43d3170d"
+	],
+	tasks: [{
+		uid: "a2b4298b",
+		type: "item",
+		items: [{
+			item: "naturesaura:token_fear"
+		}]
+	}]
+}

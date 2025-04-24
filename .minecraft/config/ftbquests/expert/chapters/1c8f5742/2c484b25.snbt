@@ -1,0 +1,23 @@
+{
+	title: "{advancement.stagebeta_xiangce.title}",
+	x: 8.5d,
+	y: 0.0d,
+	text: [
+		"{advancement.stagebeta_xiangce.description}"
+	],
+	dependencies: [
+		"c47b03a3"
+	],
+	tasks: [{
+		uid: "cec925f4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "touhou_little_maid:album"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

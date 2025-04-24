@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefour_dark.title}",
+	x: 15.0d,
+	y: 7.0d,
+	text: [
+		"{advancement.stagefour_dark.description}"
+	],
+	dependencies: [
+		"4eaf66e5"
+	],
+	tasks: [{
+		uid: "a089eaef",
+		type: "item",
+		items: [{
+			item: "contenttweaker:dark_gaiya_crystal"
+		}]
+	}]
+}

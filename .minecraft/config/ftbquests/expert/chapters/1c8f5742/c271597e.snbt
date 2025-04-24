@@ -1,0 +1,31 @@
+{
+	title: "{advancement.stagebeta_parsee.title}",
+	icon: {
+		id: "touhou_little_maid:garage_kit",
+		tag: {
+			EntityId: "touhou_little_maid:entity.passive.maid",
+			ModelId: "touhou_little_maid:mizuhashi_parsee"
+		}
+	},
+	x: 6.5d,
+	y: -3.0d,
+	shape: "diamond",
+	text: [
+		"{advancement.stagebeta_parsee.description}"
+	],
+	dependencies: [
+		"37985b8e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f399bdb4",
+		type: "item",
+		items: [{
+			id: "touhou_little_maid:garage_kit",
+			tag: {
+				EntityId: "touhou_little_maid:entity.passive.maid",
+				ModelId: "touhou_little_maid:mizuhashi_parsee"
+			}
+		}]
+	}]
+}

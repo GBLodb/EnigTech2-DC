@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefive_xc.title}",
+	x: 20.5d,
+	y: 4.5d,
+	text: [
+		"{advancement.stagefive_xc.description}"
+	],
+	dependencies: [
+		"b284e215"
+	],
+	tasks: [{
+		uid: "408c3f6d",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemcraftingcomponent 1 2"
+		}]
+	}]
+}

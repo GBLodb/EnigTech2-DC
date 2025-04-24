@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagesix_c3.title}",
+	x: 5.0d,
+	y: 3.0d,
+	text: [
+		"{advancement.stagesix_c3.description}"
+	],
+	dependencies: [
+		"684bc60a"
+	],
+	tasks: [{
+		uid: "8e0a18d6",
+		type: "item",
+		items: [{
+			item: "mekanism:controlcircuit 1 2"
+		}]
+	}]
+}

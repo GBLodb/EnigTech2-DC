@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefour_duojinggui.title}",
+	x: 9.0d,
+	y: 8.5d,
+	text: [
+		"{advancement.stagefour_duojinggui.description}"
+	],
+	dependencies: [
+		"844e82d3"
+	],
+	tasks: [{
+		uid: "8bb3bfbd",
+		type: "item",
+		items: [{
+			item: "contenttweaker:multicrystal_silicon"
+		}]
+	}]
+}

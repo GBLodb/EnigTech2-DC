@@ -1,0 +1,27 @@
+{
+	title: "{advancement.stagefive_qh.title}",
+	x: 20.5d,
+	y: 6.0d,
+	text: [
+		"{advancement.stagefive_qh.description}"
+	],
+	dependencies: [
+		"151fb9a9"
+	],
+	tasks: [{
+		uid: "90b6cf96",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "simplyjetpacks:itemjetpack",
+			tag: {
+				Energy: 0,
+				JetpackParticle: 0
+			},
+			Damage: 18s
+		}],
+		ignore_nbt: 1b
+	}]
+}

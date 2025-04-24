@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagethree_mudun.title}",
+	x: 8.5d,
+	y: -2.0d,
+	text: [
+		"{advancement.stagethree_mudun.description}"
+	],
+	dependencies: [
+		"aa7718ef"
+	],
+	tasks: [{
+		uid: "6aacc852",
+		type: "item",
+		items: [{
+			item: "naturesaura:wood_stand"
+		}]
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "{advancement.stagefour_zhikeyi.title}",
+	x: 1.0d,
+	y: 2.5d,
+	text: [
+		"{advancement.stagefour_zhikeyi.description}"
+	],
+	dependencies: [
+		"40ba91b0"
+	],
+	tasks: [{
+		uid: "671c9fcf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tanaddons:thirst_quencher",
+			tag: {
+				FluidStored: 0,
+				ForgeEnergy: 0,
+				TimeStart: 100
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

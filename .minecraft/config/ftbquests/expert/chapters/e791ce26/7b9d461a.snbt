@@ -1,0 +1,23 @@
+{
+	title: "{advancement.stagefour_saomiaoqi.title}",
+	x: 3.0d,
+	y: 1.0d,
+	text: [
+		"{advancement.stagefour_saomiaoqi.description}"
+	],
+	dependencies: [
+		"40ba91b0"
+	],
+	tasks: [{
+		uid: "6c58b98d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "scannable:scanner"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

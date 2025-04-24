@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagealpha_dihejin.title}",
+	x: 6.0d,
+	y: 8.0d,
+	text: [
+		"{advancement.stagealpha_dihejin.description}"
+	],
+	dependencies: [
+		"b5332963"
+	],
+	tasks: [{
+		uid: "fd912d69",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:alloy 1 15"
+		}]
+	}]
+}

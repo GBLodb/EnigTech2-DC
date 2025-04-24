@@ -1,0 +1,19 @@
+{
+	title: "{advancement.stagefour_fushemibao.title}",
+	x: 19.5d,
+	y: 3.0d,
+	text: [
+		"{advancement.stagefour_fushemibao.description}"
+	],
+	dependencies: [
+		"f6a73d53"
+	],
+	tasks: [{
+		uid: "010345df",
+		type: "item",
+		items: [{
+			id: "arcanearchives:radiant_trove",
+			tag: {}
+		}]
+	}]
+}

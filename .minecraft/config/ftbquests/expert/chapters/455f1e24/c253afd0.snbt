@@ -1,0 +1,20 @@
+{
+	x: 1.5d,
+	y: 3.0d,
+	hide_dependency_lines: true,
+	tasks: [{
+		uid: "8a7af3b6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:odinring",
+			tag: {
+				soulbindUUID: "009d1288-076f-4734-bff7-55191671b4d8"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

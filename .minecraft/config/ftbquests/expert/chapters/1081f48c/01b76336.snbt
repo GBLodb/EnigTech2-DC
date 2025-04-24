@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagethree_ziranjitan.title}",
+	x: 10.0d,
+	y: -2.0d,
+	text: [
+		"{advancement.stagethree_ziranjitan.description}"
+	],
+	dependencies: [
+		"43d3170d"
+	],
+	tasks: [{
+		uid: "295e7b9f",
+		type: "item",
+		items: [{
+			item: "naturesaura:nature_altar"
+		}]
+	}]
+}

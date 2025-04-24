@@ -1,0 +1,27 @@
+{
+	title: "{advancement.stagefour_shufuzhijian.title}",
+	x: 16.5d,
+	y: 2.5d,
+	text: [
+		"{advancement.stagefour_shufuzhijian.description}"
+	],
+	dependencies: [
+		"a48ed253"
+	],
+	tasks: [{
+		uid: "d1de22c8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:bound_sword",
+			tag: {
+				Unbreakable: 1b,
+				activated: 0b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

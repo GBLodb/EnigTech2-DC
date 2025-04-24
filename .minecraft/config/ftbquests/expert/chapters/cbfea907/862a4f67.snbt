@@ -1,0 +1,23 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"{advancement.stagealpha_root.description}"
+	],
+	dependencies: [
+		"be52e88b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "45d04c9e",
+		type: "gamestage",
+		title: "{advancement.stagealpha_root.title}",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "contenttweaker:ascenders_proof"
+		},
+		stage: "alpha"
+	}]
+}

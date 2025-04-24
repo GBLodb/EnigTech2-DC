@@ -1,0 +1,19 @@
+{
+	title: "{advancement.stagetwo_ziranzhinanzhen.title}",
+	x: -8.0d,
+	y: 2.5d,
+	text: [
+		"{advancement.stagetwo_ziranzhinanzhen.description}"
+	],
+	dependencies: [
+		"6221170b"
+	],
+	tasks: [{
+		uid: "e0352f42",
+		type: "item",
+		items: [{
+			id: "naturescompass:naturescompass",
+			tag: {}
+		}]
+	}]
+}

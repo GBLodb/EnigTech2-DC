@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefour_daodiantie.title}",
+	x: 4.5d,
+	y: -0.5d,
+	text: [
+		"{advancement.stagefour_daodiantie.description}"
+	],
+	dependencies: [
+		"22ec39d0"
+	],
+	tasks: [{
+		uid: "0c8a642f",
+		type: "item",
+		items: [{
+			item: "enderio:item_alloy_ingot 1 4"
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagethree_kuailehuizhang.title}",
+	x: 7.0d,
+	y: -3.5d,
+	text: [
+		"{advancement.stagethree_kuailehuizhang.description}"
+	],
+	dependencies: [
+		"43d3170d"
+	],
+	tasks: [{
+		uid: "2b5d8434",
+		type: "item",
+		items: [{
+			item: "naturesaura:token_joy"
+		}]
+	}]
+}

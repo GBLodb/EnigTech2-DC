@@ -1,0 +1,12 @@
+{
+	x: 0.5d,
+	y: 3.0d,
+	hide_dependency_lines: true,
+	tasks: [{
+		uid: "c4cf3c86",
+		type: "item",
+		items: [{
+			item: "harvestcraft:tunarawitem"
+		}]
+	}]
+}

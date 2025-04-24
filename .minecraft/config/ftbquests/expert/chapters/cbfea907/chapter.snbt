@@ -1,0 +1,15 @@
+{
+	title: "{advancement.stagealpha_root.title}",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "contenttweaker:ascenders_proof"
+	},
+	description: [
+		"{advancement.stagealpha_root.description}"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

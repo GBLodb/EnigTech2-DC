@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefour_tester.title}",
+	x: 15.0d,
+	y: 10.0d,
+	text: [
+		"{advancement.stagefour_tester.description}"
+	],
+	dependencies: [
+		"8c183441"
+	],
+	tasks: [{
+		uid: "4762b522",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:trial_keystone"
+		}]
+	}]
+}

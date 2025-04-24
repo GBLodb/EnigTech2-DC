@@ -1,0 +1,17 @@
+{
+	title: "Secrets",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "botania:cosmetic",
+		Damage: 30s
+	},
+	disable_toast: true,
+	description: [
+		"所以我说, FTBQ确实是个弱智mod, 文档不全功能不多除了有点好看以外一无是处, 我想搞个隐藏任务都得整成这样, 不过出于习惯和各种原因还是没用BQ啥的, 另外没错, 帕露是私货彩蛋"
+	],
+	always_invisible: true,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagethree_molizhuanhuanqi.title}",
+	x: 4.0d,
+	y: 1.5d,
+	text: [
+		"{advancement.stagethree_molizhuanhuanqi.description}"
+	],
+	dependencies: [
+		"3fe92bd0"
+	],
+	tasks: [{
+		uid: "7c68b748",
+		type: "item",
+		items: [{
+			item: "botania:rfgenerator"
+		}]
+	}]
+}

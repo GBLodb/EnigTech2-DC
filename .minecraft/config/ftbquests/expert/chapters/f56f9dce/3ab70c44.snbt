@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagesix_atomic_alloy.title}",
+	x: 6.5d,
+	y: 1.5d,
+	text: [
+		"{advancement.stagesix_atomic_alloy.description}"
+	],
+	dependencies: [
+		"a7b26ba7"
+	],
+	tasks: [{
+		uid: "9000f212",
+		type: "item",
+		items: [{
+			item: "mekanism:atomicalloy"
+		}]
+	}]
+}

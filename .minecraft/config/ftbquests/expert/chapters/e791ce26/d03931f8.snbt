@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefour_yuanshifusheshuijing.title}",
+	x: 6.0d,
+	y: 2.5d,
+	text: [
+		"{advancement.stagefour_yuanshifusheshuijing.description}"
+	],
+	dependencies: [
+		"865b7aea"
+	],
+	tasks: [{
+		uid: "959d1fb6",
+		type: "item",
+		items: [{
+			item: "arcanearchives:raw_quartz"
+		}]
+	}]
+}

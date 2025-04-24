@@ -1,0 +1,21 @@
+{
+	title: "{advancement.stagefour_refinery.title}",
+	x: -3.0d,
+	y: -0.5d,
+	text: [
+		"{advancement.stagefour_refinery.description}"
+	],
+	dependencies: [
+		"804db898"
+	],
+	tasks: [{
+		uid: "ee3a7db9",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:oil_refinery"
+			}
+		}]
+	}]
+}

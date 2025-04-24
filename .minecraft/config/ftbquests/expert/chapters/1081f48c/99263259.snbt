@@ -1,0 +1,26 @@
+{
+	title: "{advancement.stagethree_book_naturesaura.title}",
+	x: -4.5d,
+	y: 1.5d,
+	text: [
+		"{advancement.stagethree_book_naturesaura.description}"
+	],
+	dependencies: [
+		"a6dc1504"
+	],
+	tasks: [{
+		uid: "e3ac1cf9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "naturesaura:book"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagesix_15.title}",
+	x: 20.0d,
+	y: 0.0d,
+	text: [
+		"{advancement.stagesix_15.description}"
+	],
+	dependencies: [
+		"7973f8fb"
+	],
+	tasks: [{
+		uid: "c6205aea",
+		type: "item",
+		items: [{
+			item: "contenttweaker:material_part 1 63"
+		}]
+	}]
+}

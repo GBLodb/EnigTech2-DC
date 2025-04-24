@@ -1,0 +1,27 @@
+{
+	title: "{advancement.stagefour_bianxieshiwendutiaojieqi.title}",
+	x: 0.0d,
+	y: 2.5d,
+	text: [
+		"{advancement.stagefour_bianxieshiwendutiaojieqi.description}"
+	],
+	dependencies: [
+		"763160ba"
+	],
+	tasks: [{
+		uid: "bca82eb5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tanaddons:portable_temp_regulator",
+			tag: {
+				ForgeEnergy: 0,
+				TimeStart: 100
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

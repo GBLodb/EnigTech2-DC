@@ -1,0 +1,25 @@
+{
+	title: "{advancement.stagefour_yayinqi.title}",
+	x: 9.0d,
+	y: -2.0d,
+	text: [
+		"{advancement.stagefour_yayinqi.description}"
+	],
+	dependencies: [
+		"2b433799"
+	],
+	tasks: [{
+		uid: "0d33007f",
+		type: "item",
+		items: [{
+			item: "embers:stamper"
+		}]
+	},
+	{
+		uid: "6d358521",
+		type: "item",
+		items: [{
+			item: "embers:stamper_base"
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefour_wupindaoguan.title}",
+	x: 6.0d,
+	y: 1.0d,
+	text: [
+		"{advancement.stagefour_wupindaoguan.description}"
+	],
+	dependencies: [
+		"21901788"
+	],
+	tasks: [{
+		uid: "b45ac62a",
+		type: "item",
+		items: [{
+			item: "enderio:item_item_conduit"
+		}]
+	}]
+}

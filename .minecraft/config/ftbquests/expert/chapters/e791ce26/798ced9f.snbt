@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefour_charged.title}",
+	x: 13.5d,
+	y: 7.0d,
+	text: [
+		"{advancement.stagefour_charged.description}"
+	],
+	dependencies: [
+		"d5b301f1"
+	],
+	tasks: [{
+		uid: "84690b70",
+		type: "item",
+		items: [{
+			item: "contenttweaker:charged_gaiya_crystal"
+		}]
+	}]
+}

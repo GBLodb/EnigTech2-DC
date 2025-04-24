@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagesix_x4.title}",
+	x: 11.5d,
+	y: 4.0d,
+	text: [
+		"{advancement.stagesix_x4.description}"
+	],
+	dependencies: [
+		"a3d474c2"
+	],
+	tasks: [{
+		uid: "034b25d6",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fuel_reprocessor_idle"
+		}]
+	}]
+}

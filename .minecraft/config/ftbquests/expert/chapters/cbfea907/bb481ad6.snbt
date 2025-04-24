@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagealpha_xuanliding.title}",
+	x: 19.5d,
+	y: 0.0d,
+	text: [
+		"{advancement.stagealpha_xuanliding.description}"
+	],
+	dependencies: [
+		"57bc8d33"
+	],
+	tasks: [{
+		uid: "e70d8954",
+		type: "item",
+		items: [{
+			item: "contenttweaker:enigtechnium"
+		}]
+	}]
+}

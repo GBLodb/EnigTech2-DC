@@ -1,0 +1,19 @@
+{
+	title: "{advancement.stagealpha_longchen.title}",
+	x: 1.5d,
+	y: 1.5d,
+	text: [
+		"{advancement.stagealpha_longchen.description}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"862a4f67"
+	],
+	tasks: [{
+		uid: "08df9fa1",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconium_dust"
+		}]
+	}]
+}

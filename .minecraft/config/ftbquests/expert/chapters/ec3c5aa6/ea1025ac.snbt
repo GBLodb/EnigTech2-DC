@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefive_os.title}",
+	x: 5.5d,
+	y: 4.5d,
+	text: [
+		"{advancement.stagefive_os.description}"
+	],
+	dependencies: [
+		"f66bd3db"
+	],
+	tasks: [{
+		uid: "f3c2226a",
+		type: "item",
+		items: [{
+			item: "mekanism:dust 1 2"
+		}]
+	}]
+}

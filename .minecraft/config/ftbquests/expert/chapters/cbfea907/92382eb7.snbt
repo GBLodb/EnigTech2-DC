@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagealpha_lingsujinghua.title}",
+	x: 3.0d,
+	y: -1.5d,
+	text: [
+		"{advancement.stagealpha_lingsujinghua.description}"
+	],
+	dependencies: [
+		"862e5450"
+	],
+	tasks: [{
+		uid: "d3a6689c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:auriminium"
+		}]
+	}]
+}

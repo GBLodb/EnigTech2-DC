@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagesix_elite_alloy.title}",
+	x: 5.0d,
+	y: 1.5d,
+	text: [
+		"{advancement.stagesix_elite_alloy.description}"
+	],
+	dependencies: [
+		"971b29f9"
+	],
+	tasks: [{
+		uid: "0ee146bb",
+		type: "item",
+		items: [{
+			item: "mekanism:reinforcedalloy"
+		}]
+	}]
+}

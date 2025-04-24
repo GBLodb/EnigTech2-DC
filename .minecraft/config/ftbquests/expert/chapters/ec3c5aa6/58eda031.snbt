@@ -1,0 +1,21 @@
+{
+	title: "{advancement.stagefive_blast_furnace_mk2.title}",
+	x: 16.0d,
+	y: 3.0d,
+	text: [
+		"{advancement.stagefive_blast_furnace_mk2.description}"
+	],
+	dependencies: [
+		"7b93692b"
+	],
+	tasks: [{
+		uid: "c2fea594",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:blast_furnace_mk2"
+			}
+		}]
+	}]
+}

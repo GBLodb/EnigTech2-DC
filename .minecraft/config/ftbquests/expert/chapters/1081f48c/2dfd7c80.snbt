@@ -1,0 +1,27 @@
+{
+	title: "{advancement.stagethree_yichun.title}",
+	x: 15.5d,
+	y: 2.0d,
+	text: [
+		"{advancement.stagethree_yichun.description}"
+	],
+	dependencies: [
+		"f37a7498"
+	],
+	tasks: [{
+		uid: "4f1edb12",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "ethanol",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

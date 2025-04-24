@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefive_ir.title}",
+	x: -1.5d,
+	y: 1.5d,
+	text: [
+		"{advancement.stagefive_ir.description}"
+	],
+	dependencies: [
+		"82a1d986"
+	],
+	tasks: [{
+		uid: "b49e8461",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:ore 1 7"
+		}]
+	}]
+}

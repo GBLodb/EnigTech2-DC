@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefive_mnjsj.title}",
+	x: 0.5d,
+	y: -1.5d,
+	text: [
+		"{advancement.stagefive_mnjsj.description}"
+	],
+	dependencies: [
+		"82a1d986"
+	],
+	tasks: [{
+		uid: "13604572",
+		type: "item",
+		items: [{
+			item: "contenttweaker:magic_calculator"
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefive_wxzd.title}",
+	x: 13.0d,
+	y: 6.0d,
+	text: [
+		"{advancement.stagefive_wxzd.description}"
+	],
+	dependencies: [
+		"597b2167"
+	],
+	tasks: [{
+		uid: "b610509b",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:satellitecontrolcenter"
+		}]
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "{advancement.stagefour_polisher.title}",
+	x: 13.5d,
+	y: 5.5d,
+	text: [
+		"{advancement.stagefour_polisher.description}"
+	],
+	dependencies: [
+		"b6ae4126"
+	],
+	tasks: [{
+		uid: "5c179738",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "crafttweaker:polisher"
+			}
+		}]
+	}]
+}

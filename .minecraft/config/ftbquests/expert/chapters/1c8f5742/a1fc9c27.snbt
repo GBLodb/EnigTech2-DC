@@ -1,0 +1,25 @@
+{
+	title: "{advancement.stagebeta_hongcha.title}",
+	x: 0.5d,
+	y: -3.0d,
+	shape: "diamond",
+	text: [
+		"{advancement.stagebeta_hongcha.description}"
+	],
+	dependencies: [
+		"c1948b84"
+	],
+	hide: true,
+	tasks: [{
+		uid: "51b414c7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "teastory:black_tea",
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefive_mufe.title}",
+	x: 16.0d,
+	y: 4.5d,
+	text: [
+		"{advancement.stagefive_mufe.description}"
+	],
+	dependencies: [
+		"b4dcd3f0"
+	],
+	tasks: [{
+		uid: "bd15c199",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_0 1 12"
+		}]
+	}]
+}

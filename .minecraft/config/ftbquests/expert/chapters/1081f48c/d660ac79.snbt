@@ -1,0 +1,23 @@
+{
+	title: "{advancement.stagethree_huanjiingzhiyan.title}",
+	x: 9.5d,
+	y: 0.0d,
+	text: [
+		"{advancement.stagethree_huanjiingzhiyan.description}"
+	],
+	dependencies: [
+		"7b48dd80"
+	],
+	tasks: [{
+		uid: "47b0843f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "naturesaura:eye"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

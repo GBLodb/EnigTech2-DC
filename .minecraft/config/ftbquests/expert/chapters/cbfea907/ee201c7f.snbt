@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagealpha_jingxue.title}",
+	x: 15.0d,
+	y: -3.0d,
+	text: [
+		"{advancement.stagealpha_jingxue.description}"
+	],
+	dependencies: [
+		"3aaa8aeb"
+	],
+	tasks: [{
+		uid: "8279a81c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:essencial_blood"
+		}]
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "{advancement.stagealpha_hpsteam.title}",
+	x: 4.5d,
+	y: 9.5d,
+	shape: "rsquare",
+	text: [
+		"{advancement.stagealpha_hpsteam.description}"
+	],
+	dependencies: [
+		"c527556b"
+	],
+	tasks: [{
+		uid: "27150b00",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "high_pressure_steam",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

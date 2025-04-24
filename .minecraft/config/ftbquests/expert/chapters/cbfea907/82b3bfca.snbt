@@ -1,0 +1,21 @@
+{
+	title: "{advancement.stagealpha_yasuo.title}",
+	x: 4.5d,
+	y: 3.0d,
+	text: [
+		"{advancement.stagealpha_yasuo.description}"
+	],
+	dependencies: [
+		"b6fbe849"
+	],
+	tasks: [{
+		uid: "90949db1",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:singularity_maker"
+			}
+		}]
+	}]
+}

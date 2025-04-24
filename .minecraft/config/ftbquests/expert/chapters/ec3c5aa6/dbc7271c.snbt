@@ -1,0 +1,23 @@
+{
+	title: "{advancement.stagefive_connecter.title}",
+	x: 11.5d,
+	y: 7.5d,
+	text: [
+		"{advancement.stagefive_connecter.description}"
+	],
+	dependencies: [
+		"dd6c7cb0"
+	],
+	tasks: [{
+		uid: "310e071c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "libvulpes:linker"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

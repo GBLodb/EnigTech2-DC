@@ -1,0 +1,19 @@
+{
+	title: "{advancement.stagesix_9.title}",
+	x: 11.0d,
+	y: 0.0d,
+	text: [
+		"{advancement.stagesix_9.description}"
+	],
+	dependencies: [
+		"dcea3fe3",
+		"10ecc4aa"
+	],
+	tasks: [{
+		uid: "4d83c3ff",
+		type: "item",
+		items: [{
+			item: "environmentaltech:void_ore_miner_cont_5"
+		}]
+	}]
+}

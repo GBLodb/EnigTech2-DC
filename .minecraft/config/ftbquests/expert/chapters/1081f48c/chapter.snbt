@@ -1,0 +1,15 @@
+{
+	title: "{advancement.stagethree_root.title}",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "naturesaura:range_visualizer"
+	},
+	description: [
+		"{advancement.stagethree_root.description}"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

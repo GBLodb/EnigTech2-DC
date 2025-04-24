@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefour_suliaokuai.title}",
+	x: 10.5d,
+	y: 1.0d,
+	text: [
+		"{advancement.stagefour_suliaokuai.description}"
+	],
+	dependencies: [
+		"b66db0c9"
+	],
+	tasks: [{
+		uid: "ea41301f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:bulk_of_plastic"
+		}]
+	}]
+}

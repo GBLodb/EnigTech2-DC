@@ -1,0 +1,19 @@
+{
+	title: "{advancement.stagethree_liuhuang.title}",
+	x: 12.5d,
+	y: 2.0d,
+	text: [
+		"{advancement.stagethree_liuhuang.description}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"3a9bbd75"
+	],
+	tasks: [{
+		uid: "86bbd980",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 771"
+		}]
+	}]
+}

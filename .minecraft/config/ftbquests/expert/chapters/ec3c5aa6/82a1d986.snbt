@@ -1,0 +1,24 @@
+{
+	title: "{advancement.stagefive_root.title}",
+	x: 0.5d,
+	y: 0.0d,
+	text: [
+		"{advancement.stagefive_root.description}"
+	],
+	dependencies: [
+		"80acd206"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c6eba7d4",
+		type: "gamestage",
+		title: "{advancement.stagefive_root.title}",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:tinyplanet"
+		},
+		stage: "five"
+	}]
+}

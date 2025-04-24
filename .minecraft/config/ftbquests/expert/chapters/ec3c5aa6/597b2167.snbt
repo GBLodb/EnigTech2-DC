@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefive_wxc.title}",
+	x: 14.5d,
+	y: 6.0d,
+	text: [
+		"{advancement.stagefive_wxc.description}"
+	],
+	dependencies: [
+		"3c997d5c"
+	],
+	tasks: [{
+		uid: "8022f8e1",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:loader 1 1"
+		}]
+	}]
+}

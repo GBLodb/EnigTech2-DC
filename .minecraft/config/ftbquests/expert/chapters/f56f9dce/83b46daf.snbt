@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagesix_17.title}",
+	x: 23.0d,
+	y: 0.0d,
+	text: [
+		"{advancement.stagesix_17.description}"
+	],
+	dependencies: [
+		"d707074d"
+	],
+	tasks: [{
+		uid: "33f75c8c",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fusion_core"
+		}]
+	}]
+}

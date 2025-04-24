@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagebeta_pan.title}",
+	x: 9.5d,
+	y: 2.5d,
+	text: [
+		"{advancement.stagebeta_pan.description}"
+	],
+	dependencies: [
+		"ce217345"
+	],
+	tasks: [{
+		uid: "68e2f41b",
+		type: "item",
+		items: [{
+			item: "cuisine:placed_dish"
+		}]
+	}]
+}

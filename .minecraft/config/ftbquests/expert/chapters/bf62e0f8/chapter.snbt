@@ -1,0 +1,10 @@
+{
+	title: "{advancement.stageone_root.title}",
+	icon: "survivalist:rock",
+	description: [
+		"{advancement.stageone_root.description}"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

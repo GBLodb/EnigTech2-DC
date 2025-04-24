@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagealpha_stand.title}",
+	x: 13.5d,
+	y: 0.0d,
+	text: [
+		"{advancement.stagealpha_stand.description}"
+	],
+	dependencies: [
+		"86715496"
+	],
+	tasks: [{
+		uid: "8a95101c",
+		type: "item",
+		items: [{
+			item: "projecte:dm_pedestal"
+		}]
+	}]
+}

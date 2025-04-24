@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagethree_yuhuoronglu.title}",
+	x: 12.5d,
+	y: 0.5d,
+	text: [
+		"{advancement.stagethree_yuhuoronglu.description}"
+	],
+	dependencies: [
+		"31aa81cb"
+	],
+	tasks: [{
+		uid: "0408f219",
+		type: "item",
+		items: [{
+			item: "bloodmagic:soul_forge"
+		}]
+	}]
+}

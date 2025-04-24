@@ -1,0 +1,23 @@
+{
+	title: "{advancement.stagethree_akashibaodian.title}",
+	x: -3.0d,
+	y: 0.0d,
+	text: [
+		"{advancement.stagethree_akashibaodian.description}"
+	],
+	dependencies: [
+		"3a9bbd75"
+	],
+	tasks: [{
+		uid: "543f5bae",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "akashictome:tome"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

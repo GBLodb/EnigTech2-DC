@@ -1,0 +1,19 @@
+{
+	title: "{advancement.stagealpha_hundun.title}",
+	x: 12.0d,
+	y: 0.0d,
+	shape: "hexagon",
+	text: [
+		"{advancement.stagealpha_hundun.description}"
+	],
+	dependencies: [
+		"e01ed58d"
+	],
+	tasks: [{
+		uid: "13556f08",
+		type: "item",
+		items: [{
+			item: "draconicevolution:chaos_shard"
+		}]
+	}]
+}

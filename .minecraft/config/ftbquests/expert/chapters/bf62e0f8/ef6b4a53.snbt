@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stageone_jinglinggongjiangtai.title}",
+	x: 11.5d,
+	y: -4.5d,
+	text: [
+		"{advancement.stageone_jinglinggongjiangtai.description}"
+	],
+	dependencies: [
+		"ed24fbd6"
+	],
+	tasks: [{
+		uid: "ec52d6ce",
+		type: "item",
+		items: [{
+			item: "roots:fey_crafter"
+		}]
+	}]
+}

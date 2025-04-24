@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagethree_huanggushumiao.title}",
+	x: 8.5d,
+	y: -1.0d,
+	text: [
+		"{advancement.stagethree_huanggushumiao.description}"
+	],
+	dependencies: [
+		"43d3170d"
+	],
+	tasks: [{
+		uid: "80b17232",
+		type: "item",
+		items: [{
+			item: "naturesaura:ancient_sapling"
+		}]
+	}]
+}

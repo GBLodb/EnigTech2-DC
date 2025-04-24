@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagesix_x6.title}",
+	x: 14.0d,
+	y: 5.0d,
+	text: [
+		"{advancement.stagesix_x6.description}"
+	],
+	dependencies: [
+		"a3d474c2"
+	],
+	tasks: [{
+		uid: "0d61e16f",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:irradiator_idle"
+		}]
+	}]
+}

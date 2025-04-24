@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagebeta_chaguo.title}",
+	x: 3.5d,
+	y: 4.0d,
+	text: [
+		"{advancement.stagebeta_chaguo.description}"
+	],
+	dependencies: [
+		"ac28407c"
+	],
+	tasks: [{
+		uid: "9f674200",
+		type: "item",
+		items: [{
+			item: "teastory:tea_stove"
+		}]
+	}]
+}

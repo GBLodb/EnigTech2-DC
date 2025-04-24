@@ -1,0 +1,21 @@
+{
+	title: "{advancement.stagefive_mc.title}",
+	x: 23.5d,
+	y: 4.5d,
+	text: [
+		"{advancement.stagefive_mc.description}"
+	],
+	dependencies: [
+		"5f9ec442"
+	],
+	tasks: [{
+		uid: "1a004c2b",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:meteor_catcher"
+			}
+		}]
+	}]
+}

@@ -1,0 +1,10 @@
+{
+	title: "{advancement.stagebeta_root.title}",
+	icon: "teastory:tea_leaf",
+	description: [
+		"{advancement.stagebeta_root.description}"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

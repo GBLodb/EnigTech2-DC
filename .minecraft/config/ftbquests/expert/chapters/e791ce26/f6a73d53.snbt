@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefour_baoshiqiegetai.title}",
+	x: 18.0d,
+	y: 1.5d,
+	text: [
+		"{advancement.stagefour_baoshiqiegetai.description}"
+	],
+	dependencies: [
+		"73895a9f"
+	],
+	tasks: [{
+		uid: "7d6f2f47",
+		type: "item",
+		items: [{
+			item: "arcanearchives:gemcutters_table"
+		}]
+	}]
+}

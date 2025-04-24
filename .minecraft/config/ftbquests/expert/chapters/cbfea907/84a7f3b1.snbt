@@ -1,0 +1,28 @@
+{
+	title: "{advancement.stagealpha_wasteam.title}",
+	x: 7.5d,
+	y: 9.5d,
+	shape: "rsquare",
+	text: [
+		"{advancement.stagealpha_wasteam.description}"
+	],
+	dependencies: [
+		"b5332963"
+	],
+	tasks: [{
+		uid: "5c871233",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "exhaust_steam",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

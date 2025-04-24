@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefive_w.title}",
+	x: -1.5d,
+	y: -0.5d,
+	text: [
+		"{advancement.stagefive_w.description}"
+	],
+	dependencies: [
+		"82a1d986"
+	],
+	tasks: [{
+		uid: "5c58ede3",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_0 1 3"
+		}]
+	}]
+}

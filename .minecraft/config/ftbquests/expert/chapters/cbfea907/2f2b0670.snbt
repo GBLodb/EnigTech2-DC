@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagealpha_exchange.title}",
+	x: 9.0d,
+	y: 11.0d,
+	text: [
+		"{advancement.stagealpha_exchange.description}"
+	],
+	dependencies: [
+		"84a7f3b1"
+	],
+	tasks: [{
+		uid: "3c259787",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:heat_exchanger_controller"
+		}]
+	}]
+}

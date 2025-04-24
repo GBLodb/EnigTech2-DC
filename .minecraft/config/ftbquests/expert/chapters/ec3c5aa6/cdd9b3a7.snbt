@@ -1,0 +1,25 @@
+{
+	title: "{advancement.stagefive_dynamo3.title}",
+	x: 7.0d,
+	y: 0.5d,
+	text: [
+		"{advancement.stagefive_dynamo3.description}"
+	],
+	dependencies: [
+		"022ef495"
+	],
+	tasks: [{
+		uid: "8f88a3d3",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			},
+			Damage: 1s
+		}]
+	}]
+}

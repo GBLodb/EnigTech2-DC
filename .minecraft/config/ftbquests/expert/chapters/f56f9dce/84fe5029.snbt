@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagesix_x8.title}",
+	x: 12.0d,
+	y: 2.0d,
+	text: [
+		"{advancement.stagesix_x9.description}"
+	],
+	dependencies: [
+		"a3d474c2"
+	],
+	tasks: [{
+		uid: "2c278ae2",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:chemical_reactor_idle"
+		}]
+	}]
+}

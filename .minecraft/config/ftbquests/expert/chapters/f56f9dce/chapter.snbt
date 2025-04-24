@@ -1,0 +1,10 @@
+{
+	title: "{advancement.stagesix_root.title}",
+	icon: "appliedenergistics2:material 1 47",
+	description: [
+		"{advancement.stagesix_root.description}"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

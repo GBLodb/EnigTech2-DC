@@ -1,0 +1,28 @@
+{
+	title: "{advancement.stagefour_zhengqi.title}",
+	x: 12.0d,
+	y: 1.0d,
+	shape: "rsquare",
+	text: [
+		"{advancement.stagefour_zhengqi.description}"
+	],
+	dependencies: [
+		"39ebd0de"
+	],
+	tasks: [{
+		uid: "39c8e83c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "steam",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

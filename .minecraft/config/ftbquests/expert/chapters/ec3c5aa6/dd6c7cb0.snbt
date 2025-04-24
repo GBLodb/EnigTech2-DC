@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefive_wireless_transistor.title}",
+	x: 10.0d,
+	y: 7.5d,
+	text: [
+		"{advancement.stagefive_wireless_transistor.description}"
+	],
+	dependencies: [
+		"5a4268e8"
+	],
+	tasks: [{
+		uid: "af4d9a32",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:wirelesstransciever"
+		}]
+	}]
+}

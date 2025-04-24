@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefour_qianghuanengliangdaoguan.title}",
+	x: 7.5d,
+	y: -0.5d,
+	text: [
+		"{advancement.stagefour_qianghuanengliangdaoguan.description}"
+	],
+	dependencies: [
+		"a1e8ed46"
+	],
+	tasks: [{
+		uid: "b541513a",
+		type: "item",
+		items: [{
+			item: "enderio:item_power_conduit 1 1"
+		}]
+	}]
+}

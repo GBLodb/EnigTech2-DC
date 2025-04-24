@@ -1,0 +1,19 @@
+{
+	title: "{advancement.stagebeta_root.title}",
+	x: 0.5d,
+	y: 0.0d,
+	text: [
+		"{advancement.stagebeta_root.description}"
+	],
+	dependencies: [
+		"46dcb47d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "57880f61",
+		type: "gamestage",
+		title: "{advancement.stagebeta_root.title}",
+		icon: "teastory:tea_leaf",
+		stage: "beta"
+	}]
+}

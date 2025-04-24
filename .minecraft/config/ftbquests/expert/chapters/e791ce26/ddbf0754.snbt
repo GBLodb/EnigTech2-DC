@@ -1,0 +1,27 @@
+{
+	title: "{advancement.stagefour_qsh.title}",
+	x: 2.0d,
+	y: 2.5d,
+	text: [
+		"{advancement.stagefour_qsh.description}"
+	],
+	dependencies: [
+		"40ba91b0"
+	],
+	tasks: [{
+		uid: "b59f2248",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "simplyjetpacks:itemjetpack",
+			tag: {
+				Energy: 0,
+				JetpackParticle: 0
+			},
+			Damage: 16s
+		}],
+		ignore_nbt: 1b
+	}]
+}

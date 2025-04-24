@@ -1,0 +1,27 @@
+{
+	title: "{advancement.stagefour_yetailongxi.title}",
+	x: -1.5d,
+	y: 1.0d,
+	text: [
+		"{advancement.stagefour_yetailongxi.description}"
+	],
+	dependencies: [
+		"336155ad"
+	],
+	tasks: [{
+		uid: "d833e5fc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "fluid_dragon_breathe",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,3 +1,0 @@
-gamestage silentadd @p one
-tellraw @p {"text":"Welcome to EnigTech2","color":"aqua"}
-tellraw @p {"text":"Press 'L' to access your advancements, the modpack doesn't go with a full description of playthrough, so better read these advancements throughly.","color":"gold"}

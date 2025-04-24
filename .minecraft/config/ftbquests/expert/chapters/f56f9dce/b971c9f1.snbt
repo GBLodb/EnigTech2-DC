@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagesix_jiegouguandao.title}",
+	x: 5.0d,
+	y: -1.5d,
+	text: [
+		"{advancement.stagesix_jiegouguandao.description}"
+	],
+	dependencies: [
+		"971b29f9"
+	],
+	tasks: [{
+		uid: "3251050c",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:duct_48"
+		}]
+	}]
+}

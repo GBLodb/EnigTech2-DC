@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefour_404.title}",
+	x: 16.5d,
+	y: 10.0d,
+	text: [
+		"{advancement.stagefour_404.description}"
+	],
+	dependencies: [
+		"7acdd82e"
+	],
+	tasks: [{
+		uid: "80db88c0",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:glitch_infused_ingot"
+		}]
+	}]
+}

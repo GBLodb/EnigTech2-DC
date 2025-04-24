@@ -1,0 +1,19 @@
+{
+	title: "{advancement.stagefour_medium_core.title}",
+	x: 12.0d,
+	y: 5.5d,
+	shape: "hexagon",
+	text: [
+		"{advancement.stagefour_medium_core.description}"
+	],
+	dependencies: [
+		"154fd0cf"
+	],
+	tasks: [{
+		uid: "b0f233cb",
+		type: "item",
+		items: [{
+			item: "contenttweaker:soso_machine_core"
+		}]
+	}]
+}

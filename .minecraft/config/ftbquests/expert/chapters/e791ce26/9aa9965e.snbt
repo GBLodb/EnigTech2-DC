@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefour_luijinlu.title}",
+	x: 13.5d,
+	y: -2.0d,
+	text: [
+		"{advancement.stagefour_luijinlu.description}"
+	],
+	dependencies: [
+		"604cf67e"
+	],
+	tasks: [{
+		uid: "5f6427c2",
+		type: "item",
+		items: [{
+			item: "embers:cinder_plinth"
+		}]
+	}]
+}

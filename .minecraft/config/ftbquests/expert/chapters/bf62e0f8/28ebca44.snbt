@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stageone_gengdi.title}",
+	x: 2.0d,
+	y: -1.5d,
+	text: [
+		"{advancement.stageone_gengdi.description}"
+	],
+	dependencies: [
+		"ccfea56f"
+	],
+	tasks: [{
+		uid: "d2507694",
+		type: "item",
+		items: [{
+			item: "minecraft:farmland"
+		}]
+	}]
+}

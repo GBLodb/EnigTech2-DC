@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagesix_x3.title}",
+	x: 13.0d,
+	y: 2.0d,
+	text: [
+		"{advancement.stagesix_x3.description}"
+	],
+	dependencies: [
+		"a3d474c2"
+	],
+	tasks: [{
+		uid: "305276d4",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:isotope_separator_idle"
+		}]
+	}]
+}

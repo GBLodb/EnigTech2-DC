@@ -1,0 +1,19 @@
+{
+	title: "{advancement.stageone_gongzuotai.title}",
+	x: 3.5d,
+	y: -1.5d,
+	shape: "rsquare",
+	text: [
+		"{advancement.stageone_gongzuotai.description}"
+	],
+	dependencies: [
+		"20b1a843"
+	],
+	tasks: [{
+		uid: "06e44abd",
+		type: "item",
+		items: [{
+			item: "minecraft:crafting_table"
+		}]
+	}]
+}

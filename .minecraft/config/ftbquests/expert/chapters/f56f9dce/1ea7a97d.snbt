@@ -1,0 +1,21 @@
+{
+	title: "{advancement.stagesix_18.title}",
+	x: 18.5d,
+	y: 1.5d,
+	text: [
+		"{advancement.stagesix_18.description}"
+	],
+	dependencies: [
+		"6877b7e2"
+	],
+	tasks: [{
+		uid: "77d20003",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:entropy_collector"
+			}
+		}]
+	}]
+}

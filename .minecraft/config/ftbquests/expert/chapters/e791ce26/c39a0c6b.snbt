@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefour_fzzhpsh.title}",
+	x: 21.0d,
+	y: 10.0d,
+	text: [
+		"{advancement.stagefour_fzzhpsh.description}"
+	],
+	dependencies: [
+		"d930f1d3"
+	],
+	tasks: [{
+		uid: "c35547f2",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:molecular_assembler"
+		}]
+	}]
+}

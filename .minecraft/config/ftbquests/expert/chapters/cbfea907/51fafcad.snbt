@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagealpha_gutainengliang.title}",
+	x: 16.5d,
+	y: 1.5d,
+	text: [
+		"{advancement.stagealpha_gutainengliang.description}"
+	],
+	dependencies: [
+		"b2e04506"
+	],
+	tasks: [{
+		uid: "0aa13db4",
+		type: "item",
+		items: [{
+			item: "contenttweaker:solidified_energy"
+		}]
+	}]
+}

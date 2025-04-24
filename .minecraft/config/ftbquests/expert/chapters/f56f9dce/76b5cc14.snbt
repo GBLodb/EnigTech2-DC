@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagesix_2-5.title}",
+	x: 6.5d,
+	y: -1.5d,
+	text: [
+		"{advancement.stagesix_2-5.description}"
+	],
+	dependencies: [
+		"b8e4f9ef"
+	],
+	tasks: [{
+		uid: "941d3156",
+		type: "item",
+		items: [{
+			item: "contenttweaker:ultracondium_crystal"
+		}]
+	}]
+}

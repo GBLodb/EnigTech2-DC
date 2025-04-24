@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagealpha_shard.title}",
+	x: 1.5d,
+	y: 11.0d,
+	text: [
+		"{advancement.stagealpha_shard.description}"
+	],
+	dependencies: [
+		"b806ea47"
+	],
+	tasks: [{
+		uid: "ef2f9e2a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:energetic_shard"
+		}]
+	}]
+}

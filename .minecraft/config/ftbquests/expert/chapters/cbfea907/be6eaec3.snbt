@@ -1,0 +1,24 @@
+{
+	title: "{advancement.stagealpha_biao.title}",
+	x: 15.0d,
+	y: 0.0d,
+	text: [
+		"{advancement.stagealpha_biao.description}"
+	],
+	dependencies: [
+		"475f62d4"
+	],
+	tasks: [{
+		uid: "f7b57d25",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "projecte:item.pe_time_watch",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

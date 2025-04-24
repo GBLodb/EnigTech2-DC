@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefour_unpolished.title}",
+	x: 15.0d,
+	y: 5.5d,
+	text: [
+		"{advancement.stagefour_unpolished.description}"
+	],
+	dependencies: [
+		"43ca21f3"
+	],
+	tasks: [{
+		uid: "8d8789f8",
+		type: "item",
+		items: [{
+			item: "contenttweaker:dark_gaiya_crystal_unpolished"
+		}]
+	}]
+}

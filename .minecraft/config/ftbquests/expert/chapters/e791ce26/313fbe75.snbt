@@ -1,0 +1,19 @@
+{
+	title: "{advancement.stagefour_lianjintai.title}",
+	x: 15.5d,
+	y: -2.0d,
+	text: [
+		"{advancement.stagefour_lianjintai.description}"
+	],
+	dependencies: [
+		"342e7997",
+		"2981f157"
+	],
+	tasks: [{
+		uid: "a2801fa3",
+		type: "item",
+		items: [{
+			item: "embers:alchemy_tablet"
+		}]
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "{advancement.stagefive_roof.title}",
+	x: 25.0d,
+	y: 1.5d,
+	shape: "hexagon",
+	text: [
+		"{advancement.stagefive_roof.description}"
+	],
+	dependencies: [
+		"c5194e95"
+	],
+	tasks: [{
+		uid: "226aa3ee",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "contenttweaker:star_rune"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

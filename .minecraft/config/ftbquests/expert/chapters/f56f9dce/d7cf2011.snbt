@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagesix_21.title}",
+	x: 20.0d,
+	y: 1.5d,
+	text: [
+		"{advancement.stagesix_21.description}"
+	],
+	dependencies: [
+		"37611982"
+	],
+	tasks: [{
+		uid: "5c9b8066",
+		type: "item",
+		items: [{
+			item: "storagedrawers:upgrade_creative"
+		}]
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "{advancement.stagefour_microassembly.title}",
+	x: 18.0d,
+	y: 10.0d,
+	shape: "rsquare",
+	text: [
+		"{advancement.stagefour_microassembly.description}"
+	],
+	dependencies: [
+		"c99308a9"
+	],
+	tasks: [{
+		uid: "721700aa",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:microassembly"
+			}
+		}]
+	}]
+}

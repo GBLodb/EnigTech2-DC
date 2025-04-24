@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefive_emgg.title}",
+	x: 3.0d,
+	y: 7.5d,
+	text: [
+		"{advancement.stagefive_emgg.description}"
+	],
+	dependencies: [
+		"d3328bef"
+	],
+	tasks: [{
+		uid: "576e7c0d",
+		type: "item",
+		items: [{
+			item: "bloodmagic:demon_crucible"
+		}]
+	}]
+}

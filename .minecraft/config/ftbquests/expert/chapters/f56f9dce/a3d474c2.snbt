@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagesix_x1.title}",
+	x: 13.0d,
+	y: 3.5d,
+	text: [
+		"{advancement.stagesix_x1.description}"
+	],
+	dependencies: [
+		"2dedd1d6"
+	],
+	tasks: [{
+		uid: "6766a7f4",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:part 1 10"
+		}]
+	}]
+}

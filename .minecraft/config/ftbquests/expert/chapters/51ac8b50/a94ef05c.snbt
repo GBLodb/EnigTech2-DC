@@ -1,0 +1,21 @@
+{
+	title: "{advancement.stagetwo_chouti.title}",
+	x: -5.0d,
+	y: -2.0d,
+	text: [
+		"{advancement.stagetwo_chouti.description}"
+	],
+	dependencies: [
+		"3d0a0be3"
+	],
+	tasks: [{
+		uid: "318653df",
+		type: "item",
+		items: [{
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			}
+		}]
+	}]
+}

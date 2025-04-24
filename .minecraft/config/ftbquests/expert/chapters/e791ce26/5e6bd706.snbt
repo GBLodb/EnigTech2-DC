@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefour_jifaqi.title}",
+	x: 6.0d,
+	y: -2.0d,
+	text: [
+		"{advancement.stagefour_jifaqi.description}"
+	],
+	dependencies: [
+		"cbb8edb5"
+	],
+	tasks: [{
+		uid: "466eecbb",
+		type: "item",
+		items: [{
+			item: "embers:ember_activator"
+		}]
+	}]
+}

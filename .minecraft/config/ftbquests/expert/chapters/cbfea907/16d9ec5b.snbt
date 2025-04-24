@@ -1,0 +1,19 @@
+{
+	title: "{advancement.stagealpha_ult.title}",
+	x: 16.5d,
+	y: 3.0d,
+	shape: "hexagon",
+	text: [
+		"{advancement.stagealpha_ult.description}"
+	],
+	dependencies: [
+		"abd05ea4"
+	],
+	tasks: [{
+		uid: "8340c167",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 1 32"
+		}]
+	}]
+}

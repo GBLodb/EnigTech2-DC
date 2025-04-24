@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagealpha_mekturbine.title}",
+	x: 10.5d,
+	y: 11.0d,
+	text: [
+		"{advancement.stagealpha_mekturbine.description}"
+	],
+	dependencies: [
+		"2f2b0670"
+	],
+	tasks: [{
+		uid: "3ee69fcc",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:generator 1 10"
+		}]
+	}]
+}

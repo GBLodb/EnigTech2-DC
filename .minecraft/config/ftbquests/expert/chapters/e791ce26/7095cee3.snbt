@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefour_fushexingzi.title}",
+	x: 7.5d,
+	y: 2.5d,
+	text: [
+		"{advancement.stagefour_fushexingzi.description}"
+	],
+	dependencies: [
+		"d03931f8"
+	],
+	tasks: [{
+		uid: "70b1d59d",
+		type: "item",
+		items: [{
+			item: "arcanearchives:radiant_chest"
+		}]
+	}]
+}

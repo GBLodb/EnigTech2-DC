@@ -1,0 +1,18 @@
+{
+	title: "{advancement.stagefive_ymmyd.title}",
+	x: 10.0d,
+	y: 3.0d,
+	text: [
+		"{advancement.stagefive_ymmyd.description}"
+	],
+	dependencies: [
+		"23b2441c"
+	],
+	tasks: [{
+		uid: "07a2eb1f",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 136"
+		}]
+	}]
+}

@@ -1,17 +1,17 @@
-filename = 'HammerLib-1.12.2-12.2.58.jar'
-name = 'HammerLib'
+filename = 'Baubles-1.12.2-1.0.6.0.jar'
+name = 'Baubles-LTS'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.12.2' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '[1.12.2] HammerLib - 12.2.58'
+x-prismlauncher-version-number = 'Baubles-1.12.2-1.0.6.0'
 
 [download]
-hash = 'd693d897584c3d3d629a7fda02502e362a250b78'
+hash = 'b78b09ace2e2f4d22d9123841f72bc7b8165a54c'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6348753
-project-id = 247401
+file-id = 3916343
+project-id = 655747

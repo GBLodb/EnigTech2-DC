@@ -1,0 +1,17 @@
+filename = 'ae2stuff-extended-1.12.2-v0.8-0.2.1.jar'
+name = 'AE2 Stuff Unofficial: Extended'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ae2stuff-extended-1.12.2-v0.8-0.2.1.jar'
+
+[download]
+hash = '2bb67dea7c08e21e77e210e78f04e61b12304e20'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5006533
+project-id = 913357

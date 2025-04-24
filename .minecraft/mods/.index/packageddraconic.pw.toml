@@ -1,17 +1,17 @@
-filename = 'PackagedDraconic-1.12.2-1.0.2.19.jar'
+filename = 'PackagedDraconic-1.12.2-1.0.3.20.jar'
 name = 'PackagedDraconic'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.12.2' ]
 x-prismlauncher-release-type = 'beta'
-x-prismlauncher-version-number = '1.12.2-1.0.2.19'
+x-prismlauncher-version-number = '1.12.2-1.0.3.20'
 
 [download]
-hash = 'ca9db4bb1390ff702bac7da3b3b21780c32dc456'
+hash = 'a18c843f461263478c7919f456427582892aed9e'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6034816
+file-id = 6425276
 project-id = 833931

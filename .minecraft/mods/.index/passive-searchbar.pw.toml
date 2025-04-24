@@ -1,0 +1,17 @@
+filename = 'PassiveSearchBar+Forge+1.12.2-1.0.0.jar'
+name = 'Passive SearchBar'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'PassiveSearchBar+Forge+1.12.2-1.0.0.jar'
+
+[download]
+hash = '06861168e03fddea48fa5a0a953ce6cde46e9085'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4859494
+project-id = 930157

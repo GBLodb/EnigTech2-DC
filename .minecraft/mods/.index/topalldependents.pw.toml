@@ -1,17 +1,17 @@
-filename = 'RecipeStages-1.1.3.8.jar'
-name = 'Recipe Stages'
+filename = 'TopAllDependents-1.3.jar'
+name = 'TopAllDependents'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.12.2' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'RecipeStages-1.1.3.8.jar'
+x-prismlauncher-version-number = 'TopAllDependents-1.3.jar'
 
 [download]
-hash = 'fa16c9222e94633429c85b885fdead763e176c24'
+hash = '7ef05972821e97fcedb3f6941f19d5b8e229f1dc'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 3405071
-project-id = 280554
+file-id = 6310644
+project-id = 1120632

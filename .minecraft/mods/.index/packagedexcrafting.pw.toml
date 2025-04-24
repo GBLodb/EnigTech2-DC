@@ -1,17 +1,17 @@
-filename = 'PackagedExCrafting-1.12.2-1.0.2.26.jar'
+filename = 'PackagedExCrafting-1.12.2-1.0.2.28.jar'
 name = 'PackagedExCrafting'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.12.2' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.12.2-1.0.2.26'
+x-prismlauncher-version-number = '1.12.2-1.0.2.28'
 
 [download]
-hash = '9cec7d1ba614ffa652125cfafec1d9caaad7d280'
+hash = '9228f010357919c75e5b684db5fa77b84794702e'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6039017
+file-id = 6425299
 project-id = 322861

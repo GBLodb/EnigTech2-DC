@@ -1,17 +1,17 @@
-filename = 'HammerLib-1.12.2-12.2.58.jar'
-name = 'HammerLib'
+filename = 'RoughlyEnoughIDs-2.2.2.jar'
+name = 'Roughly Enough IDs'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.12.2' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '[1.12.2] HammerLib - 12.2.58'
+x-prismlauncher-version-number = '2.2.2'
 
 [download]
-hash = 'd693d897584c3d3d629a7fda02502e362a250b78'
+hash = 'b9419b1b2bab474f29f6b4db27c7a69ac6ff90d9'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6348753
-project-id = 247401
+file-id = 6292779
+project-id = 629017

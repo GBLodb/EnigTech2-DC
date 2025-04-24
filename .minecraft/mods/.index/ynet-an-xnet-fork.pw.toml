@@ -1,17 +1,17 @@
-filename = 'HammerLib-1.12.2-12.2.58.jar'
-name = 'HammerLib'
+filename = 'xnet-1.12-1.8.4-ynet.jar'
+name = 'YNet [XNet Fork]'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.12.2' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '[1.12.2] HammerLib - 12.2.58'
+x-prismlauncher-version-number = 'xnet-1.12-1.8.4-ynet.jar'
 
 [download]
-hash = 'd693d897584c3d3d629a7fda02502e362a250b78'
+hash = 'd5886bc1e309a5d31fd251fa37c4c622e50dd715'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6348753
-project-id = 247401
+file-id = 5665405
+project-id = 999559

@@ -1,17 +1,17 @@
-filename = 'HammerLib-1.12.2-12.2.58.jar'
-name = 'HammerLib'
+filename = 'YARCF-0.14(1.12.2).jar'
+name = 'Yet Another Recipe Conflict Fixer (YARCF) '
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.12.2' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '[1.12.2] HammerLib - 12.2.58'
+x-prismlauncher-version-number = 'YARCF - v0.14'
 
 [download]
-hash = 'd693d897584c3d3d629a7fda02502e362a250b78'
+hash = 'ae04dd7b2527de7ac7a2d90c475a2d10f0864cb6'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6348753
-project-id = 247401
+file-id = 3310627
+project-id = 482566

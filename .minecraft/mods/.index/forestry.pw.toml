@@ -1,17 +1,17 @@
-filename = 'forestry_1.12.2-5.8.2.425.jar'
+filename = 'forestry_1.12.2-5.8.2.426.jar'
 name = 'Forestry'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.12.2' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'forestry_1.12.2-5.8.2.425.jar'
+x-prismlauncher-version-number = 'forestry_1.12.2-5.8.2.426.jar'
 
 [download]
-hash = '2b2013bd764880d10e8d21f06419ab309b821ec6'
+hash = '9a64b9119bc0a53d393382fcaaa0a392fb5deec9'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6104316
+file-id = 6450115
 project-id = 59751

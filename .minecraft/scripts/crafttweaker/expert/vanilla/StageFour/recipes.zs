@@ -164,3 +164,33 @@ recipes.addShaped(<retro_sophisticated_backpacks:exponential_stack_upgrade>, [
     [<retro_sophisticated_backpacks:stack_upgrade_tier_4>, <retro_sophisticated_backpacks:upgrade_base>, <retro_sophisticated_backpacks:stack_upgrade_tier_4>],
     [<ore:blockDawnstone>, <retro_sophisticated_backpacks:stack_upgrade_tier_4>, <ore:blockDawnstone>]
 ]);
+
+recipes.replaceAllOccurences(<ore:nuggetIron>, <ore:nuggetConductiveIron>, <*>.only(function(item) {
+    return item.definition.owner == "opencomputers";
+}));
+
+recipes.replaceAllOccurences(<ore:nuggetGold>, <ore:nuggetVibrantAlloy>, <*>.only(function(item) {
+    return item.definition.owner == "opencomputers";
+}));
+
+recipes.replaceAllOccurences(<ore:ingotIron>, <ore:ingotConductiveIron>, <*>.only(function(item) {
+    return item.definition.owner == "opencomputers";
+}));
+
+recipes.replaceAllOccurences(<ore:ingotGold>, <ore:ingotVibrantAlloy>, <*>.only(function(item) {
+    return item.definition.owner == "opencomputers";
+}));
+
+recipes.replaceAllOccurences(<ore:chipDiamond>, <ore:nuggetDawnstone>, <*>.only(function(item) {
+    return item.definition.owner == "opencomputers";
+}));
+
+recipes.replaceAllOccurences(<ore:gemDiamond>, <ore:ingotDawnstone>, <*>.only(function(item) {
+    return item.definition.owner == "opencomputers";
+}));
+
+recipes.addShaped(<opencomputers:material:6>, [
+    [<contenttweaker:magcondium_ingot>, <contenttweaker:magcondium_ingot>, <contenttweaker:magcondium_ingot>],
+    [<ore:nuggetVibrantAlloy>, <arcanearchives:raw_quartz>, <ore:nuggetVibrantAlloy>],
+    [null, <ore:dustRedstone>, null]
+]);

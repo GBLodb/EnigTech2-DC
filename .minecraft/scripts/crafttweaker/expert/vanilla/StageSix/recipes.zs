@@ -223,3 +223,7 @@ recipes.addShaped(<contenttweaker:bioradioactive_source>,
     [<extrabees:honey_drop:1>,<forestry:bee_queen_ge>,<extrabees:honey_drop:1>],
     [<extrabees:honey_drop:0>,<extrabees:honey_drop:5>,<extrabees:honey_drop:0>]]
 );
+
+recipes.addShapeless(<ae2exttable:ultimate_crafting_terminal>,
+    [<appliedenergistics2:part:360>, <appliedenergistics2:material:24>, <extendedcrafting:table_ultimate>, <extendedcrafting:material:12>]
+);

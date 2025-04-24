@@ -216,3 +216,7 @@ val psigna = <ore:plateSignalum>;
 mods.recipestages.Recipes.addShaped("six", <modulardiversity:blockmekheatinput>, [[modingot, moblock, modingot],[moblock, <contenttweaker:wtssc>, moblock], [modingot, moblock, modingot]]);
 mods.recipestages.Recipes.addShaped("six", <modulardiversity:blockmeklaseracceptor>, [[modingot, psigna, modingot],[psigna, <contenttweaker:zbc>, psigna], [modingot, psigna, modingot]]);
 mods.recipestages.Recipes.addShaped("six", <mekanismgenerators:reactor:1>, [[psoot,pldu,psoot],[pldu,<ore:alloyUltimate>,pldu],[psoot,pldu,psoot]]);
+
+recipes.addShapeless(<ae2exttable:ultimate_crafting_terminal>,
+    [<appliedenergistics2:part:360>, <appliedenergistics2:material:24>, <extendedcrafting:table_ultimate>, <extendedcrafting:material:12>]
+);

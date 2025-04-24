@@ -91,7 +91,13 @@ val removingArray = [
     <forestry:frame_untreated>,
     <forestry:frame_impregnated>,
     <retro_sophisticated_backpacks:stack_upgrade_tier_4>,
-    <retro_sophisticated_backpacks:exponential_stack_upgrade>
+    <retro_sophisticated_backpacks:exponential_stack_upgrade>,
+    <opencomputers:material:7>,
+    <opencomputers:material:8>,
+    <opencomputers:material:9>,
+    <opencomputers:material:10>,
+    <opencomputers:material:11>,
+    <ae2exttable:ultimate_crafting_terminal>
 ] as IItemStack[];
 
 for items in removingArray{

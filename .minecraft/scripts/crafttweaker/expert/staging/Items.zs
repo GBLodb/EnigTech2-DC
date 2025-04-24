@@ -134,7 +134,8 @@ var modsStageFour as string[] = [
 	"carryon",
 	"extrabees",
 	"extratrees",
-	"extraflowers"
+	"extraflowers",
+	"opencomputers"
 ];
 
 addItemStage("four",<bloodmagic:upgrade_trainer>.withTag({}));
@@ -238,7 +239,7 @@ var modsStageSix as string[] = [
 	"packagedauto",
 	"packagedexcrafting",
 	"thermaldynamics"
-	
+
 ];
 
 for mod in modsStageSix{

@@ -39,3 +39,4 @@
 /.minecraft/*.dll
 /.minecraft/local/ftbutilities/backups.json
 /.minecraft/backups
+/.minecraft/fancymenu_data/

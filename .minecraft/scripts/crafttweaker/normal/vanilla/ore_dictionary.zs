@@ -1,6 +1,8 @@
 #packmode normal
 #priority -100
 
+// 铁树门...
+<ore:doorWood>.add(<rustic:ironwood_door>);
 //移除 神秘世界模组 紫水晶 的矿物词典
 <ore:gemAmethyst>.remove(<mysticalworld:amethyst_gem>);
 <ore:oreAmethyst>.remove(<silentgems:gemore:11>);

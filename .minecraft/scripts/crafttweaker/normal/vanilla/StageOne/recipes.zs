@@ -58,6 +58,7 @@ mods.recipestages.Recipes.addShapeless("one", <minecraft:redstone_block>*9, [red
 mods.recipestages.Recipes.addShapeless("one", redbb*9, [<contenttweaker:redstone_block_81>]);
 
 recipes.addShaped(<minecraft:wooden_door>*3,[[<minecraft:planks>,<minecraft:planks>],[<minecraft:planks>,<minecraft:planks>],[<minecraft:planks>,<minecraft:planks>]]);
+recipes.addShapeless(<biomesoplenty:blue_dye>,[<silentgems:glowrose:9>]);
 
 recipes.replaceAllOccurences(<mysticalworld:iron_dust>,<ore:dustIron>);
 recipes.replaceAllOccurences(<mysticalworld:gold_dust>,<ore:dustGold>);

@@ -20,7 +20,7 @@ recipes.addShaped(<minecraft:stone_slab:3>*3,[[<minecraft:cobblestone>,<minecraf
 recipes.addShaped(<roots:component_pouch>,[[<minecraft:string>,<ore:wool>,<minecraft:string>],[<ore:materialTannedLeather>,null,<ore:materialTannedLeather>],[<minecraft:iron_ingot>,<ore:materialTannedLeather>,<minecraft:iron_ingot>]]);
 recipes.addShaped(<roots:mortar>,[[<minecraft:cobblestone>,null,<minecraft:cobblestone>],[<minecraft:cobblestone>,<ore:rootsBark>,<minecraft:cobblestone>],[null,<minecraft:cobblestone>,null]]);
 //工作台
-mods.recipestages.Recipes.addShaped("one", <minecraft:crafting_table>, [[<survivalist:hatchet>.anyDamage(), <survivalist:rock>], [<ore:logWood>, <ore:logWood>]]);
+mods.recipestages.Recipes.addShaped("one", <minecraft:crafting_table>, [[<survivalist:hatchet>.anyDamage().reuse(), <survivalist:rock>], [<ore:logWood>, <ore:logWood>]]);
 //木半砖
 mods.recipestages.Recipes.addShaped("one", <minecraft:wooden_slab:0>*5, [[<minecraft:planks:0>,<minecraft:planks:0>,<minecraft:planks:0>]]);
 mods.recipestages.Recipes.addShaped("one", <minecraft:wooden_slab:2>*5, [[<minecraft:planks:2>,<minecraft:planks:2>,<minecraft:planks:2>]]);
@@ -53,6 +53,7 @@ mods.recipestages.Recipes.addShapeless("one", <minecraft:redstone_block>*9, [red
 mods.recipestages.Recipes.addShapeless("one", redbb*9, [<contenttweaker:redstone_block_81>]);
 
 recipes.addShaped(<minecraft:wooden_door>*3,[[<minecraft:planks>,<minecraft:planks>],[<minecraft:planks>,<minecraft:planks>],[<minecraft:planks>,<minecraft:planks>]]);
+recipes.addShapeless(<biomesoplenty:blue_dye>,[<silentgems:glowrose:9>]);
 
 recipes.replaceAllOccurences(<mysticalworld:iron_dust>,<ore:dustIron>);
 recipes.replaceAllOccurences(<mysticalworld:gold_dust>,<ore:dustGold>);

@@ -71,6 +71,7 @@ var modsStageTwo as string[] = [
 	"thermalfoundation",
 	"botania_tweaks",
 	"akashictome",
+	"jecalculation",
 	"sgextraparts"
 ];
 

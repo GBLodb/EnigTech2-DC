@@ -3,7 +3,7 @@
 	x: 5.5d,
 	y: -1.0d,
 	text: [
-		"{advancement.stagetwo_fengzhifuwen.description}}}"
+		"{advancement.stagetwo_fengzhifuwen.description}"
 	],
 	dependencies: [
 		"70109243"

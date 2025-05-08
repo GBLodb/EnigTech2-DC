@@ -70,6 +70,7 @@ var modsStageTwo as string[] = [
 	"flopper",
 	"thermalfoundation",
 	"botania_tweaks",
+	"akashictome",
 	"sgextraparts"
 ];
 
@@ -90,7 +91,6 @@ var modsStageThree as string[] = [
 	"torchmaster",
 	"waystones",
 	"bibliocraft",
-	"akashictome",
 	"base",
 	"modularmachinery",
 	"modulardiversity",

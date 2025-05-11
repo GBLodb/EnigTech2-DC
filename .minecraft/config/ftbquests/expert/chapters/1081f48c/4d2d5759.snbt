@@ -12,7 +12,11 @@
 		uid: "729252c9",
 		type: "item",
 		items: [{
-			item: "bloodarsenal:gem 1 2"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:soul_gem",
+			tag: {}
 		}]
 	}]
 }

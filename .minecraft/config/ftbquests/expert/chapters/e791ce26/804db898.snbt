@@ -9,8 +9,19 @@
 		"777107ee"
 	],
 	tasks: [{
-		uid: "915f6b03",
-		type: "fluid",
-		fluid: "crude_oil"
+		uid: "e4ec39c3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "crude_oil",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
 	}]
 }

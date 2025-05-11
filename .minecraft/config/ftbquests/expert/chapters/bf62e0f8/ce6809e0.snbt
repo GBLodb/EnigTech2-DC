@@ -13,6 +13,21 @@
 		type: "item",
 		items: [{
 			item: "survivalist:chopping_block"
+		},
+		{
+			item: "survivalist:chopping_block 1 4"
+		},
+		{
+			item: "survivalist:chopping_block 1 8"
+		},
+		{
+			item: "survivalist:chopping_block 1 12"
+		},
+		{
+			item: "survivalist:chopping_block2"
+		},
+		{
+			item: "survivalist:chopping_block2 1 4"
 		}]
 	}]
 }

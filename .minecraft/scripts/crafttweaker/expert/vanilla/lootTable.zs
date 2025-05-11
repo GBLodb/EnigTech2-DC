@@ -1,3 +1,6 @@
 #packmode expert
 #priority -100
-mods.ltt.LootTable.removeModEntry("enderio");
+
+import mods.ltt.LootTable;
+
+LootTable.removeModEntry("enderio");

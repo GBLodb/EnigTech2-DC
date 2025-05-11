@@ -10,5 +10,8 @@
         "state": 0,
         "operator": 0
     },
-    "player": {"recipes": {}}
+    "player": {
+        "recipes": {},
+        "last": ""
+    }
 }

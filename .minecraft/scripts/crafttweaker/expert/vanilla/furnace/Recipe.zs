@@ -1,0 +1,6 @@
+#packmode expert
+#priority -100
+
+//注册燃料
+furnace.setFuel(<contenttweaker:bad_fuel>, 3200);
+furnace.setFuel(<contenttweaker:good_fuel>, 6400);

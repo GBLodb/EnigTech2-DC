@@ -6,19 +6,7 @@ import crafttweaker.item.IIngredient;
 import mods.recipestages.Recipes;
 import mods.ItemStages.addItemStage;
 import mods.ItemStages.removeItemStage;
-
-var allStages as string[] = [
-
-	"one",
-	"two",
-	"three",
-	"four",
-	"five",
-	"six",
-	"alpha",
-	"beta"
-
-];
+import scripts.crafttweaker.common.staging.Stages.allStages;
 
 recipes.removeByRecipeName("minecraft:glass_bottle");
 recipes.removeByRecipeName("minecraft:clay");
@@ -130,15 +118,15 @@ var modsStageFour as string[] = [
 	"buildinggadgets",
 	"enderioconduitsappliedenergistics",
 	"appliedenergistics2",
-	"simplyjetpacks",
 	"extrautils2",
 	"soot",
 	"carryon",
-	"bloodarsenal",
 	"extrabees",
 	"extratrees",
 	"extraflowers",
-	"opencomputers"
+	"opencomputers",
+	"simplyjetpacks",
+	"bloodarsenal"
 ];
 
 addItemStage("four",<bloodmagic:upgrade_trainer>.withTag({}));
@@ -176,6 +164,7 @@ addToStage("two", <forestry:beehives:3>);
 addToStage("two", <forestry:beehives:4>);
 addToStage("two", <forestry:beehives:5>);
 addToStage("two", <forestry:beehives:6>);
+
 addToStage("three", <forestry:frame_untreated>);
 addToStage("three", <forestry:apiary>);
 addToStage("two", <forestry:impregnated_casing>);
@@ -207,7 +196,8 @@ var modsStageFive as string[] = [
 	"enderioendergy",
 	"xnet",
 	"rf-capability-adapter",
-	"genetics"
+	"genetics",
+	"simplyjetpacks"
 ];
 
 for mod in modsStageFive{
@@ -352,6 +342,12 @@ val itemsStageSix as IIngredient[] = [
 	<contenttweaker:entropy>,
 	<contenttweaker:compress_crystaltine>,
 	<contenttweaker:ultracondium_crystal>,
+	<contenttweaker:ultimate_motioner>,
+	<contenttweaker:ether_alloy_ingot>,
+	<actuallyadditions:block_laser_relay_fluids>,
+	<contenttweaker:crystal>,
+	<contenttweaker:bioradioactive_source>,
+	<contenttweaker:stablized_bioradioactive_source>,
 	<contenttweaker:lith_pfe_crystal_seed>,
 	<contenttweaker:erod_pfe_crystal_seed>,
 	<contenttweaker:kyro_pfe_crystal_seed>,
@@ -366,14 +362,8 @@ val itemsStageSix as IIngredient[] = [
 	<contenttweaker:charged_inoi_pfe_crystal_seed>,
 	<contenttweaker:charged_aeth_pfe_crystal_seed>,
 	<contenttweaker:charged_lons_pfe_crystal_seed>,
-	<contenttweaker:ultimate_motioner>,
-	<contenttweaker:ether_alloy_ingot>,
-	<actuallyadditions:block_laser_relay_fluids>,
 	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:blast_furnace_mk3"}),
-	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:blast_furnace_mk4"}),
-	<contenttweaker:crystal>,
-	<contenttweaker:bioradioactive_source>,
-	<contenttweaker:stablized_bioradioactive_source>
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:blast_furnace_mk4"})
 ];
 val itemsStageAlpha as IIngredient[] = [
 	<contenttweaker:auriminium>,
@@ -503,14 +493,14 @@ val bannedArray = [
 	<mekanism:machineblock:6>.withTag({recipeType: 4}),
 	<mekanism:machineblock:7>.withTag({recipeType: 4}),
 	<extendedcrafting:material:11>,
-	<ore:ingotHyunium>.firstItem,
 	<extrabees:hive_frame.cocoa>,
+	<ore:ingotHyunium>.firstItem,
 	<thermalexpansion:augment:720>
 ] as IItemStack[];
 
 for bannedItems in bannedArray{
 	removeItemStage(bannedItems);
-	addItemStage("无法获取", bannedItems);
+	addItemStage(game.localize("et2.unobtainable"), bannedItems);
 }
 
 var localizedName as string = game.localize("et2.unfamiliarName");

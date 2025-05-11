@@ -6,18 +6,7 @@ import crafttweaker.item.IIngredient;
 import mods.recipestages.Recipes;
 import mods.ItemStages.addItemStage;
 import mods.ItemStages.removeItemStage;
-
-var allStages as string[] = [
-
-	"one",
-	"two",
-	"three",
-	"four",
-	"five",
-	"six",
-	"alpha"
-
-];
+import scripts.crafttweaker.common.staging.Stages.allStages;
 
 recipes.removeByRecipeName("minecraft:glass_bottle");
 recipes.removeByRecipeName("minecraft:clay");
@@ -127,9 +116,9 @@ var modsStageFour as string[] = [
 	"elevatorid",
 	"rangedpumps",
 	"arcanearchives",
+	"buildinggadgets",
 	"enderioconduitsappliedenergistics",
 	"appliedenergistics2",
-	"buildinggadgets",
 	"extrautils2",
 	"soot",
 	"carryon",
@@ -142,7 +131,6 @@ var modsStageFour as string[] = [
 addItemStage("four",<bloodmagic:upgrade_trainer>.withTag({}));
 
 for mod in modsStageFour{
-
 	mods.ItemStages.stageModItems("four", mod);
 	Recipes.setRecipeStageByMod("four", mod);
 }
@@ -193,7 +181,6 @@ var modsStageFive as string[] = [
 	"astralsorcery",
 	"cofhworld",
 	"thermalexpansion",
-	"simplyjetpacks",
 	"compactmachines3",
 	"xreliquary",
 	"wct",
@@ -209,7 +196,6 @@ var modsStageFive as string[] = [
 	"xnet",
 	"rf-capability-adapter",
 	"genetics"
-
 ];
 
 for mod in modsStageFive{
@@ -489,7 +475,7 @@ val bannedArray = [
 
 for bannedItems in bannedArray{
 	removeItemStage(bannedItems);
-	addItemStage("\u0062\u0061\u006e\u006e\u0065\u0064",bannedItems);
+	addItemStage(game.localize("et2.unobtainable"),bannedItems);
 }
 
 var localizedName as string = game.localize("et2.unfamiliarName");

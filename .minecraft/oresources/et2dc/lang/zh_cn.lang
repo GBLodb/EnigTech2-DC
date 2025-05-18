@@ -1,2 +1,14 @@
 tile.campfire.name=篝火
 item.terra_moss.name=大地菌丝
+
+tile.block_bronze.name=铜块
+tile.ore_bronze.name=铜矿石
+item.ingot_bronze.name=铜锭
+item.nugget_bronze.name=铜粒
+item.plate_bronze.name=铜板
+item.pickaxe_bronze.name=铜镐
+item.axe_bronze.name=铜斧
+item.hoe_bronze.name=铜锄
+item.shovel_bronze.name=铜锹
+item.sword_bronze.name=铜剑
+fluid.bronze=熔融铜

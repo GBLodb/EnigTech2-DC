@@ -16,7 +16,7 @@ BlastFurnace.addFuel(<contenttweaker:good_fuel>, 2400);
 
 BlastFurnace.addRecipe(<ore:ingotAluminum>.firstItem, <ore:dustAluminum>, 80);
 BlastFurnace.addRecipe(<ore:ingotAluminum>.firstItem, <ore:oreAluminum>, 80);
-BlastFurnace.addRecipe(<ore:itemSilicon>.firstItem, <ore:dustQuartz>, 160);
+BlastFurnace.addRecipe(<appliedenergistics2:material:5>, <ore:dustQuartz>, 160);
 BlastFurnace.addRecipe(<ore:ingotIridium>.firstItem, <ore:oreIridium>, 200);
 BlastFurnace.addRecipe(<ore:ingotIridium>.firstItem, <ore:dustIridium>, 200);
 BlastFurnace.addRecipe(<ore:ingotTungstenSteel>.firstItem, <ore:oreTungsten>, 160);

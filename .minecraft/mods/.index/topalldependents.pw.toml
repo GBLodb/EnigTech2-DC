@@ -1,17 +1,17 @@
-filename = 'TopAllDependents-1.3.jar'
+filename = 'TopAllDependents-1.4.jar'
 name = 'TopAllDependents'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.12.2' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'TopAllDependents-1.3.jar'
+x-prismlauncher-version-number = 'TopAllDependents-1.4.jar'
 
 [download]
-hash = '7ef05972821e97fcedb3f6941f19d5b8e229f1dc'
+hash = '6d8267ed2b79d59e3334999172873b4adbe82059'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6310644
+file-id = 6512825
 project-id = 1120632

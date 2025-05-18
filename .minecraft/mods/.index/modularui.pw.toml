@@ -1,17 +1,17 @@
-filename = 'modularui-2.5.0-rc4.jar'
+filename = 'modularui-2.5.0-rc5.jar'
 name = 'ModularUI'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.12.2' ]
-x-prismlauncher-release-type = 'alpha'
-x-prismlauncher-version-number = 'ModularUI − 2.5.0-rc4'
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'ModularUI − 2.5.0-rc5'
 
 [download]
-hash = '8ba0cf5d5f461a0939d20558704b6432ef341b06'
+hash = 'b47bbac901d8b67ebd78ee339fb16ea9ccf66b25'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6206809
+file-id = 6535584
 project-id = 624243

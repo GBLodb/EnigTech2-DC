@@ -86,7 +86,7 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
 
     <cyberware:component:5>*6 : [
         [null,qfiber,null],
-        [qfiber,<mekanism:polyethene:3>,qfiber],
+        [qfiber,<mekanism:hdpe_stick>,qfiber],
         [null,qfiber,null]
     ],
 

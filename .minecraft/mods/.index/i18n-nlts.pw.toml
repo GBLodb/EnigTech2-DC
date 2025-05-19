@@ -1,0 +1,17 @@
+filename = 'I18nUpdateMod-NLTS-Forge-0.1.1beta2-1.12.2.jar'
+name = 'I18nUpdateMod Non-LTS'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'I18nUpdateMod-NLTS-Forge-0.1.1beta2-1.12.2'
+
+[download]
+hash = 'ad3ca2c9ee55f3d6bc70c6e4fab02ba2a3acea20'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4351195
+project-id = 700367

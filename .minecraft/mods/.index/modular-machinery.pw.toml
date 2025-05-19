@@ -1,6 +1,10 @@
 filename = 'modularmachinery-1.12.2-1.10.0.jar'
 name = 'Modular Machinery'
 side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ModularMachinery-1.12.2-1.10.0.jar'
 
 [download]
 hash = '9947d25c9a685c12fe499a96d54be8d7db054cc5'

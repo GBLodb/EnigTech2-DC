@@ -2,8 +2,10 @@
 #priority -100
 var machineName = "vaccum_alloy_furnace";
 
-mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_default", machineName, 400)
-	.addMekanismHeatInput(-1000, 580000, 600000)
+import mods.modularmachinery.RecipeBuilder;
+
+RecipeBuilder.newBuilder(machineName + "_default", machineName, 400)
+	.addMekanismHeatInput(-1000, 450000, 600000)
 	.addItemInput(<appliedenergistics2:material:47>*2)
 	.addItemInput(<contenttweaker:ether_alloy_ingot>)
 	.addItemInput(<botania:manaresource:7>)
@@ -12,8 +14,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_default", machine
 	.addItemOutput(<contenttweaker:material_part:63>)
 	.build();
 
-mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_cheap", machineName, 200)
-	.addMekanismHeatInput(100, 400000, 500000)
+RecipeBuilder.newBuilder(machineName + "_cheap", machineName, 200)
+	.addMekanismHeatInput(100, 350000, 500000)
 	.addItemInput(<appliedenergistics2:material:47>)
 	.addItemInput(<contenttweaker:ether_alloy_ingot>)
 	.addItemInput(<botania:manaresource:7>)
@@ -23,14 +25,14 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_cheap", machineNa
 	.addItemOutput(<contenttweaker:material_part:63>)
 	.build();
 
-mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_crystaltine", machineName, 200)
-	.addMekanismHeatInput(200, 290000, 300000)
+RecipeBuilder.newBuilder(machineName + "_crystaltine", machineName, 200)
+	.addMekanismHeatInput(200, 150000, 300000)
 	.addItemInput(<extrautils2:ingredients:17>)
 	.addItemInput(<biomesoplenty:terrestrial_artifact>*2)
 	.addItemOutput(<extendedcrafting:material:24>)
 	.build();
 
-mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_crystaltine_cheap", machineName, 100)
+RecipeBuilder.newBuilder(machineName + "_crystaltine_cheap", machineName, 100)
 	.addMekanismHeatInput(100, 100000, 500000)
 	.addItemInput(<extrautils2:ingredients:17>)
 	.addItemInput(<biomesoplenty:terrestrial_artifact>*2)
@@ -38,8 +40,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_crystaltine_cheap
 	.addItemOutput(<extendedcrafting:material:24>)
 	.build();
 
-mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_sic", machineName, 360)
-	.addMekanismHeatInput(2, 22730, 23730)
+RecipeBuilder.newBuilder(machineName + "_sic", machineName, 360)
+	.addMekanismHeatInput(2, 200000, 237300)
 	.addItemInput(<ore:dustQuartz>,2)
 	.addItemInput(<ore:fuelCoke>)
 	.addItemInput(<ore:dustSalt>)
@@ -47,8 +49,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_sic", machineName
 	.addItemOutput(<nuclearcraft:alloy:13>*3)
 	.build();
 
-mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_skip", machineName, 360)
-	.addMekanismHeatInput(100, 300000, 350000)
+RecipeBuilder.newBuilder(machineName + "_skip", machineName, 360)
+	.addMekanismHeatInput(100, 200000, 350000)
 	.addItemInput(<contenttweaker:stablized_bioradioactive_source>)
 	.addItemInput(<ore:fuelTBU>, 8)
 	.addItemInput(<ore:fuelHEU235>, 16)

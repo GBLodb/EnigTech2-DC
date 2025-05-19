@@ -1,0 +1,17 @@
+filename = 'bogosorter-1.4.10.jar'
+name = 'Inventory Bogo Sorter'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'alpha'
+x-prismlauncher-version-number = 'Inventory BogoSorter − 1.4.10'
+
+[download]
+hash = '337962beb4b339996034ccc9272b3ea05ebd394a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6170805
+project-id = 632327

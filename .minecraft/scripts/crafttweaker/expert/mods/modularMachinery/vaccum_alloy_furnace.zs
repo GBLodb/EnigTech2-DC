@@ -2,9 +2,7 @@
 #priority -100
 var machineName = "vaccum_alloy_furnace";
 
-import mods.modularmachinery.RecipeBuilder;
-
-RecipeBuilder.newBuilder(machineName + "_default", machineName, 400)
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_default", machineName, 400)
 	.addMekanismHeatInput(-1000, 450000, 600000)
 	.addItemInput(<appliedenergistics2:material:47>*2)
 	.addItemInput(<contenttweaker:ether_alloy_ingot>)
@@ -14,7 +12,7 @@ RecipeBuilder.newBuilder(machineName + "_default", machineName, 400)
 	.addItemOutput(<contenttweaker:material_part:63>)
 	.build();
 
-RecipeBuilder.newBuilder(machineName + "_cheap", machineName, 200)
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_cheap", machineName, 200)
 	.addMekanismHeatInput(100, 350000, 500000)
 	.addItemInput(<appliedenergistics2:material:47>)
 	.addItemInput(<contenttweaker:ether_alloy_ingot>)
@@ -25,14 +23,14 @@ RecipeBuilder.newBuilder(machineName + "_cheap", machineName, 200)
 	.addItemOutput(<contenttweaker:material_part:63>)
 	.build();
 
-RecipeBuilder.newBuilder(machineName + "_crystaltine", machineName, 200)
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_crystaltine", machineName, 200)
 	.addMekanismHeatInput(200, 150000, 300000)
 	.addItemInput(<extrautils2:ingredients:17>)
 	.addItemInput(<biomesoplenty:terrestrial_artifact>*2)
 	.addItemOutput(<extendedcrafting:material:24>)
 	.build();
 
-RecipeBuilder.newBuilder(machineName + "_crystaltine_cheap", machineName, 100)
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_crystaltine_cheap", machineName, 100)
 	.addMekanismHeatInput(100, 100000, 500000)
 	.addItemInput(<extrautils2:ingredients:17>)
 	.addItemInput(<biomesoplenty:terrestrial_artifact>*2)
@@ -40,7 +38,7 @@ RecipeBuilder.newBuilder(machineName + "_crystaltine_cheap", machineName, 100)
 	.addItemOutput(<extendedcrafting:material:24>)
 	.build();
 
-RecipeBuilder.newBuilder(machineName + "_sic", machineName, 360)
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_sic", machineName, 360)
 	.addMekanismHeatInput(2, 200000, 237300)
 	.addItemInput(<ore:dustQuartz>,2)
 	.addItemInput(<ore:fuelCoke>)
@@ -49,7 +47,7 @@ RecipeBuilder.newBuilder(machineName + "_sic", machineName, 360)
 	.addItemOutput(<nuclearcraft:alloy:13>*3)
 	.build();
 
-RecipeBuilder.newBuilder(machineName + "_skip", machineName, 360)
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_skip", machineName, 360)
 	.addMekanismHeatInput(100, 200000, 350000)
 	.addItemInput(<contenttweaker:stablized_bioradioactive_source>)
 	.addItemInput(<ore:fuelTBU>, 8)

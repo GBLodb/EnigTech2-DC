@@ -84,7 +84,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_zhishu_machine_co
     .addEnergyPerTickInput(1000)
     .addFluidInput(<liquid:fluid_lubricant>*100)
     .addItemInput(<draconicevolution:draconic_core>*4)
-	.addItemInput(<ore:plateVoidMetal>*20)
+	.addItemInput(<ore:plateVoidMetal>, 20)
     .addItemOutput(<contenttweaker:zhishu_machine_core>)
     .build();
 
@@ -94,7 +94,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_fusion_crafting_c
     .addFluidInput(<liquid:fluid_dragon_breathe>*2000)
     .addItemInput(<contenttweaker:zhishu_machine_core>)
 	.addItemInput(<contenttweaker:sub_block_holder_0:4>*4)
-    .addItemInput(<ore:rodVoidMetal>*4)
+    .addItemInput(<ore:rodVoidMetal>, 4)
     .addItemOutput(<draconicevolution:fusion_crafting_core>)
     .build();
 
@@ -105,7 +105,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_crafting_injector
     .addItemInput(<thermalfoundation:storage:7>)
 	.addItemInput(<contenttweaker:zhishu_machine_core>)
     .addItemInput(<naturesaura:infused_stone>*5)
-    .addItemInput(<ore:manaDiamond>*2)
+    .addItemInput(<ore:manaDiamond>, 2)
     .addItemOutput(<draconicevolution:crafting_injector>*2)
     .build();
 
@@ -116,7 +116,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_quarry", machineN
     .addItemInput(<ore:ingotEnderium>,8)
 	.addItemInput(<mekanism:teleportationcore>)
     .addItemInput(<contenttweaker:ultra_machine_core>)
-    .addItemInput(<ore:crystalAethium>,16)
+    .addItemInput(<ore:crystalAethium>, 16)
     .addItemOutput(<extrautils2:quarry>)
     .build();
 
@@ -126,6 +126,6 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_cc_elite", machin
     .addFluidInput(<liquid:glowstone>*1000)
     .addItemInput(<extendedcrafting:material:2>*4)
 	.addItemInput(<ore:gearLumium>)
-    .addItemInput(<ore:circuitBasic>,8)
+    .addItemInput(<ore:circuitBasic>, 8)
     .addItemOutput(<extendedcrafting:material:16>)
     .build();

@@ -4,4 +4,4 @@
 import mods.actuallyadditions.Crusher;
 
 Crusher.removeRecipe(<nuclearcraft:gem_dust:2>);
-Crusher.removeRecipe(<ore:dustAstralStarmetal>.firstItem);
+Crusher.removeRecipe(<astralsorcery:itemcraftingcomponent:2>);

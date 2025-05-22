@@ -32,12 +32,12 @@ static mk1_recipes as IItemStack[][IIngredient][string][int][IItemStack] = {
         }
     },
     //Nd
-    <ore:ingotNeodymium> : {
+    <ore:ingotNeodymium>.firstItem : {
         5000 : {
             speed_t1 : {null : [<contenttweaker:sub_block_holder_0:7>]}
         },
         3000 : {
-            speed_t1 : {null : [<ore:dustNeodymium>]}
+            speed_t1 : {null : [<ore:dustNeodymium>.firstItem]}
         }
     },
     //W
@@ -46,7 +46,7 @@ static mk1_recipes as IItemStack[][IIngredient][string][int][IItemStack] = {
             speed_t2 : {null : [<contenttweaker:sub_block_holder_0:3>]}
         },
         3000 : {
-            speed_t2 : {null : [<ore:dustTungsten>]}
+            speed_t2 : {null : [<ore:dustTungsten>.firstItem]}
         }
     },
     //Mithril
@@ -61,7 +61,7 @@ static mk1_recipes as IItemStack[][IIngredient][string][int][IItemStack] = {
             speed_t2 : {null : [<contenttweaker:sub_block_holder_0:14>]}
         },
         3000 : {
-            speed_t2 : {null : [<ore:dustMolybdenum>]}
+            speed_t2 : {null : [<ore:dustMolybdenum>.firstItem]}
         }
     },
     //Luming
@@ -110,7 +110,7 @@ static mk1_recipes as IItemStack[][IIngredient][string][int][IItemStack] = {
         }
     },
     //海蓝宝石
-    <ore:gemAquamarine>*12 : {
+    <ore:gemAquamarine>.firstItem*12 : {
         10000 : {
             speed_t1 : {<liquid:astralsorcery.liquidstarlight>*2000 : [<item:silentgems:gem:9>*8, <astralsorcery:itemusabledust:1>*4, <ore:ingotIridium>.firstItem, <astralsorcery:itemusabledust>*4,<contenttweaker:arcane_essence>*4]}
         }
@@ -180,9 +180,9 @@ static mk2_recipes as IItemStack[][IIngredient][string][int][IItemStack] = {
         }
     },
     //星尘
-    <ore:ingotAstralStarmetal> : {
+    <ore:ingotAstralStarmetal>.firstItem : {
         5000 : {
-            speed_t1 : {<liquid:astralsorcery.liquidstarlight>*2000 : [<ore:dustAstralStarmetal>]}
+            speed_t1 : {<liquid:astralsorcery.liquidstarlight>*2000 : [<ore:dustAstralStarmetal>.firstItem]}
         }
     },
     //眼灯草
@@ -199,7 +199,7 @@ static mk2_recipes as IItemStack[][IIngredient][string][int][IItemStack] = {
     },
     <environmentaltech:litherite_crystal> : {
         2000 : {
-            speed_t2 : {<liquid:mana>*500 : [<ore:gemAquamarine>]}
+            speed_t2 : {<liquid:mana>*500 : [<ore:gemAquamarine>.firstItem]}
         }
     },
     //Os from ore
@@ -233,7 +233,7 @@ static mk3_recipes as IItemStack[][IIngredient][string][int][IItemStack] = {
     },
     <contenttweaker:dark_gaiya_crystal_unpolished> : {
         10000 : {
-            speed_t2 : {<liquid:mana>*1000 : [<ore:elvenDragonstone>,<contenttweaker:ultracondium_crystal>,<ore:dustAstralStarmetal>*2]}
+            speed_t2 : {<liquid:mana>*1000 : [<ore:elvenDragonstone>.firstItem,<contenttweaker:ultracondium_crystal>,<ore:dustAstralStarmetal>.firstItem*2]}
         }
     },
     <arcanearchives:raw_quartz>*32 : {

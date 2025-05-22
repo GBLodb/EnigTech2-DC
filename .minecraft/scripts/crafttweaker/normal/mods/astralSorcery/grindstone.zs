@@ -3,5 +3,5 @@
 
 import mods.astralsorcery.Grindstone;
 
-Grindstone.removeRecipe(<ore:dustAstralStarmetal>.firstItem);
+Grindstone.removeRecipe(<astralsorcery:itemcraftingcomponent:2>);
 Grindstone.removeRecipe(<nuclearcraft:gem_dust:2>);

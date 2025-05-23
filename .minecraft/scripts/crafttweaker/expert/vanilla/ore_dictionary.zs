@@ -1,5 +1,5 @@
 #packmode expert
-#priority -100
+#priority -99
 
 // 铁树门...
 <ore:doorWood>.add(<rustic:ironwood_door>);

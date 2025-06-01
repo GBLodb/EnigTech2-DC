@@ -1,13 +1,17 @@
-filename = 'EnderTweaker-1.12.2-1.2.3.jar'
-name = 'EnderTweaker'
+filename = 'EnderTweaker-1.12.2-1.2.1.jar'
+name = 'Ender Tweaker'
 side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'EnderTweaker-1.12.2-1.2.1.jar'
 
 [download]
-hash = 'd1ea1d8810a1ed2b864b54bb08f937f8f93af4b1'
+hash = '33aaef9819164f17e19795336b535f72f02e0321'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 3474382
+file-id = 3131262
 project-id = 312195

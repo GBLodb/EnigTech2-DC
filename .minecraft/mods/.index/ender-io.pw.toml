@@ -1,13 +1,17 @@
-filename = 'EnderIO-1.12.2-5.3.72.jar'
+filename = 'EnderIO-1.12.2-5.2.66.jar'
 name = 'Ender IO'
 side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Ender IO - 5.2.66'
 
 [download]
-hash = '60d62a0dab5b12c527fd8eda1d353888e3406175'
+hash = '910b1efc1e6e781e97daed4890fe52456d764858'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 4674244
+file-id = 3124452
 project-id = 64578

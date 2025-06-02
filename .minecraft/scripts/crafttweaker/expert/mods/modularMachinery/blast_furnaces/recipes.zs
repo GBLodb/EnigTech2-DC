@@ -153,6 +153,16 @@ static mk1_recipes as IItemStack[][IIngredient][string][int][IItemStack] = {
         100000 : {
             speed_t3 : {null : [<contenttweaker:stable_potato>]}
         }
+    },
+    <threng:material:2>: {
+        5000 : {
+            speed_t1 : {null : [<threng:material:1>, <ore:ingotIron>.firstItem, <appliedenergistics2:material:45>]}
+        }
+    },
+    <threng:material>: {
+        3000 : {
+            speed_t1 : {null : [<threng:material:2>]}
+        }
     }
 };
 

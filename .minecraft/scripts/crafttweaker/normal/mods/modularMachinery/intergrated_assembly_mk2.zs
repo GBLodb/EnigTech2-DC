@@ -218,3 +218,21 @@ RecipeBuilder.newBuilder(machineName + "_cc_elite", machineName, 48)
     .addItemInput(<ore:circuitBasic>,8)
     .addItemOutput(<extendedcrafting:material:16>)
     .build();
+
+RecipeBuilder.newBuilder(machineName + "processor", machineName, 100)
+    .addEnergyPerTickInput(1024)
+    .addItemInput(<ore:itemSilicon>)
+	.addItemInput(<ore:dustRedstone>)
+    .addItemInput(<threng:material:13>)
+    .addItemInput(<contenttweaker:advanced_processor>)
+    .addItemOutput(<threng:material:14>)
+    .build();
+
+RecipeBuilder.newBuilder(machineName + "processor_1", machineName, 100)
+    .addEnergyPerTickInput(1024)
+    .addItemInput(<ore:itemSilicon>)
+	.addItemInput(<ore:dustRedstone>)
+    .addItemInput(<threng:material:5>)
+    .addItemInput(<contenttweaker:advanced_processor>)
+    .addItemOutput(<threng:material:6>)
+    .build();

@@ -239,7 +239,8 @@ var modsStageSix as string[] = [
 	"valkyrielib",
 	"packagedauto",
 	"packagedexcrafting",
-	"thermaldynamics"
+	"thermaldynamics",
+	"threng"
 
 ];
 
@@ -356,7 +357,8 @@ val itemsStageSix as IIngredient[] = [
 	<actuallyadditions:block_laser_relay_fluids>,
 	<contenttweaker:crystal>,
 	<contenttweaker:bioradioactive_source>,
-	<contenttweaker:stablized_bioradioactive_source>
+	<contenttweaker:stablized_bioradioactive_source>,
+	<ymadditions:network_hub>
 ];
 val itemsStageAlpha as IIngredient[] = [
 	<contenttweaker:auriminium>,
@@ -485,7 +487,8 @@ val bannedArray = [
 	<mekanism:machineblock:7>.withTag({recipeType: 4}),
 	<extendedcrafting:material:11>,
 	<extrabees:hive_frame.cocoa>,
-	<enderio:item_material:39>
+	<enderio:item_material:39>,
+	<threng:machine:2>
 ] as IItemStack[];
 
 for bannedItems in bannedArray{

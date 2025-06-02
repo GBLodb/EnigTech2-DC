@@ -239,7 +239,8 @@ var modsStageSix as string[] = [
 	"valkyrielib",
 	"packagedauto",
 	"packagedexcrafting",
-	"thermaldynamics"
+	"thermaldynamics",
+	"threng"
 	
 ];
 
@@ -373,7 +374,8 @@ val itemsStageSix as IIngredient[] = [
 	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:blast_furnace_mk4"}),
 	<contenttweaker:crystal>,
 	<contenttweaker:bioradioactive_source>,
-	<contenttweaker:stablized_bioradioactive_source>
+	<contenttweaker:stablized_bioradioactive_source>,
+	<ymadditions:network_hub>
 ];
 val itemsStageAlpha as IIngredient[] = [
 	<contenttweaker:auriminium>,
@@ -506,7 +508,8 @@ val bannedArray = [
 	<ore:ingotHyunium>.firstItem,
 	<extrabees:hive_frame.cocoa>,
 	<thermalexpansion:augment:720>,
-	<enderio:item_material:39>
+	<enderio:item_material:39>,
+	<threng:machine:2>
 ] as IItemStack[];
 
 for bannedItems in bannedArray{

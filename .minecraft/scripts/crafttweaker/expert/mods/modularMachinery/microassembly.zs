@@ -69,3 +69,21 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_controlcircuit1",
     .addItemInput(<contenttweaker:ultracondium_crystal>)
     .addEnergyPerTickInput(512)
 	.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "processor", machineName, 100)
+    .addEnergyPerTickInput(512)
+    .addItemInput(<ore:itemSilicon>)
+	.addItemInput(<ore:dustRedstone>)
+    .addItemInput(<threng:material:13>)
+    .addItemInput(<contenttweaker:advanced_processor>)
+    .addItemOutput(<threng:material:14>)
+    .build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "processor_1", machineName, 100)
+    .addEnergyPerTickInput(512)
+    .addItemInput(<ore:itemSilicon>)
+	.addItemInput(<ore:dustRedstone>)
+    .addItemInput(<threng:material:5>)
+    .addItemInput(<contenttweaker:advanced_processor>)
+    .addItemOutput(<threng:material:6>)
+    .build();

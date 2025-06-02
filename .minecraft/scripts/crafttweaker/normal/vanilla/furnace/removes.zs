@@ -7,6 +7,7 @@ furnace.remove(<ore:ingotAluminum>);
 furnace.remove(<ore:ingotIridium>);
 furnace.remove(<ore:gemAquamarine>);
 furnace.remove(<item:draconicevolution:draconium_ingot>);
+furnace.remove(<threng:material>);
 for i in 0 to 16{
     furnace.setFuel(<item:minecraft:carpet>.definition.makeStack(i), 0);
 }

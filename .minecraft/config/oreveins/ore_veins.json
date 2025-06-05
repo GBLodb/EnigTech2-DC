@@ -17,7 +17,14 @@
     "max_y": 28,
     "density": 180,
     "vertical_size": 12,
-    "horizontal_size": 20
+    "horizontal_size": 20,
+    "indicator": {
+          "blocks": {
+              "block":"botania:shinyflower",
+              "meta":"0"
+            },
+            "max_depth": 70
+    }
   },
   "copper": {
     "type": "sphere",
@@ -37,7 +44,14 @@
     "max_y": 60,
     "density": 120,
     "vertical_size": 8,
-    "horizontal_size": 14
+    "horizontal_size": 14,
+    "indicator": {
+          "blocks": {
+              "block":"botania:shinyflower",
+              "meta":"1"
+            },
+            "max_depth": 70
+    }
   },
   "tin": {
     "type": "sphere",
@@ -57,7 +71,14 @@
     "max_y": 55,
     "density": 160,
     "vertical_size": 12,
-    "horizontal_size": 14
+    "horizontal_size": 14,
+    "indicator": {
+          "blocks": {
+              "block":"botania:shinyflower",
+              "meta":"2"
+            },
+            "max_depth": 70
+    }
   },
   "lead": {
     "type": "sphere",
@@ -77,7 +98,14 @@
     "max_y": 52,
     "density": 160,
     "vertical_size": 12,
-    "horizontal_size": 16
+    "horizontal_size": 16,
+    "indicator": {
+          "blocks": {
+              "block":"botania:shinyflower",
+              "meta":"3"
+            },
+            "max_depth": 70
+    }
   },
   "iron": {
     "type": "sphere",
@@ -101,7 +129,14 @@
     "max_y": 60,
     "density": 120,
     "vertical_size": 12,
-    "horizontal_size": 12
+    "horizontal_size": 12,
+    "indicator": {
+          "blocks": {
+              "block":"botania:shinyflower",
+              "meta":"4"
+            },
+            "max_depth": 70
+    }
   },
   "coal": {
     "type": "sphere",
@@ -117,7 +152,14 @@
     "max_y": 50,
     "density": 100,
     "vertical_size": 12,
-    "horizontal_size": 16
+    "horizontal_size": 16,
+    "indicator": {
+          "blocks": {
+              "block":"botania:shinyflower",
+              "meta":"5"
+            },
+            "max_depth": 70
+    }
   },
   "aluminum": {
     "type": "sphere",
@@ -137,7 +179,14 @@
     "max_y": 45,
     "density": 140,
     "vertical_size": 6,
-    "horizontal_size": 24
+    "horizontal_size": 24,
+    "indicator": {
+          "blocks": {
+              "block":"botania:shinyflower",
+              "meta":"6"
+            },
+            "max_depth": 70
+    }
   },
   "redstone": {
     "type": "sphere",
@@ -161,6 +210,13 @@
     "max_y": 35,
     "density": 230,
     "vertical_size": 6,
-    "horizontal_size": 16
+    "horizontal_size": 16,
+    "indicator": {
+          "blocks": {
+              "block":"botania:shinyflower",
+              "meta":"7"
+            },
+            "max_depth": 70
+    }
   }
 }

@@ -377,7 +377,14 @@
         "max_y": 130,
         "density": 200,
         "vertical_size": 8,
-        "horizontal_size": 12
+        "horizontal_size": 12,
+        "indicator": {
+          "blocks": {
+              "block":"botania:shinyflower",
+              "meta":"8"
+            },
+            "max_depth": 70
+    }
       },
       "alni": {
         "type": "sphere",

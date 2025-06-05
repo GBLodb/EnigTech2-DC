@@ -488,7 +488,13 @@ val bannedArray = [
 	<extendedcrafting:material:11>,
 	<extrabees:hive_frame.cocoa>,
 	<enderio:item_material:39>,
-	<threng:machine:2>
+	<threng:machine:2>,
+	<advancedrocketry:bipropellantrocketmotor>,
+	<advancedrocketry:advbipropellantrocketmotor>,
+	<advancedrocketry:nuclearrocketmotor>,
+	<advancedrocketry:nuclearfueltank>,
+	<advancedrocketry:bipropellantfueltank>,
+	<advancedrocketry:oxidizerfueltank>
 ] as IItemStack[];
 
 for bannedItems in bannedArray{

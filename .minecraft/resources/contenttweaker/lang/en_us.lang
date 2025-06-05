@@ -207,3 +207,8 @@ item.contenttweaker.shining_essence.name=Shining Essence
 item.contenttweaker.zealous_essence.name=Zealous Essence
 item.contenttweaker.unflammable_shard.name=Fireproof Shard
 item.contenttweaker.wooden_lighter.name=Wooden Lighter
+
+fluid.fluid_erodium=Crystallized Molten Erodium
+fluid.fluid_kytonite=Crystallized Molten Kytonite
+fluid.fluid_pladium=Crystallized Molten Pladium
+fluid.fluid_ionite=晶Crystallized Molten Ionite

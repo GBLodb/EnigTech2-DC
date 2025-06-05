@@ -38,9 +38,15 @@ val crystalMap as IItemStack[IItemStack] = {
     <item:environmentaltech:pladium_crystal> : <contenttweaker:charged_plad_pfe_crystal_seed>,
     <item:environmentaltech:ionite_crystal> : <contenttweaker:charged_inoi_pfe_crystal_seed>,
     <item:environmentaltech:aethium_crystal> : <contenttweaker:charged_aeth_pfe_crystal_seed>,
-    <item:environmentaltech:lonsdaleite_crystal> : <contenttweaker:charged_lons_pfe_crystal_seed>
+    <item:environmentaltech:lonsdaleite_crystal> : <contenttweaker:charged_lons_pfe_crystal_seed>,
+    <item:environmentaltech:kyronite_crystal> : <contenttweaker:charged_kyro_pfe_crystal_seed>
 };
 
 for cry,seed in crystalMap{
     FluidToItem.transform(cry.withAmount(12),<fluid:fluid_dragon_breathe>, [seed,cry], true);
 }
+
+FluidToItem.transform(<contenttweaker:erod_pfe_crystal_seed>, <fluid:fluid_erodium>, [<embers:ember_cluster>], true);
+FluidToItem.transform(<contenttweaker:plad_pfe_crystal_seed>, <fluid:fluid_pladium>, [<embers:ember_cluster>], true);
+FluidToItem.transform(<contenttweaker:inoi_pfe_crystal_seed>, <fluid:fluid_ionite>, [<embers:ember_cluster>], true);
+FluidToItem.transform(<contenttweaker:kyro_pfe_crystal_seed>, <fluid:fluid_kytonite>, [<embers:ember_cluster>], true);

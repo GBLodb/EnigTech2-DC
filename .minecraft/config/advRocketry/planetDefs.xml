@@ -1,0 +1,19 @@
+<galaxy>
+    <star name="Sol" temp="100" x="0" y="0" numPlanets="10" numGasGiants="1">
+        <planet name="Crystallized Fluid Complex">
+            <fogColor>1,1,1</fogColor>
+            <skyColor>0,0,1</skyColor>
+            <atmosphereDensity>0</atmosphereDensity>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>240</orbitalDistance>
+            <orbitalTheta>180</orbitalTheta>
+            <rotationalPeriod>24000</rotationalPeriod>
+            <isKnown>true</isKnown>
+            <GasGiant>true</GasGiant>
+            <gas>fluid_erodium</gas>
+            <gas>fluid_kytonite</gas>
+            <gas>fluid_pladium</gas>
+            <gas>fluid_ionite</gas>
+        </planet>
+    </star>
+</galaxy>

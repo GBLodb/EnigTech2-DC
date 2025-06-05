@@ -69,6 +69,10 @@ fluid.fluid_hydrochloric_acid=低纯氯化氢
 fluid.fluid_silicon=硅烷
 fluid.fluid_concentrated_silicon=高纯硅烷
 fluid.fluid_dragon_breathe=液态龙息
+fluid.fluid_erodium=晶化熔融艾洛蒂
+fluid.fluid_kytonite=晶化熔融凯洛尼
+fluid.fluid_pladium=晶化熔融普雷蒂
+fluid.fluid_ionite=晶化熔融艾恩尼
 
 item.contenttweaker.basic_motioner.name=基础传动装置
 item.contenttweaker.medium_motioner.name=中级传动装置

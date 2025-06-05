@@ -17,7 +17,6 @@ val removingArray = [
     <nuclearcraft:cobblestone_generator>,
     <environmentaltech:photovoltaic_cell>,
     <environmentaltech:solar_cont_1>,
-    <nuclearcraft:cooler>,
     <nuclearcraft:cobblestone_generator_dense>,
     <nuclearcraft:cobblestone_generator_compact>,
     <mekanismgenerators:reactor:2>,

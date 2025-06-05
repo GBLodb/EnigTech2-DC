@@ -4,6 +4,7 @@
 import mods.mekanism.infuser;
 
 //mekanism电路板
+infuser.removeRecipe(<mekanism:enrichedalloy>);
 infuser.removeRecipe(<mekanism:controlcircuit>);
 
 //富集合金

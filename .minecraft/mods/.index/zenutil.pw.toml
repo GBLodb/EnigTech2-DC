@@ -1,17 +1,17 @@
-filename = 'zenutils-1.22.1.jar'
+filename = 'zenutils-1.22.4.jar'
 name = 'ZenUtils'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.12.2' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'zenutils-1.22.1.jar'
+x-prismlauncher-version-number = 'zenutils-1.22.4.jar'
 
 [download]
-hash = '3bea01e69418b32be3a9cc7ede5fe0933dda4af6'
+hash = '0f7c8d50dcf97f3482e9c19984df8492105718f4'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6528140
+file-id = 6613618
 project-id = 401178

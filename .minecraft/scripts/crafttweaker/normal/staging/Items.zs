@@ -484,6 +484,7 @@ addItemStage("alpha",<extendedcrafting:compressor>);
 
 removeItemStage(<actuallyadditions:item_misc:20>);
 removeItemStage(<silentgems:glowrose:*>);
+removeItemStage(<roots:spell_dust>);
 
 val bannedArray = [
 	<roots:unending_bowl>,

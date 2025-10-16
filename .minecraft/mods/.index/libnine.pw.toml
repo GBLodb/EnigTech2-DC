@@ -1,13 +1,17 @@
-filename = 'libnine-1.12.2-1.2.1.jar'
-name = 'LibNine'
+filename = 'libnine-1.12.2-1.2.2.jar'
+name = 'libnine'
 side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.12.2-1.2.2'
 
 [download]
-hash = 'ddc1c41f54b912bae388445c40cf4aa27fdcfe3d'
+hash = 'c99daa72265e227875eea94897a9041faceec79a'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 3509087
+file-id = 6790812
 project-id = 322344

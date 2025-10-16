@@ -1,16 +1,16 @@
-filename = 'Forgelin-Continuous-2.2.20.0.jar'
-name = 'Forgelin-Continuous'
+filename = 'chiselsandbits-14.33.jar'
+name = 'Chisels & Bits - For Forge'
 side = 'both'
-x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-loaders = []
 x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '064098d130e18a364706f1c4a6c9b27b435acd8a'
+hash = '0e6f159254e6899651087e5b1464bac91698d1d3'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6983420
-project-id = 456403
+file-id = 2720655
+project-id = 231095

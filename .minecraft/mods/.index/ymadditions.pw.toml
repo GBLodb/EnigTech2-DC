@@ -1,17 +1,16 @@
-filename = 'YM-Additions-0.1.5.jar'
+filename = 'YM-Additions-0.2.0.jar'
 name = 'YM-Additions'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.12.2' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'YM-Additions-0.1.5.jar'
 
 [download]
-hash = '7559651abaf456eb824bf11c8f88911abdd48749'
+hash = 'b90e240632d03f63316f0dbdda80a1421b8308db'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6617651
+file-id = 6933286
 project-id = 1217367

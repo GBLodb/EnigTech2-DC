@@ -1,16 +1,17 @@
-filename = 'zenutils-1.25.11.jar'
-name = 'ZenUtils'
+filename = 'personalworlds-1.12.2-1.0.5.jar'
+name = 'Personal Worlds'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.12.2' ]
 x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'PersonalWorlds 1.0.5'
 
 [download]
-hash = '5ec5b06fe3b24e03e9b34afab1f8e42123678ac8'
+hash = 'eb244010eb00e3ead59fbda283fe8935e115be0b'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7093000
-project-id = 401178
+file-id = 6474405
+project-id = 963010

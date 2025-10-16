@@ -1,17 +1,17 @@
-filename = 'RoughlyEnoughIDs-2.2.2.jar'
-name = 'Roughly Enough IDs'
+filename = 'RoughlyEnoughIDs-2.2.3.jar'
+name = 'RoughlyEnoughIDs'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.12.2' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '2.2.2'
+x-prismlauncher-version-number = '2.2.3'
 
 [download]
-hash = 'b9419b1b2bab474f29f6b4db27c7a69ac6ff90d9'
+hash = 'e3c190b24d9e931c8cfbaca289761106a21219af'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6292779
+file-id = 6761278
 project-id = 629017

@@ -1,17 +1,16 @@
-filename = 'ae2exttable-v1.0.6.jar'
+filename = 'ae2exttable-v1.0.8.jar'
 name = 'Extended Crafting Terminals for Applied Energistics 2'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.12.2' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'AE2 Extended Crafting Table − v1.0.6'
 
 [download]
-hash = '63fbba3753c3e08452fd6a276f69a4ce67207f3d'
+hash = '3299b6f59bec851c8d5d04fd11add38ace736096'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6503414
+file-id = 6895322
 project-id = 1157825

@@ -1,13 +1,16 @@
-filename = 'deepmoblearningbm-1.12.2-1.0.1-universal.jar'
+filename = 'deepmoblearningbm-1.12.2-1.1.0-universal.jar'
 name = 'Deep Mob Learning - Blood Magic Addon'
 side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '70d3d703eed2c6ac2f816aae57e146199e12ef8b'
+hash = 'bb04004f83e88f6a853ebcae2ce7dd3f943225aa'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 2708711
+file-id = 7058381
 project-id = 297720

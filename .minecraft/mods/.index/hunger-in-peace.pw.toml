@@ -1,0 +1,17 @@
+filename = 'HungerInPeace-mc1.12-1.0.0.jar'
+name = 'Hunger In Peace'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'HungerInPeace-mc1.12-1.0.0.jar'
+
+[download]
+hash = 'cdbb97e482b0aac5e0481280f7a8bef92233d1c7'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2442631
+project-id = 224473

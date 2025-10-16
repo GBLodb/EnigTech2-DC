@@ -6,6 +6,7 @@
 		"{advancement.stagealpha_xuanliding.description}"
 	],
 	dependencies: [
+		"abd05ea4",
 		"57bc8d33"
 	],
 	tasks: [{

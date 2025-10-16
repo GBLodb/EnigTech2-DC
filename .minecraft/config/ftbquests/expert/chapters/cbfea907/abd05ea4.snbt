@@ -6,7 +6,6 @@
 		"{advancement.stagealpha_zhenliding.description}"
 	],
 	dependencies: [
-		"bb481ad6",
 		"51fafcad"
 	],
 	tasks: [{

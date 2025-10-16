@@ -6,7 +6,7 @@
 		"{advancement.stagealpha_jingxue.description}"
 	],
 	dependencies: [
-		"3aaa8aeb"
+		"07109b8c"
 	],
 	tasks: [{
 		uid: "8279a81c",

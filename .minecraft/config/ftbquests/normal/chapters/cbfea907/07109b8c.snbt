@@ -5,9 +5,11 @@
 	text: [
 		"{advancement.stagealpha_yuezhifengren.description}"
 	],
+	hide_dependency_lines: true,
 	dependencies: [
-		"ee201c7f"
+		"862a4f67"
 	],
+	hide: true,
 	tasks: [{
 		uid: "894ca255",
 		type: "item",

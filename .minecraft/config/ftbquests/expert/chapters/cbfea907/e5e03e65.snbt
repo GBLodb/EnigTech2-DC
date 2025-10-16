@@ -6,6 +6,7 @@
 		"{advancement.stagealpha_longxin.description}"
 	],
 	dependencies: [
+		"b6fbe849",
 		"92382eb7"
 	],
 	tasks: [{

@@ -6,9 +6,17 @@
 	text: [
 		"{advancement.stageone_root.description}"
 	],
-	tasks: [{
-		uid: "4d42d339",
+	rewards: [{
+		uid: "33210d17",
 		type: "gamestage",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "contenttweaker:unknowing_dirt"
+		},
+		team_reward: true,
+		auto: "no_toast",
 		stage: "one"
 	}]
 }

@@ -6,7 +6,7 @@
 		"{advancement.stagealpha_shengmignjinghua.description}"
 	],
 	dependencies: [
-		"68462a10"
+		"ee201c7f"
 	],
 	tasks: [{
 		uid: "33f84002",

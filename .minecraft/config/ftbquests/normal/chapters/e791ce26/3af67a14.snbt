@@ -5,8 +5,9 @@
 	text: [
 		"{advancement.stagefour_HCL.description}"
 	],
+	hide_dependency_lines: true,
 	dependencies: [
-		"3e2d3a13"
+		"777107ee"
 	],
 	tasks: [{
 		uid: "facb76f3",

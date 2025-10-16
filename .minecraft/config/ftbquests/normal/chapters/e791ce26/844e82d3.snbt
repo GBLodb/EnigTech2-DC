@@ -6,7 +6,8 @@
 		"{advancement.stagefour_concentrated_guiwan.description}"
 	],
 	dependencies: [
-		"a0b87e94"
+		"a0b87e94",
+		"3e2d3a13"
 	],
 	tasks: [{
 		uid: "74a2546f",

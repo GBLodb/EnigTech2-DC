@@ -1,12 +1,12 @@
 {
 	title: "{advancement.stagethree_xiazhifuwen.title}",
-	x: 8.0d,
+	x: 9.0d,
 	y: -5.0d,
 	text: [
 		"{advancement.stagethree_xiazhifuwen.description}"
 	],
 	dependencies: [
-		"2ef095ed"
+		"441fe40e"
 	],
 	tasks: [{
 		uid: "94d98edf",

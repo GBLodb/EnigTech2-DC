@@ -6,7 +6,7 @@
 		"{advancement.stagefour_chlorinizer.description}"
 	],
 	dependencies: [
-		"844e82d3"
+		"3af67a14"
 	],
 	tasks: [{
 		uid: "76a4bec8",

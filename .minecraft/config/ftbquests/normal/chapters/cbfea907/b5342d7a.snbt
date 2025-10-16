@@ -5,8 +5,9 @@
 	text: [
 		"{advancement.stagealpha_dihejin.description}"
 	],
+	hide_dependency_lines: true,
 	dependencies: [
-		"b5332963"
+		"862a4f67"
 	],
 	tasks: [{
 		uid: "fd912d69",

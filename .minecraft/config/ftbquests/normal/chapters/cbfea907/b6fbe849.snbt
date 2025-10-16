@@ -6,7 +6,6 @@
 		"{advancement.stagealpha_longsuhejinding.description}"
 	],
 	dependencies: [
-		"e5e03e65",
 		"c792d2fc"
 	],
 	tasks: [{

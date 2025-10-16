@@ -6,7 +6,8 @@
 		"{advancement.stagealpha_ncturbine.description}"
 	],
 	dependencies: [
-		"3ee7e77d"
+		"3ee7e77d",
+		"b5342d7a"
 	],
 	tasks: [{
 		uid: "d0f51da1",

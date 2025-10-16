@@ -6,6 +6,7 @@
 		"{advancement.stagealpha_daziran.description}"
 	],
 	dependencies: [
+		"3aaa8aeb",
 		"64a0b72e"
 	],
 	tasks: [{

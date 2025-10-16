@@ -20,5 +20,18 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ab46503f",
+		type: "gamestage",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "contenttweaker:ancient_scroll"
+		},
+		team_reward: true,
+		auto: "no_toast",
+		stage: "three"
 	}]
 }

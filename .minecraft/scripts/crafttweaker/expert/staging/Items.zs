@@ -241,7 +241,6 @@ var modsStageSix as string[] = [
 	"packagedexcrafting",
 	"thermaldynamics",
 	"threng"
-
 ];
 
 for mod in modsStageSix{
@@ -261,7 +260,8 @@ var modsStageAlpha as string[] = [
 	"draconicevolution",
 	"draconicadditions",
 	"equivalentintegrations",
-	"cyberware"
+	"cyberware",
+	"mekanismmultiblockmachine"
 ];
 
 for mod in modsStageAlpha{

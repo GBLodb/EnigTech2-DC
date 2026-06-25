@@ -261,7 +261,8 @@ var modsStageAlpha as string[] = [
 	"draconicevolution",
 	"draconicadditions",
 	"equivalentintegrations",
-	"cyberware"
+	"cyberware",
+	"mekanismmultiblockmachine"
 ];
 
 for mod in modsStageAlpha{

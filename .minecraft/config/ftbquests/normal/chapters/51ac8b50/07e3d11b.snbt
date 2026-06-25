@@ -14,8 +14,10 @@
 		items: [{
 			ForgeCaps: {
 				Parent: {
+					AccentColor: 0,
 					SortType: 0b,
 					UUIDMost: 4725051790445462613L,
+					MainColor: 0,
 					UUIDLeast: -6898792968054820692L,
 					UpgradeSlots: {
 						Items: []
@@ -89,8 +91,10 @@
 				},
 				"astralsorcery:cap_item_amulet_holder": {},
 				"retro_sophisticated_backpacks:backpack_capability": {
+					AccentColor: 0,
 					SortType: 0b,
 					UUIDMost: 5637622249282882978L,
+					MainColor: 0,
 					UUIDLeast: -6797889404463111474L,
 					UpgradeSlots: {
 						Items: []

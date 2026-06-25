@@ -9,7 +9,7 @@
 		"e20a82c9"
 	],
 	tasks: [{
-		uid: "33e79f5d",
+		uid: "3e97c5d3",
 		type: "item",
 		items: [{
 			id: "xnet:connector",
@@ -19,6 +19,7 @@
 				}
 			}
 		}],
-		ignore_nbt: 1b
+		ignore_nbt: 1b,
+		only_from_crafting: false
 	}]
 }

@@ -32,7 +32,7 @@ recipes.addShapeless(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "
 recipes.addShapeless(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:steam_assembly"}), [<minecraft:paper>,<thermalfoundation:material:24>]);
 recipes.addShapeless(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:microassembly"}), [<minecraft:paper>,<contenttweaker:basic_circuit>]);
 recipes.addShapeless(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:magic_magtinizer"}), [<minecraft:paper>,<botania:manaresource:7>]);
-recipes.addShapeless(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:laser_marker"}), [<minecraft:paper>,<appliedenergistics2:material:5>]);
+recipes.addShapeless(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:laser_marker"}), [<minecraft:paper>,<ore:itemSilicon>]);
 recipes.addShaped(<actuallyadditions:block_atomic_reconstructor>, [[<thermalfoundation:material:323>, <embers:glimmer_shard>, <thermalfoundation:material:323>],[<contenttweaker:magic_motor>, <contenttweaker:soso_machine_core>, <contenttweaker:magic_motor>], [<thermalfoundation:material:323>, <embers:glimmer_shard>, <thermalfoundation:material:323>]]);
 recipes.addShaped(<contenttweaker:brain_chip>, [[<botania:manaresource:5>, <embers:focal_lens>, <botania:manaresource:5>],[<botania:manaresource:5>, <contenttweaker:advanced_processor>, <botania:manaresource:5>], [<botania:manaresource:5>, <minecraft:nether_star>, <botania:manaresource:5>]]);
 recipes.addShaped(<appliedenergistics2:material:37>, [[<actuallyadditions:item_crystal:2>, <arcanearchives:shaped_quartz>, <actuallyadditions:item_crystal:2>],[<appliedenergistics2:material:36>, <appliedenergistics2:material:22>, <appliedenergistics2:material:36>], [<actuallyadditions:item_crystal:2>, <appliedenergistics2:material:36>, <actuallyadditions:item_crystal:2>]]);
@@ -164,7 +164,37 @@ recipes.replaceAllOccurences(<ore:gemDiamond>, <contenttweaker:magcondium_ingot>
 }));
 
 recipes.addShaped(<opencomputers:material:6>, [
-    [<ore:ingotConductiveIron>, <ore:ingotConductiveIron>, <ore:ingotConductiveIron>],
+    [<ore:nuggetConductiveIron>, <ore:nuggetConductiveIron>, <ore:nuggetConductiveIron>],
     [<ore:nuggetVibrantAlloy>, <arcanearchives:raw_quartz>, <ore:nuggetVibrantAlloy>],
     [null, <ore:dustRedstone>, null]
+]);
+
+recipes.addShaped(<opencomputers:material:7>, [
+    [<ore:nuggetConductiveIron>, <ore:nuggetConductiveIron>, <ore:nuggetConductiveIron>],
+    [<ore:dustRedstone>, <opencomputers:material:6>, <ore:dustRedstone>],
+    [<ore:nuggetConductiveIron>, <ore:nuggetConductiveIron>, <ore:nuggetConductiveIron>]
+]);
+
+recipes.addShaped(<opencomputers:material:8>, [
+    [<ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>],
+    [<ore:dustRedstone>, <opencomputers:material:6>, <ore:dustRedstone>],
+    [<ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>]
+]);
+
+recipes.addShaped(<opencomputers:material:9>, [
+    [<contenttweaker:magcondium_ingot>, <contenttweaker:magcondium_ingot>, <contenttweaker:magcondium_ingot>],
+    [<ore:dustRedstone>, <opencomputers:material:6>, <ore:dustRedstone>],
+    [<contenttweaker:magcondium_ingot>, <contenttweaker:magcondium_ingot>, <contenttweaker:magcondium_ingot>]
+]);
+
+recipes.addShaped(<opencomputers:material:10>, [
+    [<ore:nuggetConductiveIron>, <ore:dustRedstone>, <ore:nuggetConductiveIron>],
+    [<opencomputers:material:6>, <opencomputers:material:7>, <opencomputers:material:6>],
+    [<ore:nuggetConductiveIron>, <opencomputers:material:6>, <ore:nuggetConductiveIron>]
+]);
+
+recipes.addShaped(<opencomputers:material:11>, [
+    [<ore:nuggetVibrantAlloy>, <ore:dustRedstone>, <ore:nuggetVibrantAlloy>],
+    [<opencomputers:material:6>, <minecraft:clock>, <opencomputers:material:6>],
+    [<ore:nuggetVibrantAlloy>, <opencomputers:material:6>, <ore:nuggetVibrantAlloy>]
 ]);

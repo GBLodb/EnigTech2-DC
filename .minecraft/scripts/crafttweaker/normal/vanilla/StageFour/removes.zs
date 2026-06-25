@@ -92,6 +92,7 @@ val removingArray = [
     <forestry:frame_impregnated>,
     <retro_sophisticated_backpacks:stack_upgrade_tier_4>,
     <retro_sophisticated_backpacks:exponential_stack_upgrade>,
+    <opencomputers:material:6>,
     <opencomputers:material:7>,
     <opencomputers:material:8>,
     <opencomputers:material:9>,

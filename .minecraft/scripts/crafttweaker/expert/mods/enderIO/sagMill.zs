@@ -13,6 +13,7 @@ SagMill.removeRecipe(<actuallyadditions:block_misc:3>);
 SagMill.removeRecipe(<astralsorcery:blockcustomore:1>);
 SagMill.removeRecipe(<nuclearcraft:ore:4>);
 SagMill.removeRecipe(<thermalfoundation:storage:8>);
+SagMill.removeRecipe(<libvulpes:ore0>);
 
 //adds
 SagMill.addRecipe(

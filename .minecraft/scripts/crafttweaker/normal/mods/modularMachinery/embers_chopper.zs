@@ -10,7 +10,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_plastic", machine
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_silicon", machineName, 40)
     .addEmberInput(1500)
-    .addItemInput(<appliedenergistics2:material:5>)
+    .addItemInput(<ore:itemSilicon>)
     .addItemOutput(<contenttweaker:slice_silicon_rough>*4)
 	.build();
 

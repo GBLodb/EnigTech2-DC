@@ -1,17 +1,25 @@
-filename = 'EnderIO-endergy-1.12.2-5.2.66.jar'
-name = 'Ender IO Endergy'
-side = 'both'
+filename = 'EnderIO-endergy-1.12.2-5.3.72.jar'
+name = 'Ender IO endergy'
+side = ''
 x-prismlauncher-loaders = []
 x-prismlauncher-mc-versions = [ '1.12.2' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'Ender IO endergy - 5.2.66'
+x-prismlauncher-version-number = 'Ender IO endergy - 5.3.72'
 
 [download]
-hash = '64cef5f30c7d1fae33a476a26996fdd2897831c0'
+hash = '8680a3378f36adb2680fae14a9cfa9d2abbd5694'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 3124450
+file-id = 4674241
 project-id = 304346
+
+[[x-prismlauncher-dependencies]]
+addonId = '64578'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '297193'
+type = 'OPTIONAL'

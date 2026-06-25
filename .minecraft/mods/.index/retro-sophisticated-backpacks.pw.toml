@@ -1,17 +1,37 @@
-filename = 'Retro-Sophisticated-Backpacks-1.0.2.jar'
+filename = 'Retro-Sophisticated-Backpacks-1.1.4.jar'
 name = 'Retro Sophisticated Backpacks'
-side = 'both'
+side = ''
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.12.2' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'Retro-Sophisticated-Backpacks-1.0.2.jar'
+x-prismlauncher-version-number = 'Retro-Sophisticated-Backpacks-1.1.4.jar'
 
 [download]
-hash = '94be61e232e7a7f4c0abb3c0b9307a067d036c06'
+hash = '4022bc5297f16d4277efd9a1ac6c208dfb6435d2'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6359328
+file-id = 8311887
 project-id = 1197465
+
+[[x-prismlauncher-dependencies]]
+addonId = '624243'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '456403'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '419286'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '227083'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '224472'
+type = 'OPTIONAL'

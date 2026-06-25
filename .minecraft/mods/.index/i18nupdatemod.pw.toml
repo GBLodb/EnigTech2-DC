@@ -1,8 +1,19 @@
-filename = 'I18nUpdateMod-3.6.2-all.jar'
+filename = 'I18nUpdateMod-3.7.0-all.jar'
 name = 'I18nUpdateMod'
-side = 'client'
+side = ''
+x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
 x-prismlauncher-mc-versions = [
+    '1.6.1',
+    '1.6.2',
+    '1.6.4',
+    '1.7.2',
+    '1.7.10',
+    '1.8',
+    '1.8.8',
+    '1.8.9',
+    '1.9',
+    '1.9.4',
     '1.10',
     '1.10.2',
     '1.11',
@@ -48,26 +59,21 @@ x-prismlauncher-mc-versions = [
     '1.21.3',
     '1.21.4',
     '1.21.5',
-    '1.6.1',
-    '1.6.2',
-    '1.6.4',
-    '1.7.10',
-    '1.7.2',
-    '1.8',
-    '1.8.8',
-    '1.8.9',
-    '1.9',
-    '1.9.4'
+    '1.21.6',
+    '1.21.7',
+    '1.21.8',
+    '1.21.9',
+    '1.21.10'
 ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'I18nUpdateMod 3.6.2'
+x-prismlauncher-version-number = 'I18nUpdateMod 3.7.0'
 
 [download]
-hash = '60c831f5f137e5591dd56d81f21f500339f69d2a'
+hash = 'd9c217b569345ae30a5271baa5e9482080c2e41d'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6351071
+file-id = 7173159
 project-id = 297404

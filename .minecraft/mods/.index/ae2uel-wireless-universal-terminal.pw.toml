@@ -1,16 +1,37 @@
-filename = 'ae2wut-1.2.4.jar'
+filename = 'ae2wut-1.2.10.jar'
 name = 'AE2UELWirelessUniversalTerminal'
-side = 'both'
+side = ''
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.12.2' ]
 x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ae2wut-1.2.10.jar'
 
 [download]
-hash = '5d1171556715c5b21b663c199affd9e3cdea3531'
+hash = '390215d3b800ba69ad4032ba82456bff3f408802'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7024967
+file-id = 7760560
 project-id = 1196988
+
+[[x-prismlauncher-dependencies]]
+addonId = '1157825'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '570458'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '623955'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1027681'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '419286'
+type = 'REQUIRED'

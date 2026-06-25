@@ -1,17 +1,65 @@
-filename = 'nuclearcraft-1.12.2-2.19a.jar'
+filename = 'nuclearcraft-1.12.2-2.19c.jar'
 name = 'NuclearCraft'
-side = 'both'
+side = ''
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.12.2' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'NuclearCraft-2.19a-1.12.2'
+x-prismlauncher-version-number = 'NuclearCraft-2.19c-1.12.2'
 
 [download]
-hash = '05db28e36a141316f8fa511f226c794110e58d12'
+hash = 'c1029408b188cdfff625e4bf9e7f91a00dde2ea0'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6151363
+file-id = 8213196
 project-id = 226254
+
+[[x-prismlauncher-dependencies]]
+addonId = '238222'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '227083'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '226410'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '223008'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '557242'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '268560'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '239197'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '242638'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '69162'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '268655'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '287683'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '74072'
+type = 'OPTIONAL'

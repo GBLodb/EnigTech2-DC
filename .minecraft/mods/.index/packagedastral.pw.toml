@@ -1,16 +1,29 @@
-filename = 'PackagedAstral-1.12.2-1.0.4.23.jar'
+filename = 'PackagedAstral-1.12.2-1.0.5.24.jar'
 name = 'PackagedAstral'
-side = 'both'
+side = ''
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.12.2' ]
 x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.12.2-1.0.5.24'
 
 [download]
-hash = '4d75fbcfcd9d21e47144006d043451562e7cd789'
+hash = '5be41c56e7aa65df7ce8a0e1a15663ee7c4dc335'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7063119
+file-id = 7762599
 project-id = 811828
+
+[[x-prismlauncher-dependencies]]
+addonId = '223794'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '308380'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '241721'
+type = 'REQUIRED'

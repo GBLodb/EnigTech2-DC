@@ -1,13 +1,21 @@
-filename = 'deepmoblearning-1.12.2-2.5.4-universal.jar'
+filename = 'deepmoblearning-1.12.2-2.6.0-universal.jar'
 name = 'Deep Mob Learning'
-side = 'both'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'deepmoblearning-1.12.2-2.6.0-universal.jar'
 
 [download]
-hash = '0b801b3c477aa1ca6e499e848d42c3a9cf1f08de'
+hash = '81c471fd5280a532d4356f637fbea2b240cb57a9'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 2968355
+file-id = 7847325
 project-id = 284229
+
+[[x-prismlauncher-dependencies]]
+addonId = '306770'
+type = 'REQUIRED'

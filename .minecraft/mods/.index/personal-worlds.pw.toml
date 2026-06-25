@@ -1,17 +1,21 @@
-filename = 'personalworlds-1.12.2-1.0.5.jar'
+filename = 'personalworlds-1.12.2-1.0.6.jar'
 name = 'Personal Worlds'
-side = 'both'
+side = ''
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.12.2' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'PersonalWorlds 1.0.5'
+x-prismlauncher-version-number = 'PersonalWorlds 1.0.6'
 
 [download]
-hash = 'eb244010eb00e3ead59fbda283fe8935e115be0b'
+hash = '94120d9eab36102d4f83ef5f758f011a77384765'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6474405
+file-id = 7291496
 project-id = 963010
+
+[[x-prismlauncher-dependencies]]
+addonId = '419286'
+type = 'REQUIRED'

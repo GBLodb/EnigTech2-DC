@@ -1,16 +1,18 @@
-filename = 'HadEnoughItems_1.12.2-4.29.8.jar'
+filename = 'HadEnoughItems_1.12.2-4.31.2.jar'
 name = 'Had Enough Items'
-side = 'both'
+side = ''
+x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.12.2' ]
-x-prismlauncher-release-type = 'release'
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'HadEnoughItems_1.12.2-4.31.2.jar'
 
 [download]
-hash = '4380cd6ef10897e6acd50d0d69f6776299567ae9'
+hash = '8fadd6aba6ab128540be2a8a36b86f80c0c21afa'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7057606
+file-id = 8081514
 project-id = 557549

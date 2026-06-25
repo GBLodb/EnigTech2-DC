@@ -1,13 +1,21 @@
-filename = 'LootTweaker-0.4.1+MC1.12.2.jar'
+filename = 'LootTweaker-0.5.1+MC1.12.2-DLS0.jar'
 name = 'LootTweaker'
-side = 'both'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'LootTweaker-0.5.1+MC1.12.2-DLS0.jar'
 
 [download]
-hash = 'dd4f2a890e7169fe7e740e326228829ff496e2cb'
+hash = 'f27456cc07d6ec327e0e3333203bcdc8f010c2d9'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 5420240
+file-id = 7684381
 project-id = 255257
+
+[[x-prismlauncher-dependencies]]
+addonId = '239197'
+type = 'REQUIRED'

@@ -1,17 +1,105 @@
-filename = 'EnderIO-1.12.2-5.2.66.jar'
+filename = 'EnderIO-1.12.2-5.3.72.jar'
 name = 'Ender IO'
-side = 'both'
+side = ''
 x-prismlauncher-loaders = []
 x-prismlauncher-mc-versions = [ '1.12.2' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'Ender IO - 5.2.66'
+x-prismlauncher-version-number = 'Ender IO - 5.3.72'
 
 [download]
-hash = '910b1efc1e6e781e97daed4890fe52456d764858'
+hash = '60d62a0dab5b12c527fd8eda1d353888e3406175'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 3124452
+file-id = 4674244
 project-id = 64578
+
+[[x-prismlauncher-dependencies]]
+addonId = '74120'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '220318'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '223794'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '227083'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '235279'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '225643'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '222880'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '61811'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '243076'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '74072'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '231951'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '228404'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '238222'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '306028'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '250277'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '225561'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '242638'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '245211'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '223008'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '231868'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '59751'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '267602'
+type = 'OPTIONAL'

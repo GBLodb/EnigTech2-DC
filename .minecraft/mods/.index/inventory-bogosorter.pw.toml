@@ -1,16 +1,177 @@
-filename = 'bogosorter-1.5.0.jar'
+filename = 'bogosorter-1.6.4.jar'
 name = 'Inventory Bogo Sorter'
-side = 'both'
+side = ''
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.12.2' ]
-x-prismlauncher-release-type = 'beta'
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Inventory BogoSorter − 1.6.4'
 
 [download]
-hash = '92ff58180f72ff871986a6597983e03fdeda1730'
+hash = 'f8f1c7da398a48f7d9169381f1d984844056dc64'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7102721
+file-id = 8231600
 project-id = 632327
+
+[[x-prismlauncher-dependencies]]
+addonId = '311357'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '242942'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '228756'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '51195'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '64578'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '557242'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '231951'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '223565'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '228027'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '318872'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '302973'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '928895'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '242638'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '311595'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '310059'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '227049'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '290145'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '256141'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '239286'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '301051'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '270457'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '304371'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '245174'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '564236'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '237875'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '229049'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '69163'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '570458'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '231484'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '287683'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '228404'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '624243'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '243363'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '268560'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '321117'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '419286'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '298584'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '435883'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '373450'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '226410'
+type = 'OPTIONAL'

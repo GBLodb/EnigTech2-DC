@@ -1,16 +1,125 @@
-filename = 'jei_area_fixer-2.2.1.jar'
+filename = 'jei_area_fixer-2.4.0.jar'
 name = 'JEI Area Fixer'
-side = 'client'
+side = ''
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.12.2' ]
 x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.4.0: Refined Storage & vanilla Toast'
 
 [download]
-hash = 'a5a19277e601f984d141591df60ae82fe619eb20'
+hash = 'f2f8048c5601113ce6c03685c252698139ad8f40'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7103058
+file-id = 8149059
 project-id = 1085598
+
+[[x-prismlauncher-dependencies]]
+addonId = '238222'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '229048'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '67504'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '228815'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '229503'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '223628'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '59751'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '224641'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '239286'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '279900'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '737252'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '557549'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '321092'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '326155'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '229002'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '223794'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '243121'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '244559'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '304024'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '633720'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '228702'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '233071'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '419286'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '286382'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '312918'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '233105'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '260912'
+type = 'OPTIONAL'

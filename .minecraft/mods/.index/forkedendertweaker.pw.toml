@@ -1,29 +1,29 @@
-filename = 'zenutils-1.27.4.jar'
-name = 'ZenUtils'
+filename = 'ForkedEnderTweaker-2.1.3.jar'
+name = 'ForkedEnderTweaker'
 side = ''
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.12.2' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'zenutils-1.27.4.jar'
+x-prismlauncher-version-number = 'ForkedEnderTweaker 2.1.3'
 
 [download]
-hash = '129b82add4e53870c1b714143c362ede8fcb940a'
+hash = '94a9f3f1315fd2966ee05eef4a4aded691d7b4d9'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8300462
-project-id = 401178
+file-id = 8208930
+project-id = 1475652
 
 [[x-prismlauncher-dependencies]]
-addonId = '870276'
+addonId = '911152'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '64578'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
 addonId = '239197'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = '419286'
 type = 'REQUIRED'

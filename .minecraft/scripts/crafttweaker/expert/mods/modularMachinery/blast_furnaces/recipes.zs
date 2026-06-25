@@ -204,7 +204,37 @@ static mk2_recipes as IItemStack[][IIngredient][string][int][IItemStack] = {
     //硼铁合金
     <nuclearcraft:alloy:6>*2 : {
         5000 : {
-            speed_t1 : {<liquid:oxygen>*500 : [<nuclearcraft:ingot:5>, <enderio:item_alloy_ingot:9>]}
+            speed_t1 : {<liquid:oxygen>*500 : [<ore:ingotBoron>.firstItem, <ore:ingotConstructionAlloy>.firstItem]}
+        }
+    },
+    <nuclearcraft:alloy:2>*2 : {
+        5000 : {
+            speed_t1 : {<liquid:oxygen>*500 : [<ore:gemDiamond>.firstItem, <ore:ingotGraphite>.firstItem]}
+        }
+    },
+    <nuclearcraft:alloy:3>*2 : {
+        5000 : {
+            speed_t1 : {<liquid:oxygen>*500 : [<ore:ingotBoron>.firstItem, <ore:ingotMagnesium>.firstItem]}
+        }
+    },
+    <nuclearcraft:alloy:4>*2 : {
+        5000 : {
+            speed_t1 : {<liquid:oxygen>*500 : [<ore:ingotManganeseDioxide>.firstItem, <ore:ingotLithium>.firstItem]}
+        }
+    },
+    <nuclearcraft:alloy:10>*2 : {
+        5000 : {
+            speed_t1 : {<liquid:oxygen>*500 : [<ore:ingotHardCarbon>.firstItem, <ore:ingotTough>.firstItem]}
+        }
+    },
+    <nuclearcraft:alloy:11>*2 : {
+        5000 : {
+            speed_t1 : {<liquid:oxygen>*500 : [<ore:ingotExtreme>.firstItem, <ore:gemBoronArsenide>.firstItem]}
+        }
+    },
+    <nuclearcraft:alloy:12>*2 : {
+        5000 : {
+            speed_t1 : {<liquid:oxygen>*500 : [<ore:ingotZirconium>.firstItem, <ore:ingotTin>.firstItem]}
         }
     },
     <environmentaltech:litherite_crystal> : {

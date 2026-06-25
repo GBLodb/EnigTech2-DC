@@ -12,6 +12,12 @@ AlloySmelter.removeRecipe(<thermalfoundation:material:167>);
 AlloySmelter.removeRecipe(<thermalfoundation:material:165>);
 AlloySmelter.removeRecipe(<thermalfoundation:material:166>);
 AlloySmelter.removeRecipe(<enderio:item_material:39>);
+AlloySmelter.removeRecipe(<nuclearcraft:alloy:2>);
+AlloySmelter.removeRecipe(<nuclearcraft:alloy:3>);
+AlloySmelter.removeRecipe(<nuclearcraft:alloy:4>);
+AlloySmelter.removeRecipe(<nuclearcraft:alloy:10>);
+AlloySmelter.removeRecipe(<nuclearcraft:alloy:11>);
+AlloySmelter.removeRecipe(<nuclearcraft:alloy:12>);
 
 //合金炉配方
     //炽热铁
